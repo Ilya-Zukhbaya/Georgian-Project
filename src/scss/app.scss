@@ -1,0 +1,6 @@
+@mixin app {
+  text-align: center;
+}
+.app {
+  @include app;
+}
