@@ -4,3 +4,12 @@
 .app {
   @include app;
 }
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.disabled {
+  display: none;
+}

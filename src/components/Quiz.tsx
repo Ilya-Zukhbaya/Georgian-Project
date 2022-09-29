@@ -10,8 +10,20 @@ export type Array = {
   correct: number;
 };
 
+export type TestProps = {
+  id: number;
+  title: string;
+  variants: string[];
+  correct: number;
+  step: number;
+  disable: boolean;
+  setDisable: (disable: boolean) => void;
+  setStep: (step: number) => void;
+};
+
 export const Quiz: React.FC = () => {
   const { correctAns, setCorrentAns } = React.useContext(TestContext);
+  const [disable, setDisable] = React.useState(false);
   let array: Array[] = [
     {
       id: 0,
@@ -65,6 +77,11 @@ export const Quiz: React.FC = () => {
     setCorrentAns(0);
   }
 
+  const onStepClick = (step: number) => {
+    setStep(step + 1);
+    setDisable(false);
+  };
+
   if (step === items.length) {
     return (
       <>
@@ -76,9 +93,24 @@ export const Quiz: React.FC = () => {
 
   return (
     <>
-      {active ? <Card {...question} /> : ''}
-      <button onClick={() => setActive(true)}>Start</button>
-      {active ? <button onClick={() => setStep(step + 1)}>Next</button> : ''}
+      {active ? (
+        <Card
+          title={question.title}
+          id={question.id}
+          variants={question.variants}
+          correct={question.correct}
+          step={step}
+          disable={disable}
+          setDisable={setDisable}
+          setStep={setStep}
+        />
+      ) : (
+        ''
+      )}
+      <button onClick={() => setActive(true)} className={active ? 'disabled' : ''}>
+        Start
+      </button>
+      {active ? <button onClick={() => onStepClick(step)}>Next</button> : ''}
     </>
   );
 };
