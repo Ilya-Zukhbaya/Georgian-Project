@@ -14,17 +14,29 @@ i18n
     resources: {
       en: {
         translation: {
-          description: {
-            part1: 'Hello',
-            part2: 'Welcome',
+          header: {
+            __progress: 'Progress',
+            __saved: 'Saved',
+            __info: 'Info',
+            __src: 'Source',
+          },
+          lngs: {
+            __buttonEn: 'en',
+            __buttonGe: 'ge',
           },
         },
       },
       ge: {
         translation: {
-          description: {
-            part1: 'სალამი',
-            part2: 'მოგესალმებით',
+          header: {
+            __progress: 'პროგრესი',
+            __saved: 'სანიშნეები',
+            __info: 'ინფორმაცია',
+            __src: 'წყარო მასალები',
+          },
+          lngs: {
+            __buttonEn: 'ინგ',
+            __buttonGe: 'ქარ',
           },
         },
       },
