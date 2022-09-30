@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useSelector, useDispatch } from 'react-redux';
 import type { RootState } from '../../redux/store';
 import { changeTheme } from '../../redux/slices/themeSlice';
+import { ReactComponent as Light } from '../../assets/pictures/header/light.svg';
+import { ReactComponent as Dark } from '../../assets/pictures/header/dark.svg';
 
 const lngs: any = {
   en: { nativeName: 'English', geName: 'en' },
@@ -50,11 +52,7 @@ export const Header = () => {
           </button>
         ))}
         <button className="theme-button" onClick={switchTheme}>
-          {theme === 'light' ? (
-            <img src="./images/header/dark.svg" alt="Dark Mode" width={30} height={30} />
-          ) : (
-            <img src="./images/header/light.svg" alt="Light Mode" width={30} height={30} />
-          )}
+          {theme === 'light' ? <Dark /> : <Light className="light" />}
         </button>
       </div>
     </div>

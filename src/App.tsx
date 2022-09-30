@@ -6,6 +6,7 @@ import './scss/app.scss';
 import { useSelector } from 'react-redux';
 import type { RootState } from './redux/store';
 import { Header } from './components/Header/Header';
+import { Footer } from './components/Footer/Footer';
 
 export type testContext = {
   correctAns: number;
@@ -25,6 +26,7 @@ function App() {
         <div className="app">
           <Header />
           <Quiz />
+          <Footer />
         </div>
       </ThemeProvider>
     </TestContext.Provider>
