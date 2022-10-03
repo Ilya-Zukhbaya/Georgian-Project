@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px 0;
+
+  &__lefside {
+    display: flex;
+    align-items: center;
+  }
+
+  &__rightside {
+    display: flex;
+    align-items: center;
+
+    button {
+      cursor: pointer;
+    }
+  }
+
+  nav {
+    display: flex;
+    margin-left: 20px;
+    p {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}
