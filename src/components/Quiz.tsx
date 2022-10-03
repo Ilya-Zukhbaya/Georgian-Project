@@ -2,6 +2,8 @@ import React from 'react';
 import { Card } from './Card';
 import { Result } from './Result';
 import { TestContext } from '../App';
+import data from '../assets/questions.json';
+import { EmptyCard } from './EmptyCard';
 
 export type Array = {
   id: number;
@@ -20,56 +22,23 @@ export type TestProps = {
   setDisable: (disable: boolean) => void;
   setStep: (step: number) => void;
 };
+export type test = {
+  active: boolean;
+  setActive: (active: boolean) => void;
+};
 
 export const Quiz: React.FC = () => {
+  const test = [0, 1];
+  const [active, setActive] = React.useState<boolean>(false);
+  React.useEffect(() => {
+    setItems(data.sort(() => Math.round(Math.random() * 100) - 50).slice(0, data.length));
+  }, [active]);
+
   const { correctAns, setCorrentAns } = React.useContext(TestContext);
   const [disable, setDisable] = React.useState(false);
-  let array: Array[] = [
-    {
-      id: 0,
-      title: 'hello',
-      variants: ['3', '2', '3'],
-      correct: 1,
-    },
-    {
-      id: 1,
-      title: 'world',
-      variants: ['4', '2', '3'],
-      correct: 0,
-    },
-    {
-      id: 2,
-      title: 'Hi',
-      variants: ['5', '2', '3'],
-      correct: 2,
-    },
-    {
-      id: 3,
-      title: 'my Name',
-      variants: ['6', '2', '3'],
-      correct: 0,
-    },
-    {
-      id: 4,
-      title: 'Ilya',
-      variants: ['7', '2', '3'],
-      correct: 1,
-    },
-    {
-      id: 5,
-      title: 'Ne Pere',
-      variants: ['8', '2', '3'],
-      correct: 2,
-    },
-  ];
-  const [active, setActive] = React.useState<boolean>(false);
   const [items, setItems] = React.useState<Array[]>([]);
   const [step, setStep] = React.useState<number>(0);
   let question = items[step];
-
-  React.useEffect(() => {
-    setItems(array.sort(() => Math.random() - 0.5));
-  }, [active]);
 
   function restart() {
     setActive(false);
@@ -105,11 +74,8 @@ export const Quiz: React.FC = () => {
           setStep={setStep}
         />
       ) : (
-        ''
+        test.map((_, i) => <EmptyCard key={i} active={active} setActive={setActive} />)
       )}
-      <button onClick={() => setActive(true)} className={active ? 'disabled' : ''}>
-        Start
-      </button>
       {active ? <button onClick={() => onStepClick(step)}>Next</button> : ''}
     </>
   );
