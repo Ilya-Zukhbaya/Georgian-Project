@@ -8,19 +8,22 @@ import type { RootState } from './redux/store';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
 
-export type testContext = {
+export interface testContext {
+  cardId?: number;
+  setCardId?: any;
   correctAns: number;
   setCorrentAns?: any;
-};
+}
 
 export const TestContext = React.createContext({} as testContext);
 
 function App() {
   const theme = useSelector((state: RootState) => state.theme.value);
   const [correctAns, setCorrentAns] = React.useState<number>(0);
+  const [cardId, setCardId] = React.useState<number>(0);
 
   return (
-    <TestContext.Provider value={{ correctAns, setCorrentAns }}>
+    <TestContext.Provider value={{ correctAns, setCorrentAns, cardId, setCardId }}>
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <GlobalStyles />
         <div className="app">

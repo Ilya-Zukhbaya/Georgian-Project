@@ -8,6 +8,7 @@ import { EmptyCard } from './EmptyCard';
 export type Array = {
   id: number;
   title: string;
+  type: number;
   variants: string[];
   correct: number;
 };
@@ -23,18 +24,32 @@ export type TestProps = {
   setStep: (step: number) => void;
 };
 export type test = {
+  id: number;
   active: boolean;
+  title: string;
   setActive: (active: boolean) => void;
 };
 
 export const Quiz: React.FC = () => {
-  const test = [0, 1];
+  const test = [
+    { id: 0, title: 'History' },
+    { id: 1, title: 'Law' },
+    { id: 2, title: 'Language' },
+    { id: 3, title: 'History' },
+    { id: 4, title: 'Law' },
+    { id: 5, title: 'Language' },
+  ];
   const [active, setActive] = React.useState<boolean>(false);
   React.useEffect(() => {
-    setItems(data.sort(() => Math.round(Math.random() * 100) - 50).slice(0, data.length));
+    setItems(
+      data
+        .filter((obj) => obj.type === cardId)
+        .sort(() => Math.round(Math.random() * 100) - 50)
+        .slice(0, data.length),
+    );
   }, [active]);
 
-  const { correctAns, setCorrentAns } = React.useContext(TestContext);
+  const { correctAns, setCorrentAns, cardId } = React.useContext(TestContext);
   const [disable, setDisable] = React.useState(false);
   const [items, setItems] = React.useState<Array[]>([]);
   const [step, setStep] = React.useState<number>(0);
@@ -74,7 +89,9 @@ export const Quiz: React.FC = () => {
           setStep={setStep}
         />
       ) : (
-        test.map((_, i) => <EmptyCard key={i} active={active} setActive={setActive} />)
+        test.map((_, i) => (
+          <EmptyCard key={i} active={active} setActive={setActive} id={i} title={test[i].title} />
+        ))
       )}
       {active ? <button onClick={() => onStepClick(step)}>Next</button> : ''}
     </>

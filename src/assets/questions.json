@@ -1,49 +1,78 @@
 [
   {
     "id": 0,
+    "type": 0,
     "title": "hello",
     "variants": ["2", "1", "2"],
     "correct": 1
   },
   {
     "id": 1,
+    "type": 0,
     "title": "Root",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 2,
+    "type": 0,
     "title": "LOL",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 3,
+    "type": 0,
     "title": "hI",
     "variants": ["3", "2", "1"],
     "correct": 1
   },
   {
     "id": 4,
+    "type": 1,
     "title": "q",
     "variants": ["3", "2", "1"],
     "correct": 0
   },
   {
     "id": 5,
+    "type": 1,
     "title": "w",
     "variants": ["3", "2", "1"],
     "correct": 1
   },
   {
     "id": 6,
+    "type": 1,
     "title": "e",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 7,
-    "title": "r",
+    "type": 2,
+    "title": "a",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 8,
+    "type": 2,
+    "title": "s",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 9,
+    "type": 2,
+    "title": "d",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 10,
+    "type": 2,
+    "title": "f",
     "variants": ["3", "2", "1"],
     "correct": 2
   }

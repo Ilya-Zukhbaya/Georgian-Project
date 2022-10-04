@@ -24,6 +24,15 @@ i18n
             __buttonEn: 'en',
             __buttonGe: 'ge',
           },
+          button: {
+            __start: 'start',
+          },
+          footer: {
+            __about: 'about',
+            __FAQ: 'FAQ',
+            __support: 'support',
+            __contact: 'contact',
+          },
         },
       },
       ge: {
@@ -37,6 +46,15 @@ i18n
           lngs: {
             __buttonEn: 'ინგ',
             __buttonGe: 'ქარ',
+          },
+          button: {
+            __start: 'დაწყება',
+          },
+          footer: {
+            __about: 'შესახებ',
+            __FAQ: 'კითხვაზე პასუხები',
+            __support: 'მხარდაჭერა',
+            __contact: 'მხარდაჭერა',
           },
         },
       },
