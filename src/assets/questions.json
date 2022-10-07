@@ -75,5 +75,68 @@
     "title": "f",
     "variants": ["3", "2", "1"],
     "correct": 2
+  },
+  {
+    "id": 11,
+    "type": 3,
+    "title": "ზ",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 12,
+    "type": 3,
+    "title": "ხ",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 13,
+    "type": 3,
+    "title": "ც",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 14,
+    "type": 4,
+    "title": "ф",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 15,
+    "type": 4,
+    "title": "а",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 16,
+    "type": 4,
+    "title": "р",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 17,
+    "type": 5,
+    "title": "г",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 18,
+    "type": 5,
+    "title": "ш",
+    "variants": ["3", "2", "1"],
+    "correct": 2
+  },
+  {
+    "id": 19,
+    "type": 5,
+    "title": "щ",
+    "variants": ["3", "2", "1"],
+    "correct": 2
   }
 ]

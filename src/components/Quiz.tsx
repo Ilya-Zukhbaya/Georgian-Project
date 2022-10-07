@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card } from './Card';
+import { Card } from './Card/Card';
 import { Result } from './Result';
 import { TestContext } from '../App';
 import data from '../assets/questions.json';
-import { EmptyCard } from './EmptyCard';
+import { EmptyCard } from './EmptyCard/EmptyCard';
 
 export type Array = {
   id: number;
@@ -27,17 +27,20 @@ export type test = {
   id: number;
   active: boolean;
   title: string;
+  subtitle: string;
+  time: number;
+  numberOfQ: number;
   setActive: (active: boolean) => void;
 };
 
 export const Quiz: React.FC = () => {
   const test = [
-    { id: 0, title: 'History' },
-    { id: 1, title: 'Law' },
-    { id: 2, title: 'Language' },
-    { id: 3, title: 'History' },
-    { id: 4, title: 'Law' },
-    { id: 5, title: 'Language' },
+    { id: 0, title: 'History', subtitle: 'test', numberOfQ: 20, time: 15 },
+    { id: 1, title: 'Law', subtitle: 'test', numberOfQ: 20, time: 15 },
+    { id: 2, title: 'Language', subtitle: 'test', numberOfQ: 20, time: 15 },
+    { id: 3, title: 'History', subtitle: 'test', numberOfQ: 200, time: 60 },
+    { id: 4, title: 'Law', subtitle: 'test', numberOfQ: 200, time: 60 },
+    { id: 5, title: 'Language', subtitle: 'test', numberOfQ: 200, time: 60 },
   ];
   const [active, setActive] = React.useState<boolean>(false);
   React.useEffect(() => {
@@ -76,7 +79,7 @@ export const Quiz: React.FC = () => {
   }
 
   return (
-    <>
+    <div>
       {active ? (
         <Card
           title={question.title}
@@ -89,11 +92,22 @@ export const Quiz: React.FC = () => {
           setStep={setStep}
         />
       ) : (
-        test.map((_, i) => (
-          <EmptyCard key={i} active={active} setActive={setActive} id={i} title={test[i].title} />
-        ))
+        <div className="main">
+          {test.map((_, i) => (
+            <EmptyCard
+              key={i}
+              active={active}
+              setActive={setActive}
+              id={i}
+              title={test[i].title}
+              subtitle={test[i].subtitle}
+              time={test[i].time}
+              numberOfQ={test[i].numberOfQ}
+            />
+          ))}
+        </div>
       )}
       {active ? <button onClick={() => onStepClick(step)}>Next</button> : ''}
-    </>
+    </div>
   );
 };

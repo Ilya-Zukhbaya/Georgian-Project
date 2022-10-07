@@ -1,6 +1,6 @@
 import React from 'react';
-import { TestProps } from './Quiz';
-import { TestContext } from '../App';
+import { TestProps } from '../Quiz';
+import { TestContext } from '../../App';
 
 export const Card: React.FC<TestProps> = (props) => {
   const { correctAns, setCorrentAns } = React.useContext(TestContext);
@@ -22,6 +22,7 @@ export const Card: React.FC<TestProps> = (props) => {
           <span>{obj}</span>
         </button>
       ))}
+      <img src="./pictures/main/unsavee.svg" alt="save" />
     </div>
   );
 };
