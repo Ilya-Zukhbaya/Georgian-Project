@@ -1,15 +1,31 @@
 import React from 'react';
-import { TestProps } from '../Quiz';
-import { TestContext } from '../../App';
+import { itemsT } from '../../@types';
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '../../redux/store';
+import { setDisable, setCorrectAns } from '../../redux/slices/cardSlice';
+import { setStep } from '../../redux/slices/quizSlice';
+import save from '../../assets/pictures/main/unsave.svg';
+import unsave from '../../assets/pictures/main/save.svg';
 
-export const Card: React.FC<TestProps> = (props) => {
-  const { correctAns, setCorrentAns } = React.useContext(TestContext);
+export const Card: React.FC<itemsT> = (props) => {
+  const [click, setClick] = React.useState<boolean>(false);
+
+  const { disable, correctAns } = useSelector((state: RootState) => state.card);
+  const { step } = useSelector((state: RootState) => state.quiz);
+  const dispatch = useDispatch();
+
   const onVariantClick = (i: number) => {
     if (props.correct === i) {
-      setCorrentAns(correctAns + 1);
+      dispatch(setCorrectAns(correctAns + 1));
     }
-    props.setDisable(true);
+    dispatch(setDisable(true));
   };
+
+  const onStepClick = (step: number) => {
+    dispatch(setStep(step + 1));
+    dispatch(setDisable(false));
+  };
+
   return (
     <div>
       <h3>{props.title}</h3>
@@ -17,12 +33,13 @@ export const Card: React.FC<TestProps> = (props) => {
         <button
           key={i}
           onClick={() => onVariantClick(i)}
-          disabled={props.disable}
-          className={props.disable ? (props.correct === i ? 'green' : 'red') : ''}>
+          disabled={disable}
+          className={disable ? (props.correct === i ? 'green' : 'red') : ''}>
           <span>{obj}</span>
         </button>
       ))}
-      <img src="./pictures/main/unsavee.svg" alt="save" />
+      <img src={click ? unsave : save} onClick={() => setClick(!click)} alt="save" width={20} />
+      <button onClick={() => onStepClick(step)}>Next</button>
     </div>
   );
 };

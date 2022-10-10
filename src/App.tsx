@@ -1,38 +1,34 @@
-import React from 'react';
-import { Quiz } from './components/Quiz';
 import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme, GlobalStyles } from './theme';
 import './scss/app.scss';
 import { useSelector } from 'react-redux';
 import type { RootState } from './redux/store';
-import { Header } from './components/Header/Header';
-import { Footer } from './components/Footer/Footer';
-
-export interface testContext {
-  cardId?: number;
-  setCardId?: any;
-  correctAns: number;
-  setCorrentAns?: any;
-}
-
-export const TestContext = React.createContext({} as testContext);
+import { Route, Routes } from 'react-router-dom';
+import { Home } from './pages/Home';
+import { Quiz } from './components/Quiz';
+import { useLocation } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { setActive } from './redux/slices/quizSlice';
 
 function App() {
   const theme = useSelector((state: RootState) => state.theme.value);
-  const [correctAns, setCorrentAns] = React.useState<number>(0);
-  const [cardId, setCardId] = React.useState<number>(0);
+  const location = useLocation();
+  const dispatch = useDispatch();
+
+  if (location.pathname === '/') {
+    dispatch(setActive(false));
+  }
 
   return (
-    <TestContext.Provider value={{ correctAns, setCorrentAns, cardId, setCardId }}>
-      <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
-        <GlobalStyles />
-        <div className="app">
-          <Header />
-          <Quiz />
-          <Footer />
-        </div>
-      </ThemeProvider>
-    </TestContext.Provider>
+    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+      <GlobalStyles />
+      <div className="app">
+        <Routes>
+          <Route path="*" element={<Home />} />
+          <Route path="/card/:id" element={<Quiz />} />
+        </Routes>
+      </div>
+    </ThemeProvider>
   );
 }
 

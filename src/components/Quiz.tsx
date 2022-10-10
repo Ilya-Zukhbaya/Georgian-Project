@@ -1,113 +1,56 @@
 import React from 'react';
 import { Card } from './Card/Card';
 import { Result } from './Result';
-import { TestContext } from '../App';
+import { useSelector, useDispatch } from 'react-redux';
 import data from '../assets/questions.json';
-import { EmptyCard } from './EmptyCard/EmptyCard';
-
-export type Array = {
-  id: number;
-  title: string;
-  type: number;
-  variants: string[];
-  correct: number;
-};
-
-export type TestProps = {
-  id: number;
-  title: string;
-  variants: string[];
-  correct: number;
-  step: number;
-  disable: boolean;
-  setDisable: (disable: boolean) => void;
-  setStep: (step: number) => void;
-};
-export type test = {
-  id: number;
-  active: boolean;
-  title: string;
-  subtitle: string;
-  time: number;
-  numberOfQ: number;
-  setActive: (active: boolean) => void;
-};
+import { RootState } from '../redux/store';
+import { setItems, setStep, setActive } from '../redux/slices/quizSlice';
+import { Header } from './Header/Header';
+import { Footer } from './Footer/Footer';
+import { setCorrectAns } from '../redux/slices/cardSlice';
+import { Link } from 'react-router-dom';
 
 export const Quiz: React.FC = () => {
-  const test = [
-    { id: 0, title: 'History', subtitle: 'test', numberOfQ: 20, time: 15 },
-    { id: 1, title: 'Law', subtitle: 'test', numberOfQ: 20, time: 15 },
-    { id: 2, title: 'Language', subtitle: 'test', numberOfQ: 20, time: 15 },
-    { id: 3, title: 'History', subtitle: 'test', numberOfQ: 200, time: 60 },
-    { id: 4, title: 'Law', subtitle: 'test', numberOfQ: 200, time: 60 },
-    { id: 5, title: 'Language', subtitle: 'test', numberOfQ: 200, time: 60 },
-  ];
-  const [active, setActive] = React.useState<boolean>(false);
+  const { step, items, active, cardId } = useSelector((state: RootState) => state.quiz);
+  const { correctAns } = useSelector((state: RootState) => state.card);
+  const dispatch = useDispatch();
+
   React.useEffect(() => {
-    setItems(
-      data
-        .filter((obj) => obj.type === cardId)
-        .sort(() => Math.round(Math.random() * 100) - 50)
-        .slice(0, data.length),
+    dispatch(
+      setItems(
+        data
+          .filter((obj) => obj.type === cardId)
+          .sort(() => Math.round(Math.random() * 100) - 50)
+          .slice(0, data.length),
+      ),
     );
   }, [active]);
 
-  const { correctAns, setCorrentAns, cardId } = React.useContext(TestContext);
-  const [disable, setDisable] = React.useState(false);
-  const [items, setItems] = React.useState<Array[]>([]);
-  const [step, setStep] = React.useState<number>(0);
-  let question = items[step];
-
-  function restart() {
-    setActive(false);
-    setStep(0);
-    setCorrentAns(0);
-  }
-
-  const onStepClick = (step: number) => {
-    setStep(step + 1);
-    setDisable(false);
+  const restart = () => {
+    dispatch(setActive(false));
+    dispatch(setStep(0));
+    dispatch(setCorrectAns(0));
   };
 
   if (step === items.length) {
     return (
-      <>
+      <div>
         <Result correctAns={correctAns} />
         <button onClick={restart}>Restart</button>
-      </>
+        <Link to="/">
+          <button onClick={restart}>to main page</button>
+        </Link>
+      </div>
     );
   }
 
   return (
     <div>
-      {active ? (
-        <Card
-          title={question.title}
-          id={question.id}
-          variants={question.variants}
-          correct={question.correct}
-          step={step}
-          disable={disable}
-          setDisable={setDisable}
-          setStep={setStep}
-        />
-      ) : (
-        <div className="main">
-          {test.map((_, i) => (
-            <EmptyCard
-              key={i}
-              active={active}
-              setActive={setActive}
-              id={i}
-              title={test[i].title}
-              subtitle={test[i].subtitle}
-              time={test[i].time}
-              numberOfQ={test[i].numberOfQ}
-            />
-          ))}
-        </div>
-      )}
-      {active ? <button onClick={() => onStepClick(step)}>Next</button> : ''}
+      <Header />
+      {items
+        ? items.filter((_, i) => i === step).map((obj, i) => <Card {...obj} key={i} />)
+        : 'Hello'}
+      <Footer />
     </div>
   );
 };

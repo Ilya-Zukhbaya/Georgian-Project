@@ -1,17 +1,20 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { test } from '../Quiz';
-import { TestContext } from '../../App';
+import { emptyCardP } from '../../@types';
 import { Link } from 'react-router-dom';
 import styles from './index.module.scss';
+import { useSelector, useDispatch } from 'react-redux';
+import { setActive, setCardId } from '../../redux/slices/quizSlice';
+import { RootState } from '../../redux/store';
 
-export const EmptyCard: React.FC<test> = (props) => {
-  const { setCardId } = React.useContext(TestContext);
+export const EmptyCard: React.FC<emptyCardP> = (props) => {
   const { t } = useTranslation();
+  const { active } = useSelector((state: RootState) => state.quiz);
+  const dispatch = useDispatch();
 
   const onButtonClick = () => {
-    props.setActive(true);
-    setCardId(props.id);
+    dispatch(setActive(true));
+    dispatch(setCardId(props.id));
   };
 
   return (
@@ -27,8 +30,8 @@ export const EmptyCard: React.FC<test> = (props) => {
         <time>time: ~{props.time} min</time>
       </div>
       <div className={styles.root__footer}>
-        <Link to={`/card/:${props.id}`}>
-          <button onClick={() => onButtonClick()} className={props.active ? 'disabled' : ''}>
+        <Link to={`/card/${props.id}`}>
+          <button onClick={() => onButtonClick()} className={active ? 'disabled' : ''}>
             {t('button.__start')}
           </button>
         </Link>

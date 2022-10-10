@@ -1,6 +1,6 @@
 import React from 'react';
-import { testContext } from '../App';
+import { resultP } from '../@types';
 
-export const Result: React.FC<testContext> = (props) => {
+export const Result: React.FC<resultP> = (props) => {
   return <div>Result: {props.correctAns}</div>;
 };
