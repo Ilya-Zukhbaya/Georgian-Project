@@ -6,9 +6,12 @@ import { setDisable, setCorrectAns } from '../../redux/slices/cardSlice';
 import { setStep } from '../../redux/slices/quizSlice';
 import save from '../../assets/pictures/main/unsave.svg';
 import unsave from '../../assets/pictures/main/save.svg';
+import { useTranslation } from 'react-i18next';
+import styles from './index.module.scss';
 
 export const Card: React.FC<itemsT> = (props) => {
   const [click, setClick] = React.useState<boolean>(false);
+  const { t } = useTranslation();
 
   const { disable, correctAns } = useSelector((state: RootState) => state.card);
   const { step } = useSelector((state: RootState) => state.quiz);
@@ -27,7 +30,7 @@ export const Card: React.FC<itemsT> = (props) => {
   };
 
   return (
-    <div>
+    <div className={styles.root}>
       <h3>{props.title}</h3>
       {props.variants.map((obj, i) => (
         <button
@@ -39,7 +42,7 @@ export const Card: React.FC<itemsT> = (props) => {
         </button>
       ))}
       <img src={click ? unsave : save} onClick={() => setClick(!click)} alt="save" width={20} />
-      <button onClick={() => onStepClick(step)}>Next</button>
+      <button onClick={() => onStepClick(step)}>{t('button.__next')}</button>
     </div>
   );
 };

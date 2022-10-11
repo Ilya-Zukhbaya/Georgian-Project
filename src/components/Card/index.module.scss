@@ -1,0 +1,14 @@
+.root {
+  width: 300px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  button {
+    background: unset;
+    border: unset;
+    margin-right: 15px;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+}

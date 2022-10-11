@@ -5,6 +5,7 @@ import { EmptyCard } from '../components/EmptyCard/EmptyCard';
 import { emptyCardInfo } from '../assets/EmptyCard';
 import { RootState } from '../redux/store';
 import { Quiz } from '../components/Quiz';
+import i18n from '../i18n';
 
 export const Home = () => {
   const { active } = useSelector((state: RootState) => state.quiz);
@@ -16,16 +17,11 @@ export const Home = () => {
         <Quiz />
       ) : (
         <div className="main">
-          {emptyCardInfo.map((_, i) => (
-            <EmptyCard
-              key={i}
-              id={i}
-              title={emptyCardInfo[i].title}
-              subtitle={emptyCardInfo[i].subtitle}
-              time={emptyCardInfo[i].time}
-              numberOfQ={emptyCardInfo[i].numberOfQ}
-            />
-          ))}
+          {emptyCardInfo
+            .filter((obj) => obj.lng === i18n.resolvedLanguage)
+            .map((obj, i) => (
+              <EmptyCard key={i} {...obj} />
+            ))}
         </div>
       )}
       <Footer />

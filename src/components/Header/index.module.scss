@@ -26,4 +26,9 @@
       cursor: pointer;
     }
   }
+  &__lngButton {
+    background: unset;
+    border: unset;
+    margin-right: 15px;
+  }
 }

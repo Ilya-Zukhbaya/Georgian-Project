@@ -7,32 +7,38 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setActive, setCardId } from '../../redux/slices/quizSlice';
 import { RootState } from '../../redux/store';
 
-export const EmptyCard: React.FC<emptyCardP> = (props) => {
+export const EmptyCard: React.FC<emptyCardP> = ({ title, subtitle, time, id, numberOfQ }) => {
   const { t } = useTranslation();
   const { active } = useSelector((state: RootState) => state.quiz);
   const dispatch = useDispatch();
 
   const onButtonClick = () => {
     dispatch(setActive(true));
-    dispatch(setCardId(props.id));
+    dispatch(setCardId(id));
   };
 
   return (
     <div className={styles.root}>
       <div className={styles.root__header}>
-        <h3>title: {props.title}</h3>
-        <span>{props.subtitle}</span>
+        <h3>
+          {t('emptyCard.__title')}: {title}
+        </h3>
+        <span>{subtitle}</span>
       </div>
       <div className={styles.root__main}>
         <span>
-          {props.numberOfQ} random questions from {props.title}
+          {numberOfQ} {t('emptyCard.__text')} {title}
         </span>
-        <time>time: ~{props.time} min</time>
+        <time>
+          {t('emptyCard.__time')}: ~{time} min
+        </time>
       </div>
       <div className={styles.root__footer}>
-        <Link to={`/card/${props.id}`}>
-          <button onClick={() => onButtonClick()} className={active ? 'disabled' : ''}>
-            {t('button.__start')}
+        <Link to={`/card/${id}`}>
+          <button
+            onClick={() => onButtonClick()}
+            className={active ? 'disabled' : styles.root__startButton}>
+            <span> {t('button.__start')}</span>
           </button>
         </Link>
       </div>

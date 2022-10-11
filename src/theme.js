@@ -2,8 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 
 export const darkTheme = {
   body: '#333',
-  textColor: '#fff',
-  headingColor: 'lightblue',
+  textColor: '#b3b3b3',
+  headingColor: '#b3b3b3',
 };
 
 export const lightTheme = {
@@ -19,5 +19,11 @@ export const GlobalStyles = createGlobalStyle`
    }
    h2{
      color: ${(props) => props.theme.headingColor};
+   }
+   a {
+    color: ${(props) => props.theme.textColor};
+   }
+   span {
+    color: ${(props) => props.theme.textColor};
    }
   `;

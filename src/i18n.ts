@@ -20,12 +20,18 @@ i18n
             __info: 'Info',
             __src: 'Source',
           },
+          emptyCard: {
+            __text: 'randon questions',
+            __time: 'time',
+            __title: 'title',
+          },
           lngs: {
             __buttonEn: 'en',
             __buttonGe: 'ge',
           },
           button: {
             __start: 'start',
+            __next: 'next',
           },
           footer: {
             __about: 'about',
@@ -43,12 +49,18 @@ i18n
             __info: 'ინფორმაცია',
             __src: 'წყარო მასალები',
           },
+          emptyCard: {
+            __text: 'შემთხვევითი კითხვები',
+            __time: 'დრო',
+            __title: 'სათაური',
+          },
           lngs: {
             __buttonEn: 'ინგ',
             __buttonGe: 'ქარ',
           },
           button: {
             __start: 'დაწყება',
+            __next: 'შემდეგი',
           },
           footer: {
             __about: 'შესახებ',
