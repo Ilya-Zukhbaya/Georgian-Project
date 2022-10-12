@@ -1,14 +1,40 @@
 .root {
   width: 300px;
+  height: 300px;
+  justify-content: space-between;
   margin: 100px auto;
   display: flex;
   flex-direction: column;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-between;
+  }
+
+  &__footer {
+    align-self: flex-end;
+  }
   button {
-    background: unset;
-    border: unset;
-    margin-right: 15px;
+    width: 70px;
+    height: 30px;
+    padding: 5px 12px;
+    border: 1px solid #9d9d9d;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
   button:hover {
-    opacity: 0.8;
+    opacity: 0.7;
+  }
+  button:disabled {
+    opacity: 1;
   }
 }

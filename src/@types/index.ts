@@ -1,7 +1,3 @@
-export type resultP = {
-  correctAns: number;
-};
-
 export type itemsT = {
   id: number;
   title: string;

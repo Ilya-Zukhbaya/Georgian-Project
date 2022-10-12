@@ -9,6 +9,7 @@ import { Quiz } from './components/Quiz';
 import { useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setActive } from './redux/slices/quizSlice';
+import { Result } from './pages/Result/Result';
 
 function App() {
   const theme = useSelector((state: RootState) => state.theme.value);
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route path="*" element={<Home />} />
           <Route path="/card/:id" element={<Quiz />} />
+          <Route path="/result" element={<Result />} />
         </Routes>
       </div>
     </ThemeProvider>

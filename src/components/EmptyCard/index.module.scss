@@ -27,4 +27,8 @@
     position: relative;
     display: inline-block;
   }
+  &__startButton:hover {
+    transition: all 0.3s ease;
+    background: #707070;
+  }
 }

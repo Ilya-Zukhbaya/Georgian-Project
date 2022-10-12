@@ -7,10 +7,10 @@
   @include app;
 }
 .green {
-  background-color: green;
+  background: green !important;
 }
 .red {
-  background-color: red;
+  background: red !important;
 }
 .disabled {
   display: none;

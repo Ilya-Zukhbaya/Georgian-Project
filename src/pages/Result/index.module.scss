@@ -1,0 +1,29 @@
+.root {
+  margin-top: 150px;
+
+  &__buttonContainer {
+    margin-top: 50px;
+    button {
+      width: 90px;
+      height: 30px;
+      padding: 5px 12px;
+      border: 1px solid #9d9d9d;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+    }
+    button:last-child {
+      width: 100px;
+      padding: 5px;
+      margin-left: 15px;
+    }
+
+    button:hover {
+      transition: all 0.3s ease;
+      background: #707070;
+    }
+  }
+}
