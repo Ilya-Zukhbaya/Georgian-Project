@@ -12,7 +12,6 @@ export const Home = () => {
 
   return (
     <div>
-      <Header />
       {active ? (
         <Quiz />
       ) : (
@@ -24,7 +23,6 @@ export const Home = () => {
             ))}
         </div>
       )}
-      <Footer />
     </div>
   );
 };

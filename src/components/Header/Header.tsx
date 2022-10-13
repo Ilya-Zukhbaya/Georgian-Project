@@ -46,10 +46,14 @@ export const Header = () => {
           <h1 onClick={onHeaderClick}>G-PROJECT</h1>
         </Link>
         <nav>
-          <p>{t('header.__progress')}</p>
-          <p>{t('header.__saved')}</p>
-          <p>{t('header.__info')}</p>
-          <p>{t('header.__src')}</p>
+          <button>{t('header.__progress')}</button>
+          <Link to="/saved">
+            <button className={location.pathname === '/saved' ? 'bold' : ''}>
+              {t('header.__saved')}
+            </button>
+          </Link>
+          <button>{t('header.__info')}</button>
+          <button>{t('header.__src')}</button>
         </nav>
       </div>
       <div className={styles.root__rightside}>

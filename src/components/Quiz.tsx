@@ -18,7 +18,7 @@ export const Quiz: React.FC = () => {
       setItems(
         data
           .filter((obj) => obj.type === cardId)
-          .sort(() => Math.round(Math.random() * 100) - 50)
+          .sort(() => Math.random() - 0.5)
           .slice(0, data.length),
       ),
     );
@@ -30,11 +30,9 @@ export const Quiz: React.FC = () => {
 
   return (
     <div>
-      <Header />
       {items
         ? items.filter((_, i) => i === step).map((obj, i) => <Card {...obj} key={i} />)
         : 'Hello'}
-      <Footer />
     </div>
   );
 };

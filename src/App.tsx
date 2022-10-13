@@ -10,11 +10,17 @@ import { useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setActive } from './redux/slices/quizSlice';
 import { Result } from './pages/Result/Result';
+import { Favorities } from './pages/Favorities/Favorities';
+import { Header } from './components/Header/Header';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   const theme = useSelector((state: RootState) => state.theme.value);
+  const { favorite } = useSelector((state: RootState) => state.card);
   const location = useLocation();
   const dispatch = useDispatch();
+
+  localStorage.setItem('favorities', JSON.stringify(favorite));
 
   if (location.pathname === '/') {
     dispatch(setActive(false));
@@ -24,11 +30,14 @@ function App() {
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
       <div className="app">
+        <Header />
         <Routes>
           <Route path="*" element={<Home />} />
           <Route path="/card/:id" element={<Quiz />} />
           <Route path="/result" element={<Result />} />
+          <Route path="/saved" element={<Favorities />} />
         </Routes>
+        <Footer />
       </div>
     </ThemeProvider>
   );

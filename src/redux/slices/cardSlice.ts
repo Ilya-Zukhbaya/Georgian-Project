@@ -1,17 +1,23 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
+import { getFavoritesFromLs } from '../../utils/getFavoriteFromLS';
+import { itemsT } from '../../@types';
+
+const favoriteData = getFavoritesFromLs();
 
 export interface cardI {
+  favorite: itemsT[];
   disable: boolean;
   correctAns: number;
 }
 
-const initialState = {
+const initialState: cardI = {
+  favorite: favoriteData.items,
   disable: false,
   correctAns: 0,
 };
 
-export const quizSlice = createSlice({
+export const cardSlice = createSlice({
   name: 'card',
   initialState,
   reducers: {
@@ -21,9 +27,12 @@ export const quizSlice = createSlice({
     setCorrectAns(state, action: PayloadAction<number>) {
       state.correctAns = action.payload;
     },
+    addToFavotite(state, action: PayloadAction<itemsT>) {
+      state.favorite.push(action.payload);
+    },
   },
 });
 
-export const { setDisable, setCorrectAns } = quizSlice.actions;
+export const { setDisable, setCorrectAns, addToFavotite } = cardSlice.actions;
 
-export default quizSlice.reducer;
+export default cardSlice.reducer;
