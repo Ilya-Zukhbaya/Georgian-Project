@@ -13,6 +13,7 @@ export type emptyCardP = {
   time: number;
   numberOfQ: number;
   lng?: string;
+  type: number;
 };
 
 export type lngsT = {
