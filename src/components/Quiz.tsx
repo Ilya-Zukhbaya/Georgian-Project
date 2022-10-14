@@ -5,12 +5,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import data from '../assets/questions.json';
 import { RootState } from '../redux/store';
 import { setItems } from '../redux/slices/quizSlice';
-import { Header } from './Header/Header';
-import { Footer } from './Footer/Footer';
 
 export const Quiz: React.FC = () => {
   const { step, items, active, cardId } = useSelector((state: RootState) => state.quiz);
-  const { correctAns } = useSelector((state: RootState) => state.card);
   const dispatch = useDispatch();
 
   React.useEffect(() => {

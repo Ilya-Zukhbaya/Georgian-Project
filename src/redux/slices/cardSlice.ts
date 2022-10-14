@@ -27,12 +27,15 @@ export const cardSlice = createSlice({
     setCorrectAns(state, action: PayloadAction<number>) {
       state.correctAns = action.payload;
     },
-    addToFavotite(state, action: PayloadAction<itemsT>) {
+    addToFavorite(state, action: PayloadAction<itemsT>) {
       state.favorite.push(action.payload);
+    },
+    removeFromFavorite(state, action: PayloadAction<number>) {
+      state.favorite = state.favorite.filter((obj) => obj.id !== action.payload);
     },
   },
 });
 
-export const { setDisable, setCorrectAns, addToFavotite } = cardSlice.actions;
+export const { setDisable, setCorrectAns, addToFavorite, removeFromFavorite } = cardSlice.actions;
 
 export default cardSlice.reducer;

@@ -2,7 +2,12 @@ import React from 'react';
 import { itemsT } from '../../@types';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
-import { setDisable, setCorrectAns, addToFavotite } from '../../redux/slices/cardSlice';
+import {
+  setDisable,
+  setCorrectAns,
+  addToFavorite,
+  removeFromFavorite,
+} from '../../redux/slices/cardSlice';
 import { setStep } from '../../redux/slices/quizSlice';
 import save from '../../assets/pictures/main/unsave.svg';
 import unsave from '../../assets/pictures/main/save.svg';
@@ -30,14 +35,15 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
 
   const addToFavorities = () => {
     localStorage.setItem('favorities', JSON.stringify(favorite));
-    dispatch(addToFavotite({ id, title, correct, variants, type }));
+    dispatch(addToFavorite({ id, title, correct, variants, type }));
   };
 
   const onStepClick = (step: number) => {
     dispatch(setStep(step + 1));
     dispatch(setDisable(false));
   };
-  const removeFromFavorites = () => {
+  const removeFromFavorities = () => {
+    dispatch(removeFromFavorite(id));
     console.log('remove');
   };
 
@@ -45,14 +51,11 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
     <div className={styles.root}>
       <div className={styles.root__header}>
         <h3>{title}</h3>
-        <img
-          src={save}
-          onClick={
-            favoriteItems.find((obj) => obj.id === id) ? removeFromFavorites : addToFavorities
-          }
-          alt="save"
-          width={20}
-        />
+        {favoriteItems.find((obj) => obj.id === id) ? (
+          <img src={unsave} onClick={removeFromFavorities} alt="save" width={20} />
+        ) : (
+          <img src={save} onClick={addToFavorities} alt="remove" width={20} />
+        )}
       </div>
       <div className={styles.root__main}>
         {variants.map((obj, i) => (

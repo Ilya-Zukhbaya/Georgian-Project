@@ -1,5 +1,3 @@
-import { Footer } from '../components/Footer/Footer';
-import { Header } from '../components/Header/Header';
 import { useSelector } from 'react-redux';
 import { EmptyCard } from '../components/EmptyCard/EmptyCard';
 import { emptyCardInfo } from '../assets/EmptyCard';

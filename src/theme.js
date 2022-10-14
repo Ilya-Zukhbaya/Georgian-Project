@@ -1,15 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const darkTheme = {
-  body: '#333',
-  textColor: '#b3b3b3',
-  headingColor: '#b3b3b3',
+  body: '#333 !important',
+  textColor: '#b3b3b3 !important',
+  headingColor: '#b3b3b3 !important',
 };
 
 export const lightTheme = {
-  body: '#D4D5D4',
-  textColor: '#333',
-  headingColor: '#d23669',
+  body: '#D4D5D4 !important',
+  textColor: '#333 !important',
+  headingColor: '#d23669 !important',
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -24,6 +24,9 @@ export const GlobalStyles = createGlobalStyle`
     color: ${(props) => props.theme.textColor};
    }
    span {
+    color: ${(props) => props.theme.textColor};
+   }
+   button {
     color: ${(props) => props.theme.textColor};
    }
   `;
