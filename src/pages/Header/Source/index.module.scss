@@ -1,0 +1,25 @@
+.root {
+  h1 {
+    margin-top: 50px;
+  }
+  h2 {
+    margin-top: 15px;
+    font-weight: 200;
+    em {
+      font-weight: bold;
+    }
+  }
+  ul {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    li {
+      display: flex;
+      align-items: center;
+      a {
+        margin-left: 15px;
+      }
+    }
+  }
+}

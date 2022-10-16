@@ -56,8 +56,16 @@ export const Header = () => {
               {t('header.__saved')}
             </button>
           </Link>
-          <button>{t('header.__info')}</button>
-          <button>{t('header.__src')}</button>
+          <Link to="/info">
+            <button className={location.pathname === '/info' ? 'bold' : ''}>
+              {t('header.__info')}
+            </button>
+          </Link>
+          <Link to="/source">
+            <button className={location.pathname === '/source' ? 'bold' : ''}>
+              {t('header.__src')}
+            </button>
+          </Link>
         </nav>
       </div>
       <div className={styles.root__rightside}>
@@ -79,9 +87,9 @@ export const Header = () => {
           : ''}
         <button className="theme-button" onClick={switchTheme}>
           {theme === 'light' ? (
-            <Dark width={48} height={48} />
+            <Dark width={48} height={48} fill="#333" />
           ) : (
-            <Light className="light" width={48} height={48} />
+            <Light width={48} height={48} fill="#b3b3b3" />
           )}
         </button>
       </div>

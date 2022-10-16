@@ -10,8 +10,8 @@ import {
   removeFromFavorite,
 } from '../../redux/slices/cardSlice';
 import { setStep } from '../../redux/slices/quizSlice';
-import save from '../../assets/pictures/main/unsave.svg';
-import unsave from '../../assets/pictures/main/save.svg';
+import { ReactComponent as Save } from '../../assets/pictures/main/unsave.svg';
+import { ReactComponent as Unsave } from '../../assets/pictures/main/save.svg';
 import { useTranslation } from 'react-i18next';
 import styles from './index.module.scss';
 import { Link } from 'react-router-dom';
@@ -25,6 +25,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
 
   const { disable, correctAns, favorite, progress } = useSelector((state: RootState) => state.card);
   const { step, items } = useSelector((state: RootState) => state.quiz);
+  const { value } = useSelector((state: RootState) => state.theme);
   const dispatch = useDispatch();
 
   const onVariantClick = (i: number) => {
@@ -57,9 +58,9 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
       <div className={styles.root__header}>
         <h3>{title}</h3>
         {favoriteItems.find((obj) => obj.id === id) ? (
-          <img src={unsave} onClick={removeFromFavorities} alt="save" width={20} />
+          <Unsave onClick={removeFromFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
         ) : (
-          <img src={save} onClick={addToFavorities} alt="remove" width={20} />
+          <Save onClick={addToFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
         )}
       </div>
       <div className={styles.root__main}>

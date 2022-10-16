@@ -9,7 +9,7 @@ export const darkTheme = {
 export const lightTheme = {
   body: '#D4D5D4 !important',
   textColor: '#333 !important',
-  headingColor: '#d23669 !important',
+  headingColor: '#333 !important',
 };
 
 export const GlobalStyles = createGlobalStyle`
