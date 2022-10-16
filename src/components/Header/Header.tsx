@@ -46,7 +46,11 @@ export const Header = () => {
           <h1 onClick={onHeaderClick}>G-PROJECT</h1>
         </Link>
         <nav>
-          <button>{t('header.__progress')}</button>
+          <Link to="/progress">
+            <button className={location.pathname === '/progress' ? 'bold' : ''}>
+              {t('header.__progress')}
+            </button>
+          </Link>
           <Link to="/saved">
             <button className={location.pathname === '/saved' ? 'bold' : ''}>
               {t('header.__saved')}

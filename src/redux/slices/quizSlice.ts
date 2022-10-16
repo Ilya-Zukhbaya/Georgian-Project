@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 import { itemsT } from '../../@types/index';
-
 export interface quizSliceI {
   items: itemsT[];
   step: number;

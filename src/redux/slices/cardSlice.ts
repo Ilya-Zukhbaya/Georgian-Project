@@ -1,14 +1,17 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 import { getFavoritesFromLs } from '../../utils/getFavoriteFromLS';
-import { itemsT } from '../../@types';
 import { getChoosenTypeFromLs } from '../../utils/getChoosenTypeFromLS';
+import { getProgressFromLs } from '../../utils/getProgressFromLs';
+import { itemsT } from '../../@types';
 
 const favoriteData = getFavoritesFromLs();
 const choosenType = getChoosenTypeFromLs();
+const progress = getProgressFromLs();
 
 export interface cardI {
   favorite: itemsT[];
+  progress: itemsT[];
   disable: boolean;
   correctAns: number;
   type: number | undefined;
@@ -16,9 +19,10 @@ export interface cardI {
 
 const initialState: cardI = {
   favorite: favoriteData.items,
+  progress: progress.items,
+  type: choosenType.type,
   disable: false,
   correctAns: 0,
-  type: choosenType.type,
 };
 
 export const cardSlice = createSlice({
@@ -37,13 +41,22 @@ export const cardSlice = createSlice({
     addToFavorite(state, action: PayloadAction<itemsT>) {
       state.favorite.push(action.payload);
     },
+    addToProgress(state, action: PayloadAction<itemsT>) {
+      state.progress.push(action.payload);
+    },
     removeFromFavorite(state, action: PayloadAction<number>) {
       state.favorite = state.favorite.filter((obj) => obj.id !== action.payload);
     },
   },
 });
 
-export const { setDisable, setCorrectAns, addToFavorite, removeFromFavorite, setType } =
-  cardSlice.actions;
+export const {
+  setDisable,
+  setCorrectAns,
+  addToFavorite,
+  removeFromFavorite,
+  setType,
+  addToProgress,
+} = cardSlice.actions;
 
 export default cardSlice.reducer;

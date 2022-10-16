@@ -6,6 +6,7 @@ import {
   setDisable,
   setCorrectAns,
   addToFavorite,
+  addToProgress,
   removeFromFavorite,
 } from '../../redux/slices/cardSlice';
 import { setStep } from '../../redux/slices/quizSlice';
@@ -22,13 +23,18 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
   const data = getFavoritesFromLs();
   const favoriteItems: itemsT[] = data.items;
 
-  const { disable, correctAns, favorite } = useSelector((state: RootState) => state.card);
+  const { disable, correctAns, favorite, progress } = useSelector((state: RootState) => state.card);
   const { step, items } = useSelector((state: RootState) => state.quiz);
   const dispatch = useDispatch();
 
   const onVariantClick = (i: number) => {
+    const item = { id, title, correct, variants, type };
+
     if (correct === i) {
       dispatch(setCorrectAns(correctAns + 1));
+      localStorage.setItem('progress', JSON.stringify(progress));
+      dispatch(addToProgress(item));
+      console.log(item);
     }
     dispatch(setDisable(true));
   };
@@ -44,7 +50,6 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
   };
   const removeFromFavorities = () => {
     dispatch(removeFromFavorite(id));
-    console.log('remove');
   };
 
   return (

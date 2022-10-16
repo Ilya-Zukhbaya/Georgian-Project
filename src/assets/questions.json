@@ -1,140 +1,140 @@
 [
   {
     "id": 0,
-    "type": 0,
+    "type": [0, 3],
     "title": "hello",
     "variants": ["2", "1", "2"],
     "correct": 1
   },
   {
     "id": 1,
-    "type": 0,
+    "type": [0, 3],
     "title": "Root",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 2,
-    "type": 0,
+    "type": [0, 3],
     "title": "LOL",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 3,
-    "type": 0,
+    "type": [0, 3],
     "title": "hI",
     "variants": ["3", "2", "1"],
     "correct": 1
   },
   {
     "id": 4,
-    "type": 1,
+    "type": [0, 3],
     "title": "q",
     "variants": ["3", "2", "1"],
     "correct": 0
   },
   {
     "id": 5,
-    "type": 1,
+    "type": [0, 3],
     "title": "w",
     "variants": ["3", "2", "1"],
     "correct": 1
   },
   {
     "id": 6,
-    "type": 1,
+    "type": [0, 3],
     "title": "e",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 7,
-    "type": 2,
+    "type": [1, 4],
     "title": "a",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 8,
-    "type": 2,
+    "type": [1, 4],
     "title": "s",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 9,
-    "type": 2,
+    "type": [1, 4],
     "title": "d",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 10,
-    "type": 2,
+    "type": [1, 4],
     "title": "f",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 11,
-    "type": 3,
+    "type": [1, 4],
     "title": "ზ",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 12,
-    "type": 3,
+    "type": [2, 5],
     "title": "ხ",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 13,
-    "type": 3,
+    "type": [2, 5],
     "title": "ც",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 14,
-    "type": 4,
+    "type": [2, 5],
     "title": "ф",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 15,
-    "type": 4,
+    "type": [2, 5],
     "title": "а",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 16,
-    "type": 4,
+    "type": [2, 5],
     "title": "р",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 17,
-    "type": 5,
+    "type": [2, 5],
     "title": "г",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 18,
-    "type": 5,
+    "type": [2, 5],
     "title": "ш",
     "variants": ["3", "2", "1"],
     "correct": 2
   },
   {
     "id": 19,
-    "type": 5,
+    "type": [2, 5],
     "title": "щ",
     "variants": ["3", "2", "1"],
     "correct": 2

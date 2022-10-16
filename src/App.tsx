@@ -14,15 +14,17 @@ import { Favorities } from './pages/Favorities/Favorities';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
 import { FavoritiesProvider } from './components/FavoritiesProvider';
+import { Progress } from './pages/Progress/Progress';
 
 function App() {
   const theme = useSelector((state: RootState) => state.theme.value);
-  const { favorite, type } = useSelector((state: RootState) => state.card);
+  const { favorite, type, progress } = useSelector((state: RootState) => state.card);
   const location = useLocation();
   const dispatch = useDispatch();
 
   localStorage.setItem('favorities', JSON.stringify(favorite));
   localStorage.setItem('choosenType', JSON.stringify(type));
+  localStorage.setItem('progress', JSON.stringify(progress));
 
   if (location.pathname === '/') {
     dispatch(setActive(false));
@@ -37,6 +39,7 @@ function App() {
           <Route path="*" element={<Home />} />
           <Route path="/card/:id" element={<Quiz />} />
           <Route path="/result" element={<Result />} />
+          <Route path="/progress" element={<Progress />} />
           <Route path="/saved" element={<Favorities />} />
           <Route path="/saved/:id" element={<FavoritiesProvider />} />
         </Routes>

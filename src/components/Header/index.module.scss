@@ -23,14 +23,13 @@
         align-self: center;
       }
     }
+  }
+  &__rightside {
+    display: flex;
+    align-items: center;
 
-    &__rightside {
-      display: flex;
-      align-items: center;
-
-      button {
-        cursor: pointer;
-      }
+    button {
+      cursor: pointer;
     }
   }
   &__lngButton {

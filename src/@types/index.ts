@@ -1,7 +1,7 @@
 export type itemsT = {
   id: number;
   title: string;
-  type: number;
+  type: number[];
   variants: string[];
   correct: number;
 };

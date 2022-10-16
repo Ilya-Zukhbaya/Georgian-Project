@@ -2,9 +2,10 @@ import React from 'react';
 import { Card } from './Card/Card';
 import { Result } from '../pages/Result/Result';
 import { useSelector, useDispatch } from 'react-redux';
-import data from '../assets/questions.json';
 import { RootState } from '../redux/store';
+import data from '../assets/questions.json';
 import { setItems } from '../redux/slices/quizSlice';
+import { itemsT } from '../@types';
 
 export const Quiz: React.FC = () => {
   const { step, items, active, cardId } = useSelector((state: RootState) => state.quiz);
@@ -14,9 +15,9 @@ export const Quiz: React.FC = () => {
     dispatch(
       setItems(
         data
-          .filter((obj) => obj.type === cardId)
+          .filter((obj) => (cardId < 3 ? obj.type[0] === cardId : obj.type[1] === cardId))
           .sort(() => Math.random() - 0.5)
-          .slice(0, data.length),
+          .slice(0, cardId < 3 ? 3 : data.length),
       ),
     );
   }, [active]);
