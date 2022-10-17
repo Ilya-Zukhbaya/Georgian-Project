@@ -15,7 +15,7 @@ import { ReactComponent as Unsave } from '../../assets/pictures/main/save.svg';
 import { useTranslation } from 'react-i18next';
 import styles from './index.module.scss';
 import { Link } from 'react-router-dom';
-import { getFavoritesFromLs } from '../../utils/getFavoriteFromLS';
+import { getFavoritesFromLs } from '../../utils/getFromLs';
 
 export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) => {
   const { t } = useTranslation();
@@ -35,7 +35,6 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
       dispatch(setCorrectAns(correctAns + 1));
       localStorage.setItem('progress', JSON.stringify(progress));
       dispatch(addToProgress(item));
-      console.log(item);
     }
     dispatch(setDisable(true));
   };

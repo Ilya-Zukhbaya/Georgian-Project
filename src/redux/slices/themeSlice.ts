@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
-import { getTheme } from '../../utils/getThemeFromLS';
+import { getTheme } from '../../utils/getFromLs';
 
 const themeData = getTheme();
 

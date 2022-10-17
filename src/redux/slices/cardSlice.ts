@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
-import { getFavoritesFromLs } from '../../utils/getFavoriteFromLS';
-import { getChoosenTypeFromLs } from '../../utils/getChoosenTypeFromLS';
-import { getProgressFromLs } from '../../utils/getProgressFromLs';
+import { getFavoritesFromLs } from '../../utils/getFromLs';
+import { getChoosenTypeFromLs } from '../../utils/getFromLs';
+import { getProgressFromLs } from '../../utils/getFromLs';
 import { itemsT } from '../../@types';
 
 const favoriteData = getFavoritesFromLs();
@@ -47,6 +47,9 @@ export const cardSlice = createSlice({
     removeFromFavorite(state, action: PayloadAction<number>) {
       state.favorite = state.favorite.filter((obj) => obj.id !== action.payload);
     },
+    removeAllFromFavorite(state) {
+      state.favorite = [];
+    },
   },
 });
 
@@ -57,6 +60,7 @@ export const {
   removeFromFavorite,
   setType,
   addToProgress,
+  removeAllFromFavorite,
 } = cardSlice.actions;
 
 export default cardSlice.reducer;

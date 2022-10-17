@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './index.module.scss';
-import history from '../../../assets/historyGEO.pdf';
-import law from '../../../assets/lawGEO.pdf';
-import language from '../../../assets/languageGEO.pdf';
+import history from '../../../assets/PDF/historyGEO.pdf';
+import law from '../../../assets/PDF/lawGEO.pdf';
+import language from '../../../assets/PDF/languageGEO.pdf';
 import { useSelector } from 'react-redux';
 import { ReactComponent as Download } from '../../../assets/pictures/header/download.svg';
 import { RootState } from '../../../redux/store';

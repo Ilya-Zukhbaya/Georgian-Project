@@ -1,4 +1,5 @@
 @import url(./libs/_normalize.scss);
+@import './variables';
 
 @mixin app {
   text-align: center;
@@ -6,27 +7,6 @@
 .app {
   @include app;
 }
-.green {
-  background: rgb(108, 180, 117) !important;
-}
-.red {
-  background: rgb(190, 112, 112) !important;
-}
-.disabled {
-  display: none;
-}
-.theme-button {
-  background: unset;
-  border: unset;
-}
-.light {
-  fill: aliceblue;
-}
-
-.bold {
-  font-weight: bold;
-}
-
 .main {
   margin-left: 50px;
   margin-top: 150px;
@@ -35,4 +15,21 @@
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 25px;
   grid-row-gap: 25px;
+}
+.green {
+  background-color: $green !important;
+}
+.red {
+  background-color: $red !important;
+}
+.disabled {
+  display: none;
+}
+
+.not-found {
+  margin-top: 50px;
+}
+
+.bold {
+  font-weight: bold;
 }

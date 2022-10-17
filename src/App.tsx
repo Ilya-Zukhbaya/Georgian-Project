@@ -20,6 +20,7 @@ import { Info } from './pages/Header/Info/Info';
 import { About } from './pages/Footer/About/About';
 import { Faq } from './pages/Footer/FAQ/Faq';
 import { Support } from './pages/Footer/Support/Support';
+import { NotFound } from './pages/NotFound';
 
 function App() {
   const theme = useSelector((state: RootState) => state.theme.value);
@@ -41,7 +42,7 @@ function App() {
       <div className="app">
         <Header />
         <Routes>
-          <Route path="*" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/card/:id" element={<Quiz />} />
           <Route path="/result" element={<Result />} />
           <Route path="/progress" element={<Progress />} />
@@ -52,6 +53,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/support" element={<Support />} />
           <Route path="/saved/:id" element={<FavoritiesProvider />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>

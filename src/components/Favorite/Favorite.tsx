@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Pagination, Stack, PaginationItem } from '@mui/material';
 import { itemsT } from '../../@types';
-import { getFavoritesFromLs } from '../../utils/getFavoriteFromLS';
+import { getFavoritesFromLs } from '../../utils/getFromLs';
 import styles from './index.module.scss';
 import { Link, useLocation } from 'react-router-dom';
 

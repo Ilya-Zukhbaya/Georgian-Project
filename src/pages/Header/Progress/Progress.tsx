@@ -4,10 +4,13 @@ import { RootState } from '../../../redux/store';
 import styles from './index.module.scss';
 import data from '../../../assets/questions.json';
 import { ReactComponent as Done } from '../../../assets/pictures/header/done.svg';
+import { useTranslation } from 'react-i18next';
 
 export const Progress = () => {
   const { progress } = useSelector((state: RootState) => state.card);
   const { value } = useSelector((state: RootState) => state.theme);
+
+  const { t } = useTranslation();
 
   const history = progress.filter((obj) => obj.type[0] === 0).length;
   const historyTotal = data.filter((obj) => obj.type[0] === 0).length;
@@ -19,39 +22,41 @@ export const Progress = () => {
   return (
     <div className={styles.root}>
       <h1>
-        Total Progress: {progress.length} / {data.length}{' '}
+        {t('progress.__total')}: {progress.length} / {data.length}{' '}
         <span>({Math.ceil((progress.length / data.length) * 100)}%)</span>
       </h1>
       <ul>
         <li>
-          - History:{' '}
+          - {t('progress.__history')}:{' '}
           <span>
             {history} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
-          from {historyTotal} questions (~
+          from <b>{historyTotal}</b> {t('progress.__questions')} (~
           {history === 0 ? 0 : Math.ceil((history / historyTotal) * 100)}
           %)
         </li>
         <li>
-          - Law:{' '}
+          - {t('progress.__law')}:{' '}
           <span>
             {law} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
-          from {lawTotal} questions (~
+          from <b>{lawTotal} </b> {t('progress.__questions')} (~
           {law === 0 ? 0 : Math.ceil((law / lawTotal) * 100)}
           %)
         </li>
         <li>
-          - Language:{' '}
+          - {t('progress.__language')}:{' '}
           <span>
             {lng} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
-          from {lngTotal} questions (~
+          from <b>{lawTotal} </b> {t('progress.__questions')} (~
           {lng === 0 ? 0 : Math.ceil((lng / lngTotal) * 100)}
           %)
         </li>
       </ul>
-      <p>Total questions left: {data.length - progress.length}</p>
+      <p>
+        {t('progress.__totalLeft')}: {data.length - progress.length}
+      </p>
     </div>
   );
 };

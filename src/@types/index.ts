@@ -12,7 +12,7 @@ export type emptyCardP = {
   subtitle: string;
   time: number;
   numberOfQ: number;
-  lng?: string;
+  lng: string;
   type: number;
 };
 
