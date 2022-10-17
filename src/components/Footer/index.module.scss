@@ -14,7 +14,10 @@
 
   &__center {
     ul {
-      li {
+      button {
+        font-size: 18px;
+        background: unset;
+        border: unset;
         margin-right: 15px;
         cursor: pointer;
       }

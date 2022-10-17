@@ -17,6 +17,9 @@ import { FavoritiesProvider } from './components/FavoritiesProvider';
 import { Progress } from './pages/Header/Progress/Progress';
 import { Source } from './pages/Header/Source/Source';
 import { Info } from './pages/Header/Info/Info';
+import { About } from './pages/Footer/About/About';
+import { Faq } from './pages/Footer/FAQ/Faq';
+import { Support } from './pages/Footer/Support/Support';
 
 function App() {
   const theme = useSelector((state: RootState) => state.theme.value);
@@ -45,6 +48,9 @@ function App() {
           <Route path="/info" element={<Info />} />
           <Route path="/saved" element={<Favorities />} />
           <Route path="/source" element={<Source />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/support" element={<Support />} />
           <Route path="/saved/:id" element={<FavoritiesProvider />} />
         </Routes>
         <Footer />

@@ -5,7 +5,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../redux/store';
 import data from '../assets/questions.json';
 import { setItems } from '../redux/slices/quizSlice';
-import { itemsT } from '../@types';
 
 export const Quiz: React.FC = () => {
   const { step, items, active, cardId } = useSelector((state: RootState) => state.quiz);

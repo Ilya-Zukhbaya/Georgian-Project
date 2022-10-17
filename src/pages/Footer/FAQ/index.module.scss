@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__nonActive {
+    display: none;
+  }
+  h1 {
+    margin: 50px 0 50px;
+    padding-bottom: 10px;
+    align-self: center;
+    border-bottom: 1px solid #9d9d9d;
+  }
+  ul {
+    margin-left: 50px;
+    li {
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 15px;
+      font-weight: bold;
+      em {
+        font-weight: 400;
+        font-size: 18px;
+        margin: 15px 5px 0;
+      }
+    }
+  }
+}

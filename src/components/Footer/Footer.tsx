@@ -5,8 +5,10 @@ import styles from './index.module.scss';
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
+import { Link, useLocation } from 'react-router-dom';
 
 export const Footer = () => {
+  const location = useLocation();
   const { t } = useTranslation();
   const { value } = useSelector((state: RootState) => state.theme);
 
@@ -16,9 +18,21 @@ export const Footer = () => {
 
       <div className={styles.root__center}>
         <ul>
-          <li>{t('footer.__about')}</li>
-          <li>{t('footer.__FAQ')}</li>
-          <li>{t('footer.__support')}</li>
+          <Link to="/about">
+            <button className={location.pathname === '/about' ? 'bold' : ''}>
+              {t('footer.__about')}
+            </button>
+          </Link>
+          <Link to="/faq">
+            <button className={location.pathname === '/faq' ? 'bold' : ''}>
+              {t('footer.__FAQ')}
+            </button>
+          </Link>
+          <Link to="/support">
+            <button className={location.pathname === '/support' ? 'bold' : ''}>
+              {t('footer.__support')}
+            </button>
+          </Link>
         </ul>
       </div>
 
