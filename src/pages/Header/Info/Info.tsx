@@ -5,46 +5,47 @@ import { ReactComponent as Light } from '../../../assets/pictures/header/light.s
 import { ReactComponent as Dark } from '../../../assets/pictures/header/dark.svg';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../../redux/store';
+import { useTranslation } from 'react-i18next';
 
 export const Info = () => {
+  const { t } = useTranslation();
   const { value } = useSelector((state: RootState) => state.theme);
 
   return (
     <div className={styles.root}>
-      <h1>Information:</h1>
+      <h1>{t('info.__total')}:</h1>
       <h2>
-        Here you can find all information about <em>how to use the service and navigate it</em>
+        {t('info.__subtitle')} <em>{t('info.__subtitle1')}</em>
       </h2>
       <ul>
         <li>
-          - Click on{' '}
+          - {t('info.__click')}{' '}
           <Link to="/">
             <span>G-PROJECT</span>
           </Link>{' '}
-          to return to main page
+          {t('info.__1li')}
         </li>
         <li>
           -{' '}
           <Link to="/progress">
-            <span>Progress</span>
+            <span>{t('info.__progress')}</span>
           </Link>{' '}
-          shows how many questions you answered correctly, you can also see number ofquestions you
-          completed by choosen topic
+          {t('info.__2li')}
         </li>
         <li>
           -
           <Link to="/saved">
-            <span>Saved</span>
+            <span>{t('info.__saved')}</span>
           </Link>{' '}
-          shows your saved questions, you can also see the total number of saved questions by
-          choosen topic
+          {t('info.__3li')}
         </li>
         <li>
-          - Click on {value === 'light' ? <Light fill="#333" /> : <Light fill="#b3b3b3" />} or{' '}
-          {value === 'light' ? <Dark fill="#333" /> : <Dark fill="#b3b3b3" />} to change your theme
+          - {t('info.__click')}{' '}
+          {value === 'light' ? <Light fill="#333" /> : <Light fill="#b3b3b3" />} {t('info.__or')}{' '}
+          {value === 'light' ? <Dark fill="#333" /> : <Dark fill="#b3b3b3" />} {t('info.__4li')}
         </li>
         <li>
-          - Click on <span>ge</span> to change language to Georigian
+          - {t('info.__click')} <span>ge</span> {t('info.__5li')}
         </li>
       </ul>
     </div>

@@ -5,8 +5,10 @@ import styles from './index.module.scss';
 import { FavoriteCard } from '../../../components/FavoriteCard/FavoriteCard';
 import { useDispatch } from 'react-redux';
 import { removeAllFromFavorite } from '../../../redux/slices/cardSlice';
+import { useTranslation } from 'react-i18next';
 
 export const Favorities: React.FC = () => {
+  const { t } = useTranslation();
   const dispatch = useDispatch();
 
   const onRemoveClick = () => {
@@ -18,7 +20,7 @@ export const Favorities: React.FC = () => {
 
   return (
     <div className={styles.root}>
-      <h1>Saved questions</h1>
+      <h1>{t('saved.__total')}</h1>
       <div>
         {emptyCardInfo
           .filter((obj) => obj.lng === i18n.resolvedLanguage)
@@ -28,7 +30,7 @@ export const Favorities: React.FC = () => {
           ))}
       </div>
       <button onClick={onRemoveClick} className={styles.root__footer}>
-        Clear saved questions
+        {t('saved.__clear')}
       </button>
     </div>
   );

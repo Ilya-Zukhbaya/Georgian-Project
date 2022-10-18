@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   h1 {
     margin-top: 50px;
@@ -23,6 +23,7 @@
   ul {
     margin-left: 50px;
     li {
+      height: 50px;
       display: flex;
       align-items: center;
       margin-bottom: 15px;
