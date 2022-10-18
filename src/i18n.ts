@@ -81,6 +81,40 @@ i18n
             __law: 'Law',
             __languages: 'Language',
           },
+          about: {
+            __title: 'About Project',
+            __li1: 'This project was created in order',
+            __li1o1: 'to help people with training with pre-exam questions',
+            __li1o2: 'for obtaining citizenship of Georgia',
+            __li2: 'If this project',
+            __li2o1: 'helped you with passing exams',
+            __li2o2: 'then the project really needed its implementation',
+            __li3: 'I wish you success in your practice',
+            __li3o1: 'of test tasks and I hope that my project helped you with this',
+          },
+          support: {
+            __title: 'Support',
+            __subtitle:
+              'If your want to help author and support project you can support by transferring to one of these cards for the amount you want, ',
+            __subtitle1: 'any support will be valuable',
+          },
+          faq: {
+            __title: 'FAQ',
+            __li1: 'Do I need to pay to use the service?',
+            __li1o1: 'No, the service is completely free',
+            __li2: 'Where can I text a message to the author?',
+            __li2o1:
+              'If you have any troubles or question, you can text me in Telegram, Email or Instagram',
+            __li3: 'Is my progress saved?',
+            __li3o1:
+              'Yes, your theme, language, progress and highlight questions settings are saved on your device',
+            __li4: 'Will anything new be added to the service?',
+            __li4o1:
+              'Yes, new features will be added in the future, including the creation of a personal account',
+            __li5: 'How can i support the project?',
+            __li5o1:
+              'You can go to the support section and find additional information or write to me personally',
+          },
         },
       },
       ge: {
@@ -151,6 +185,40 @@ i18n
             __history: 'ისტორია',
             __law: 'Კანონი',
             __languages: 'Ენა',
+          },
+          about: {
+            __title: 'პროექტის შესახებ',
+            __li1: 'ეს პროექტი წესრიგში შეიქმნა',
+            __li1o1: 'დაეხმაროს ადამიანებს ტრენინგში წინასაგამოცდო კითხვებით',
+            __li1o2: 'საქართველოს მოქალაქეობის მისაღებად',
+            __li2: 'თუ ეს პროექტი',
+            __li2o1: 'დაგეხმარა გამოცდების ჩაბარებაში',
+            __li2o2: 'მაშინ პროექტს ნამდვილად სჭირდებოდა მისი განხორციელება',
+            __li3: 'წარმატებებს გისურვებ პრაქტიკაში',
+            __li3o1:
+              'სატესტო დავალებების შესახებ და იმედი მაქვს, რომ ჩემი პროექტი დაგეხმარათ ამაში',
+          },
+          support: {
+            __title: 'მხარდაჭერა',
+            __subtitle:
+              'თუ გსურთ დაეხმაროთ ავტორს და პროექტს, შეგიძლიათ მხარი დაუჭიროთ ერთ-ერთ ამ ბარათზე გადარიცხვით თქვენთვის სასურველ თანხაზე, ',
+            __subtitle1: 'ნებისმიერი მხარდაჭერა ღირებული იქნება',
+          },
+          faq: {
+            __title: 'პასუხები კითხვებზე',
+            __li1: 'პასუხები კითხვებზე',
+            __li1o1: 'არა, მომსახურება სრულიად უფასოა',
+            __li2: 'სად შემიძლია ტექსტური შეტყობინება ავტორს?',
+            __li2o1:
+              'თუ თქვენ გაქვთ რაიმე პრობლემა ან შეკითხვა, შეგიძლიათ მომწეროთ Telegram, Email ან Instagram',
+            __li3: 'არის ჩემი პროგრესი შენახული?',
+            __li3o1:
+              'დიახ, თქვენი თემის, ენის, პროგრესისა და ხაზგასმული კითხვების პარამეტრები შენახულია თქვენს მოწყობილობაში',
+            __li4: 'რამე ახალი დაემატება სერვისს?',
+            __li4o1: 'დიახ, მომავალში დაემატება ახალი ფუნქციები, მათ შორის პირადი ანგარიშის შექმნა',
+            __li5: 'როგორ შემიძლია მხარი დავუჭირო პროექტს?',
+            __li5o1:
+              'შეგიძლიათ გადახვიდეთ მხარდაჭერის განყოფილებაში და იპოვოთ დამატებითი ინფორმაცია ან მომწეროთ პირადად',
           },
         },
       },

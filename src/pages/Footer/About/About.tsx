@@ -1,23 +1,23 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import styles from './index.module.scss';
 
 export const About: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.root}>
-      <h1>About Project</h1>
+      <h1>{t('about.__title')}</h1>
       <ul>
         <li>
-          - This project was created in order{' '}
-          <em>to help people with training with pre-exam questions</em>
-          for obtaining citizenship of Georgia
+          - {t('about.__li1')} <em>{t('about.__li1o1')}</em>
+          {t('about.__li1o2')}
         </li>
         <li>
-          - If this project <em>helped you with passing exams</em>, then the project really needed
-          its implementation
+          - {t('about.__li2')} <em>{t('about.__li2o1')}</em>, {t('about.__li2o2')}
         </li>
         <li>
-          - <em>I wish you success in your practice</em> of test tasks and I hope that my project
-          helped you with this
+          - <em>{t('about.__li3')}</em> {t('about.__li3o1')}
         </li>
       </ul>
     </div>
