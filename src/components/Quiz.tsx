@@ -16,7 +16,7 @@ export const Quiz: React.FC = () => {
         data
           .filter((obj) => (cardId < 3 ? obj.type[0] === cardId : obj.type[1] === cardId))
           .sort(() => Math.random() - 0.5)
-          .slice(0, cardId < 3 ? 3 : data.length),
+          .slice(0, cardId < 3 ? 20 : data.length),
       ),
     );
   }, [active]);

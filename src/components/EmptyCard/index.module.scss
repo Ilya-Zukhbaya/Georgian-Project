@@ -1,8 +1,9 @@
 .root {
-  width: 350px;
+  width: 340px;
+  border: 1px solid #707070;
   display: flex;
   flex-direction: column;
-  height: 150px;
+  height: 200px;
   justify-content: space-between;
 
   &__header,
@@ -10,10 +11,27 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    h3 {
+      border-bottom: 1px solid #707070;
+      padding-bottom: 10px;
+    }
+    span {
+      margin-top: 10px;
+    }
   }
+
+  &__header {
+    margin: 20px 0 0 20px;
+  }
+  &__main {
+    margin: 0 0 0 20px;
+  }
+
   &__footer {
     display: flex;
     align-items: flex-start;
+    margin: 0 0 20px 20px;
   }
   &__startButton {
     width: 70px;

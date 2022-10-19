@@ -53,6 +53,7 @@ i18n
             __law: 'Law',
             __languages: 'Language',
             __clear: 'Clear saved questions',
+            __h1: 'You have not selected any questions',
           },
           info: {
             __total: 'Information',
@@ -158,6 +159,7 @@ i18n
             __law: 'Კანონი',
             __languages: 'Ენა',
             __clear: 'შენახული კითხვების გასუფთავება',
+            __h1: 'თქვენ არ შეგირჩევიათ კითხვები',
           },
           info: {
             __total: 'Information',

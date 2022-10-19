@@ -9,7 +9,6 @@ export type itemsT = {
 export type emptyCardP = {
   id: number;
   title: string;
-  subtitle: string;
   time: number;
   numberOfQ: number;
   lng: string;
