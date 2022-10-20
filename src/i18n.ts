@@ -21,7 +21,7 @@ i18n
             __src: 'Source',
           },
           emptyCard: {
-            __text: 'randon questions',
+            __text: 'random questions',
             __time: 'time',
             __title: 'title',
           },

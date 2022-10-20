@@ -45,7 +45,7 @@ export const Progress = () => {
           %)
         </li>
         <li>
-          - {t('progress.__language')}:{' '}
+          - {t('progress.__languages')}:{' '}
           <span>
             {lng} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
