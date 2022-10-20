@@ -68,7 +68,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
             key={i}
             onClick={() => onVariantClick(i)}
             disabled={disable}
-            className={disable ? (correct === i ? 'green' : 'red') : ''}>
+            className={disable ? (correct === i ? 'green button' : 'red button') : 'button'}>
             <span>{obj}</span>
           </button>
         ))}

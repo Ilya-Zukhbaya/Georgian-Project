@@ -17,7 +17,7 @@ export const Progress = () => {
   const law = progress.filter((obj) => obj.type[0] === 1).length;
   const lawTotal = data.filter((obj) => obj.type[0] === 1).length;
   const lng = progress.filter((obj) => obj.type[0] === 2).length;
-  const lngTotal = data.filter((obj) => obj.type[0] === 2).length;
+  const lngTotal = data.filter((obj) => obj.type[1] === 5).length;
 
   return (
     <div className={styles.root}>
@@ -49,7 +49,7 @@ export const Progress = () => {
           <span>
             {lng} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
-          from <b>{lawTotal} </b> {t('progress.__questions')} (~
+          from <b>{lngTotal} </b> {t('progress.__questions')} (~
           {lng === 0 ? 0 : Math.ceil((lng / lngTotal) * 100)}
           %)
         </li>
