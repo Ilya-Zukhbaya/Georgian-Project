@@ -16,17 +16,37 @@
       font-weight: bold;
     }
   }
+
   span {
     font-weight: bold;
     margin: 0 5px;
   }
   ul {
     margin-left: 50px;
+    @media (max-width: 1150px) {
+      li {
+        font-size: 14px;
+      }
+    }
+
     li {
       height: 50px;
       display: flex;
       align-items: center;
       margin-bottom: 15px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .root {
+    h2 {
+      padding: 0 50px;
+    }
+    ul {
+      li {
+        padding: 0 50px;
+        display: inline-block;
+      }
     }
   }
 }

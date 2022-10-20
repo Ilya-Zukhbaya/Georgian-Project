@@ -7,6 +7,19 @@
   width: 95vw;
   align-items: center;
 
+  @media (max-width: 960px) {
+    p {
+      font-size: 10px;
+      font-weight: 200;
+    }
+    button {
+      font-size: 14px !important;
+    }
+    h3 {
+      font-size: 14px;
+    }
+  }
+
   ul {
     display: flex;
     align-items: center;

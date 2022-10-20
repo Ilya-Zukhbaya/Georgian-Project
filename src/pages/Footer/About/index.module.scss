@@ -11,6 +11,18 @@
   }
   ul {
     margin-left: 50px;
+    @media (max-width: 1150px) {
+      li {
+        font-size: 15px !important;
+      }
+    }
+    @media (max-width: 1024px) {
+      padding: 0 50px;
+      margin: 0;
+      li {
+        display: inline-block !important;
+      }
+    }
     li {
       font-size: 18px;
       display: flex;
