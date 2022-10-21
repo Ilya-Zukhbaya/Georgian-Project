@@ -10,6 +10,54 @@
     }
   }
 
+  @media (max-width: 740px) {
+    margin: 50px 20px 0;
+    &__rightside {
+      button {
+        font-size: 11px !important;
+      }
+    }
+    &__lefside {
+      a {
+        h1 {
+          font-size: 15px;
+          width: 80px;
+          margin: 0 auto;
+          position: absolute;
+          top: 10px;
+          left: 0;
+          right: 0;
+        }
+      }
+      nav {
+        margin-left: 0 !important;
+      }
+    }
+  }
+  @media (max-width: 630px) {
+    justify-content: center;
+    &__rightside {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+    }
+  }
+  @media (max-width: 470px) {
+    button {
+      font-size: 11px !important;
+    }
+  }
+
+  @media (max-width: 375px) {
+    nav {
+      margin-top: 20px;
+    }
+    &__rightside {
+      right: unset !important;
+      top: 40px !important;
+    }
+  }
+
   &__lefside {
     display: flex;
     align-items: center;

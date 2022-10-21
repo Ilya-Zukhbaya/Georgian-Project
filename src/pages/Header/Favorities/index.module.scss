@@ -3,6 +3,19 @@
   justify-content: center;
   flex-direction: column;
 
+  @media (max-width: 630px) {
+    margin: 0 auto;
+    width: 300px;
+    div {
+      flex-direction: column;
+      justify-content: unset;
+
+      button {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
   h1 {
     margin: 50px 0;
   }

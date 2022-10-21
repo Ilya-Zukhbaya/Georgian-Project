@@ -27,4 +27,13 @@
       background: #707070;
     }
   }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 16px;
+    }
+    &__buttonContainer {
+      display: flex;
+      justify-content: center;
+    }
+  }
 }

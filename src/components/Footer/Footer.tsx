@@ -1,7 +1,7 @@
+import React from 'react';
 import { ReactComponent as Insta } from '../../assets/pictures/footer/insta.svg';
 import { ReactComponent as Mail } from '../../assets/pictures/footer/mail.svg';
 import { ReactComponent as Telegram } from '../../assets/pictures/footer/telegram.svg';
-import styles from './index.module.scss';
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
@@ -11,12 +11,18 @@ export const Footer = () => {
   const location = useLocation();
   const { t } = useTranslation();
   const { value } = useSelector((state: RootState) => state.theme);
+  const [active, setActive] = React.useState<boolean>(false);
 
   return (
-    <div className={styles.root}>
-      <p>© Ilya Zukhbaya. All rights reserved</p>
+    <div
+      className={
+        location.pathname !== '/' ? 'footer__container footer__active' : 'footer__container'
+      }>
+      <p className={location.pathname !== '/' ? 'activeP' : ''}>
+        © Ilya Zukhbaya. All rights reserved
+      </p>
 
-      <div className={styles.root__center}>
+      <div className="footer__center">
         <ul>
           <Link to="/about">
             <button className={location.pathname === '/about' ? 'bold' : ''}>
@@ -36,9 +42,11 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <div className={styles.root__rightside}>
-        <h3>{t('footer.__contact')}</h3>
-        <ul>
+      <div className="footer__rightside">
+        <h3 onClick={() => setActive(!active)} className={active ? 'bold' : ''}>
+          {t('footer.__contact')}
+        </h3>
+        <ul className={active ? 'active ' : 'inactive'}>
           <li>
             <a href="https://www.instagram.com/ilya_perepletov">
               <Insta fill={value === 'light' ? '#333' : '#b3b3b3'} />

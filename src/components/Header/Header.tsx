@@ -86,11 +86,7 @@ export const Header = () => {
             ))
           : ''}
         <button className="theme-button" onClick={switchTheme}>
-          {theme === 'light' ? (
-            <Dark width={48} height={48} fill="#333" />
-          ) : (
-            <Light width={48} height={48} fill="#b3b3b3" />
-          )}
+          {theme === 'light' ? <Dark fill="#333" /> : <Light fill="#b3b3b3" />}
         </button>
       </div>
     </div>
