@@ -86,7 +86,7 @@
   }
 
   @media (max-width: 740px) {
-    margin: 0 20px 45px;
+    margin: 0 20px 20px;
 
     p {
       bottom: -30px;
@@ -124,7 +124,8 @@
     z-index: 1;
     p {
       bottom: unset;
-      margin-top: 60px;
+      margin-top: 40px;
+      font-size: 7px;
     }
   }
 
@@ -167,7 +168,7 @@
     }
   }
   @media (max-width: 340px) {
-    height: 100px;
+    height: 90px;
     p {
       margin-top: 155px;
     }

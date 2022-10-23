@@ -6,5 +6,5 @@ import { RootState } from '../redux/store';
 export const FavoritiesProvider = () => {
   const { type } = useSelector((state: RootState) => state.card);
 
-  return <div>{type !== undefined ? <Favorite type={type} /> : 'Error'}</div>;
+  return <>{type !== undefined ? <Favorite type={type} /> : 'Error'}</>;
 };

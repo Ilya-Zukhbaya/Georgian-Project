@@ -15,28 +15,30 @@ export const Favorite: React.FC<favoriteT> = ({ type }) => {
   const items: itemsT[] = data.items;
   const location = useLocation();
   const { t } = useTranslation();
-  const [page, setPage] = React.useState<number>(Number(location.search?.split('=')[1] || 1));
   const id = location.pathname.split('ed/')[1].slice(0, 1);
+  const [page, setPage] = React.useState<number>(Number(location.search?.split('=')[1] || 1));
 
   return (
-    <div className={styles.root}>
+    <>
       {items.filter((obj) => obj.type[0] === type).length !== 0 ? (
-        <Container className={styles.root__container}>
+        <Container className={styles.root}>
           <article>
             {items
               .filter((obj) => obj.type[0] === type)
-              .slice(page * 10 - 10, page * 10)
+              .slice(page * 6 - 6, page * 6 > items.length ? items.length : page * 6)
               .map((obj, i) => (
                 <div key={i}>
                   <h3>{obj.title}</h3>
-                  <div>
-                    <ul>
-                      {obj.variants.map((obj, i) => (
-                        <li key={i}>{obj}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <p>{obj.correct}</p>
+                  <ul>
+                    {obj.variants.map((obj, i) => (
+                      <li key={i}>
+                        - <span>{i + 1}</span>: {obj}
+                      </li>
+                    ))}
+                  </ul>
+                  <p>
+                    <span>correct: </span> {obj.correct + 1}
+                  </p>
                 </div>
               ))}
           </article>
@@ -45,7 +47,7 @@ export const Favorite: React.FC<favoriteT> = ({ type }) => {
               <Pagination
                 showFirstButton
                 showLastButton
-                count={Math.ceil(items.length / 10)}
+                count={Math.ceil(items.filter((obj) => obj.type[0] === type).length / 6)}
                 page={page}
                 onChange={(_, num) => setPage(num)}
                 renderItem={(item) => (
@@ -60,8 +62,8 @@ export const Favorite: React.FC<favoriteT> = ({ type }) => {
           </Stack>
         </Container>
       ) : (
-        <h1>{t('saved.__h1')}</h1>
+        <h1 className={styles.root__noSaved}>{t('saved.__h1')}</h1>
       )}
-    </div>
+    </>
   );
 };
