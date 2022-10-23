@@ -55,7 +55,6 @@ function App() {
           <Route path="/saved/:id" element={<FavoritiesProvider />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
       </div>
     </ThemeProvider>
   );

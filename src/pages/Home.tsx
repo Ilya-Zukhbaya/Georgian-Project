@@ -4,6 +4,7 @@ import { emptyCardInfo } from '../assets/EmptyCard';
 import { RootState } from '../redux/store';
 import { Quiz } from '../components/Quiz';
 import i18n from '../i18n';
+import { Footer } from '../components/Footer/Footer';
 
 export const Home = () => {
   const { active } = useSelector((state: RootState) => state.quiz);
@@ -21,6 +22,7 @@ export const Home = () => {
             ))}
         </div>
       )}
+      <Footer />
     </div>
   );
 };
