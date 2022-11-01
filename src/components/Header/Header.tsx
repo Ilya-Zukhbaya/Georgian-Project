@@ -69,8 +69,9 @@ export const Header = () => {
         </nav>
       </div>
       <div className={styles.root__rightside}>
-        {!location.pathname.includes('/card')
-          ? Object.keys(lngs).map((lng) => (
+        {location.pathname.includes('/card') || location.pathname.includes('/result')
+          ? ''
+          : Object.keys(lngs).map((lng) => (
               <button
                 key={lng}
                 style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }}
@@ -83,8 +84,7 @@ export const Header = () => {
                   <span>{t('lngs.__buttonGe')}</span>
                 )}
               </button>
-            ))
-          : ''}
+            ))}
         <button className="theme-button" onClick={switchTheme}>
           {theme === 'light' ? <Dark fill="#333" /> : <Light fill="#b3b3b3" />}
         </button>

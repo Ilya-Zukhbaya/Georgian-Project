@@ -25,6 +25,11 @@ i18n
             __time: 'time',
             __title: 'title',
           },
+          result: {
+            __result: 'Result',
+            __correct: 'correct answers from',
+            __questions: 'questions',
+          },
           lngs: {
             __buttonEn: 'en',
             __buttonGe: 'ge',
@@ -32,6 +37,8 @@ i18n
           button: {
             __start: 'start',
             __next: 'next',
+            __try: 'Try again',
+            __tomain: 'To main page',
           },
           footer: {
             __about: 'about',
@@ -43,6 +50,7 @@ i18n
             __total: 'Total Progress',
             __history: 'History',
             __law: 'Law',
+            __from: 'from',
             __languages: 'Language',
             __questions: 'questions',
             __totalLeft: 'Total questions left',
@@ -131,6 +139,11 @@ i18n
             __time: 'დრო',
             __title: 'სათაური',
           },
+          result: {
+            __result: 'შედეგი',
+            __correct: 'სწორი პასუხები',
+            __questions: 'კითხვებიდან',
+          },
           lngs: {
             __buttonEn: 'ინგ',
             __buttonGe: 'ქარ',
@@ -138,6 +151,8 @@ i18n
           button: {
             __start: 'დაწყება',
             __next: 'შემდეგი',
+            __try: 'Კიდევ სცადე',
+            __tomain: 'მთავარ გვერდზე',
           },
           footer: {
             __about: 'შესახებ',
@@ -150,7 +165,8 @@ i18n
             __history: 'ისტორია',
             __law: 'Კანონი',
             __languages: 'ენა',
-            __questions: 'კითხვები',
+            __questions: 'კითხვებიდან',
+            __from: '',
             __totalLeft: 'სულ დარჩა კითხვები',
           },
           saved: {

@@ -6,11 +6,14 @@ import { setCorrectAns } from '../../redux/slices/cardSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { RootState } from '../../redux/store';
+import { useTranslation } from 'react-i18next';
 
 export const Result: React.FC = () => {
   const dispatch = useDispatch();
   const { correctAns } = useSelector((state: RootState) => state.card);
   const { items, cardId } = useSelector((state: RootState) => state.quiz);
+
+  const { t } = useTranslation();
 
   const restart = () => {
     dispatch(setActive(false));
@@ -21,18 +24,19 @@ export const Result: React.FC = () => {
   return (
     <div className={styles.root}>
       <h1>
-        Result: {correctAns} correct answers from {items.length} questions (
-        {Math.floor((correctAns / items.length) * 100)} %)
+        {t('result.__result')}: {correctAns} {t('result.__correct')} {items.length}{' '}
+        {t('result.__questions')} (
+        {items.length === 0 ? '0' : Math.floor((correctAns / items.length) * 100)} %)
       </h1>
       <div className={styles.root__buttonContainer}>
         <Link to={`/card/${cardId}`}>
           <button onClick={restart}>
-            <span>Try again</span>
+            <span>{t('button.__try')}</span>
           </button>
         </Link>
         <Link to="/">
           <button onClick={restart}>
-            <span>To main page</span>
+            <span>{t('button.__tomain')}</span>
           </button>
         </Link>
       </div>

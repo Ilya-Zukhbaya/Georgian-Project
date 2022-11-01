@@ -1,12 +1,12 @@
 .root {
-  width: 900px;
+  width: 1000px;
   height: 400px;
   justify-content: space-between;
   margin: 100px auto;
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 960px) {
+  @media (max-width: 1000px) {
     width: 750px;
     button {
       font-size: 14px !important;

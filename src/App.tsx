@@ -12,7 +12,6 @@ import { setActive } from './redux/slices/quizSlice';
 import { Result } from './pages/Result/Result';
 import { Favorities } from './pages/Header/Favorities/Favorities';
 import { Header } from './components/Header/Header';
-import { Footer } from './components/Footer/Footer';
 import { FavoritiesProvider } from './components/FavoritiesProvider';
 import { Progress } from './pages/Header/Progress/Progress';
 import { Source } from './pages/Header/Source/Source';

@@ -31,7 +31,7 @@ export const Progress = () => {
           <span>
             {history} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
-          from <b>{historyTotal}</b> {t('progress.__questions')} (~
+          {t('progress.__from')} <b>{historyTotal}</b> {t('progress.__questions')} (~
           {history === 0 ? 0 : Math.ceil((history / historyTotal) * 100)}
           %)
         </li>
@@ -40,7 +40,7 @@ export const Progress = () => {
           <span>
             {law} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
-          from <b>{lawTotal} </b> {t('progress.__questions')} (~
+          {t('progress.__from')} <b>{lawTotal} </b> {t('progress.__questions')} (~
           {law === 0 ? 0 : Math.ceil((law / lawTotal) * 100)}
           %)
         </li>
@@ -49,7 +49,7 @@ export const Progress = () => {
           <span>
             {lng} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
-          from <b>{lngTotal} </b> {t('progress.__questions')} (~
+          {t('progress.__from')} <b>{lngTotal} </b> {t('progress.__questions')} (~
           {lng === 0 ? 0 : Math.ceil((lng / lngTotal) * 100)}
           %)
         </li>
