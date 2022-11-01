@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { emptyCardP } from '../../@types/index';
 import { setType } from '../../redux/slices/cardSlice';
 
-export const FavoriteCard: React.FC<emptyCardP> = ({ title, type }) => {
+export const FavoriteCard: React.FC<emptyCardP> = ({ subtitle, type }) => {
   const location = useLocation();
   const dispatch = useDispatch();
   const setTypeAndSave = () => {
@@ -14,7 +14,7 @@ export const FavoriteCard: React.FC<emptyCardP> = ({ title, type }) => {
 
   return (
     <Link to={`${location.pathname}/${type}`}>
-      <button onClick={setTypeAndSave}>{title}</button>
+      <button onClick={setTypeAndSave}>{subtitle}</button>
     </Link>
   );
 };

@@ -3,6 +3,9 @@
   padding: 0 50px;
 
   &__buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
     button {
       width: 90px;

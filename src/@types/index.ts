@@ -9,6 +9,7 @@ export type itemsT = {
 export type emptyCardP = {
   id: number;
   title: string;
+  subtitle: string;
   time: number;
   numberOfQ: number;
   lng: string;
@@ -21,6 +22,10 @@ export type lngsT = {
     geName: string;
   };
   ge: {
+    nativeName: string;
+    geName: string;
+  };
+  ru: {
     nativeName: string;
     geName: string;
   };

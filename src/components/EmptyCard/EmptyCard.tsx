@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setActive, setCardId } from '../../redux/slices/quizSlice';
 import { RootState } from '../../redux/store';
 
-export const EmptyCard: React.FC<emptyCardP> = ({ title, time, id, numberOfQ }) => {
+export const EmptyCard: React.FC<emptyCardP> = ({ title, time, id, numberOfQ, subtitle }) => {
   const { t } = useTranslation();
   const { active } = useSelector((state: RootState) => state.quiz);
   const dispatch = useDispatch();
@@ -20,13 +20,11 @@ export const EmptyCard: React.FC<emptyCardP> = ({ title, time, id, numberOfQ }) 
   return (
     <div className={styles.root}>
       <div className={styles.root__header}>
-        <h3>
-          {t('emptyCard.__title')}: {title}
-        </h3>
+        <h3>{subtitle}</h3>
       </div>
       <div className={styles.root__main}>
         <span>
-          {numberOfQ} {t('emptyCard.__text')} {title}
+          {numberOfQ} {t('emptyCard.__text')} {t('emptyCard.__from')} {title}
         </span>
         <time>
           {t('emptyCard.__time')}: ~{time} min

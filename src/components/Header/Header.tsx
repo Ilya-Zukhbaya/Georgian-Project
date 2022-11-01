@@ -80,8 +80,10 @@ export const Header = () => {
                 onClick={() => switchLng(lng)}>
                 {lng === 'en' ? (
                   <span>{t('lngs.__buttonEn')}</span>
-                ) : (
+                ) : lng === 'ge' ? (
                   <span>{t('lngs.__buttonGe')}</span>
+                ) : (
+                  <span>{t('lngs.__buttonRu')}</span>
                 )}
               </button>
             ))}
