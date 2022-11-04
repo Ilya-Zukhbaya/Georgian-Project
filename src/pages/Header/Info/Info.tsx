@@ -45,11 +45,7 @@ export const Info = () => {
           {value === 'light' ? <Dark fill="#333" /> : <Dark fill="#b3b3b3" />} {t('info.__4li')}
         </li>
         <li>
-          - {t('info.__click')}{' '}
-          <span>
-            {t('lngs.__buttonEn')}, {t('lngs.__buttonGe')}, {t('lngs.__buttonRu')}
-          </span>{' '}
-          {t('info.__5li')}
+          - {t('info.__click')} <span>EN, GE, RU</span> {t('info.__5li')}
         </li>
       </ul>
     </div>

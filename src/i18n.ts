@@ -14,6 +14,9 @@ i18n
     resources: {
       en: {
         translation: {
+          window: {
+            __confirmFavorite: 'Are you sure you want to remove questions?',
+          },
           header: {
             __progress: 'Progress',
             __saved: 'Saved',
@@ -64,6 +67,7 @@ i18n
             __languages: 'Language',
             __clear: 'Clear saved questions',
             __h1: 'You have not selected any questions',
+            __correct: 'Correct answer',
           },
           info: {
             __total: 'Information',
@@ -130,6 +134,9 @@ i18n
       },
       ge: {
         translation: {
+          window: {
+            __confirmFavorite: 'დარწმუნებული ხართ, რომ გსურთ წაშალოთ კითხვები?',
+          },
           header: {
             __progress: 'პროგრესი',
             __saved: 'სანიშნეები',
@@ -180,6 +187,7 @@ i18n
             __languages: 'ენა',
             __clear: 'შენახული კითხვების გასუფთავება',
             __h1: 'თქვენ არ შეგირჩევიათ კითხვები',
+            __correct: 'სწორი პასუხი',
           },
           info: {
             __total: 'ინფორმაცია',
@@ -246,6 +254,9 @@ i18n
       },
       ru: {
         translation: {
+          window: {
+            __confirmFavorite: 'Вы уверены, что хотите удалить вопросы?',
+          },
           header: {
             __progress: 'Прогресс',
             __saved: 'Избранное',
@@ -296,6 +307,7 @@ i18n
             __languages: 'Грузинский язык',
             __clear: 'очистить сохраненные вопросы',
             __h1: 'Вы еще не сохраняли ничего в избранное',
+            __correct: 'Правильный ответ',
           },
           info: {
             __total: 'Информация',

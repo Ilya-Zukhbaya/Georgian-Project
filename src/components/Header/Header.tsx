@@ -78,13 +78,7 @@ export const Header = () => {
                 type="submit"
                 className={styles.root__lngButton}
                 onClick={() => switchLng(lng)}>
-                {lng === 'en' ? (
-                  <span>{t('lngs.__buttonEn')}</span>
-                ) : lng === 'ge' ? (
-                  <span>{t('lngs.__buttonGe')}</span>
-                ) : (
-                  <span>{t('lngs.__buttonRu')}</span>
-                )}
+                {lng === 'en' ? <span>EN</span> : lng === 'ge' ? <span>GE</span> : <span>RU</span>}
               </button>
             ))}
         <button className="theme-button" onClick={switchTheme}>

@@ -11,6 +11,7 @@ export const EmptyCard: React.FC<emptyCardP> = ({ title, time, id, numberOfQ, su
   const { t } = useTranslation();
   const { active } = useSelector((state: RootState) => state.quiz);
   const dispatch = useDispatch();
+  const { value } = useSelector((state: RootState) => state.theme);
 
   const onButtonClick = () => {
     dispatch(setActive(true));
@@ -18,7 +19,9 @@ export const EmptyCard: React.FC<emptyCardP> = ({ title, time, id, numberOfQ, su
   };
 
   return (
-    <div className={styles.root}>
+    <div
+      className={styles.root}
+      style={value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}>
       <div className={styles.root__header}>
         <h3>{subtitle}</h3>
       </div>
@@ -33,6 +36,11 @@ export const EmptyCard: React.FC<emptyCardP> = ({ title, time, id, numberOfQ, su
       <div className={styles.root__footer}>
         <Link to={`/card/${id}`}>
           <button
+            style={
+              value === 'dark'
+                ? { backgroundColor: 'rgb(112 112 112)' }
+                : { backgroundColor: 'rgb(183 183 183)' }
+            }
             onClick={() => onButtonClick()}
             className={active ? 'disabled' : styles.root__startButton}>
             <span> {t('button.__start')}</span>

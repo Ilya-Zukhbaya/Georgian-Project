@@ -37,7 +37,7 @@ export const Favorite: React.FC<favoriteT> = ({ type }) => {
                     ))}
                   </ul>
                   <p>
-                    <span>correct: </span> {obj.correct + 1}
+                    <span>{t('saved.__correct')}: </span> <b>{obj.correct + 1}</b>
                   </p>
                 </div>
               ))}

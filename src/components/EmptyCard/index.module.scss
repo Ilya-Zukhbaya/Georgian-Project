@@ -1,10 +1,17 @@
 .root {
-  width: 340px;
+  width: 380px;
   border: 1px solid #707070;
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 250px;
   justify-content: space-between;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms,
+    transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
 
   &__header,
   &__main {
@@ -20,27 +27,60 @@
     }
     span {
       margin-top: 10px;
+      display: contents;
     }
   }
 
-  @media (max-width: 1150px) {
-    width: 280px;
+  @media (max-width: 1260px) {
+    width: 325px;
     &__header,
     &__main {
       font-size: 13px;
     }
   }
-  @media (max-width: 960px) {
-    width: 200px;
+  @media (max-width: 1100px) {
+    width: 305px;
     &__header,
     &__main {
       font-size: 13px;
-
       span {
-        max-width: 150px;
-        margin-bottom: 10px;
+        max-width: 315px;
       }
     }
+    &__main {
+      span {
+        display: flex;
+        align-self: center;
+      }
+      time {
+        margin-top: 10px !important;
+      }
+    }
+  }
+  @media (max-width: 1010px) {
+    width: 230px;
+    &__main {
+      span {
+        max-width: 220px;
+      }
+    }
+  }
+  @media (max-width: 740px) {
+    width: 300px;
+    &__main {
+      span {
+        display: contents;
+      }
+    }
+  }
+  @media (max-width: 630px) {
+    width: 250px;
+  }
+  @media (max-width: 540px) {
+    width: 220px;
+  }
+  @media (max-width: 470px) {
+    width: 300px;
   }
 
   &__header {
@@ -52,23 +92,32 @@
 
   &__footer {
     display: flex;
-    align-items: flex-start;
-    margin: 0 0 20px 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px;
   }
   &__startButton {
-    width: 80px;
-    height: 30px;
+    width: 110px;
+    height: 45px;
     padding: 5px 12px;
     border: 1px solid #9d9d9d;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
+    font-size: 15px;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0,
+      rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms,
+      transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    user-select: none;
   }
   &__startButton:hover {
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     background: #707070;
   }
 }

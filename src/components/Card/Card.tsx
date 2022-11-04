@@ -54,6 +54,12 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
 
   return (
     <div className={styles.root}>
+      <span className={styles.root__progressBar}>
+        <b>{t('header.__progress')}: </b>
+        <span>
+          {step + 1} / {items.length}
+        </span>
+      </span>
       <div className={styles.root__header}>
         <h3>{title}</h3>
         {favoriteItems.find((obj) => obj.id === id) ? (
@@ -65,6 +71,9 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
       <div className={styles.root__main}>
         {variants.map((obj, i) => (
           <button
+            style={
+              value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }
+            }
             key={i}
             onClick={() => onVariantClick(i)}
             disabled={disable}
@@ -75,12 +84,25 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
       </div>
       {step === items.length - 1 ? (
         <Link to="/result" className={styles.root__footer}>
-          <button onClick={() => onStepClick(step)}>
+          <button
+            style={
+              value === 'dark'
+                ? { backgroundColor: 'rgb(112 112 112)' }
+                : { backgroundColor: 'rgb(183 183 183)' }
+            }
+            onClick={() => onStepClick(step)}>
             <span>{t('button.__next')}</span>
           </button>
         </Link>
       ) : (
-        <button onClick={() => onStepClick(step)} className={styles.root__footer}>
+        <button
+          style={
+            value === 'dark'
+              ? { backgroundColor: 'rgb(112 112 112)' }
+              : { backgroundColor: 'rgb(183 183 183)' }
+          }
+          onClick={() => onStepClick(step)}
+          className={styles.root__footer}>
           <span>{t('button.__next')}</span>
         </button>
       )}

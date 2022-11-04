@@ -19,7 +19,7 @@ export const Footer = () => {
         location.pathname !== '/' ? 'footer__container footer__active' : 'footer__container'
       }>
       <p className={location.pathname !== '/' ? 'activeP' : ''}>
-        © Ilya Zukhbaya. All rights reserved
+        © Biliki School. All rights reserved
       </p>
 
       <div className="footer__center">
