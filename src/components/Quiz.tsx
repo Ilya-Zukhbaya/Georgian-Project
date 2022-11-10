@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card } from './Card/Card';
-import { Result } from '../pages/Result/Result';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../redux/store';
 import data from '../assets/questions.json';
