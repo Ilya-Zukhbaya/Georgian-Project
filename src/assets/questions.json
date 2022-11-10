@@ -4226,7 +4226,7 @@
       "მე ცუდად ვსაუბრობ ქართულმა"
     ],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668012285/questionsType3/type3Q1_bulbtp.mp3"
+    "audio": "yes"
   },
   {
     "id": 402,
@@ -4234,7 +4234,7 @@
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["მე ვხატავ სურათს", "მე ვხატავ სურათმ", "მე ვხატავ სურათი", "მე ვხატავ სურათის"],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027005/questionsType3/type3Q2_cqkjtt.mp3"
+    "audio": "yes"
   },
   {
     "id": 403,
@@ -4247,7 +4247,7 @@
       "მე დამიძახა ამხანაგის"
     ],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027005/questionsType3/type3Q3_eazb52.mp3"
+    "audio": "yes"
   },
   {
     "id": 404,
@@ -4255,7 +4255,7 @@
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["შენ ხარ ექიმმა", "შენ ხარ ექიმით", "შენ ხარ ექიმი", "შენ ხარ ექიმად"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027005/questionsType3/type3Q4_hrb3yl.mp3"
+    "audio": "yes"
   },
   {
     "id": 405,
@@ -4268,7 +4268,7 @@
       "თქვენ უყურებთ ფეხბურთად"
     ],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027005/questionsType3/type3Q5_pjs6fb.mp3"
+    "audio": "yes"
   },
   {
     "id": 406,
@@ -4281,7 +4281,7 @@
       "საფულე დევს ჩანთაში"
     ],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027005/questionsType3/type3Q6_xzw8ho.mp3"
+    "audio": "yes"
   },
   {
     "id": 407,
@@ -4289,7 +4289,7 @@
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["ეზო ავი ძაღლია", "ეზოში ავი ძაღლია", "ეზოდან ავი ძაღლია", "ეზოზე ავი ძაღლია"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027005/questionsType3/type3Q7_gxsniq.mp3"
+    "audio": "yes"
   },
   {
     "id": 408,
@@ -4302,7 +4302,7 @@
       "გიორგი სკოლაში სწავლობს"
     ],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027006/questionsType3/type3Q8_aa4qpx.mp3"
+    "audio": "yes"
   },
   {
     "id": 409,
@@ -4315,7 +4315,7 @@
       "კოკა-კოლა მაცივრისგან დევს"
     ],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027012/questionsType3/type3Q9_vrwxxd.mp3"
+    "audio": "yes"
   },
   {
     "id": 410,
@@ -4328,7 +4328,7 @@
       "ბავშვი წყალი ჩავარდა"
     ],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027012/questionsType3/type3Q10_dn1ka9.mp3"
+    "audio": "yes"
   },
   {
     "id": 411,
@@ -4341,7 +4341,7 @@
       "ის მიდის კონცერტზე"
     ],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027754/questionsType3/type3Q11_h78ywx.mp3"
+    "audio": "yes"
   },
   {
     "id": 412,
@@ -4354,7 +4354,7 @@
       "ვაშლი დევს მაგიდაზე"
     ],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027755/questionsType3/type3Q12_q8iga1.mp3"
+    "audio": "yes"
   },
   {
     "id": 413,
@@ -4367,7 +4367,7 @@
       "ბიჭი ფეხი იცვამს წინდას"
     ],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027755/questionsType3/type3Q13_jghlcb.mp3"
+    "audio": "yes"
   },
   {
     "id": 414,
@@ -4380,7 +4380,7 @@
       "არმსტრონგმა მთვარეს დადგა ფეხი"
     ],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027754/questionsType3/type3Q14_hhpoes.mp3"
+    "audio": "yes"
   },
   {
     "id": 415,
@@ -4388,7 +4388,7 @@
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["ჩიტი ტოტი ზის", "ჩიტი ტოტიდან ზის", "ჩიტი ტოტზე ზის", " ჩიტი ტოტში ზის"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027755/questionsType3/type3Q15_yfinh4.mp3"
+    "audio": "yes"
   },
   {
     "id": 416,
@@ -4396,7 +4396,7 @@
     "title": ". შემოხაზეთ არასწორი პასუხი: ყვავილები ყვავის:",
     "variants": ["სახლის ქვეშ", "სახლის უკან", "სახლის ირგვლივ", "სახლის წინ"],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027754/questionsType3/type3Q16_fuvwrq.mp3"
+    "audio": "yes"
   },
   {
     "id": 417,
@@ -4404,7 +4404,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: ბოსტანი გაშენებულია…",
     "variants": ["შენობაზე", "შენობის გვერდზე", "შენობაში", "შენობის ეზოზე"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027756/questionsType3/type3Q17_mcmeh2.mp3"
+    "audio": "yes"
   },
   {
     "id": 418,
@@ -4412,7 +4412,7 @@
     "title": ". შემოხაზეთ სწორი პასუხი: ანა დგას…",
     "variants": ["სკამიდან", "სკამის ირგვლივ", "სკამზე", "სკამის ქვემოთ"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027756/questionsType3/type3Q18_lkpldt.mp3"
+    "audio": "yes"
   },
   {
     "id": 419,
@@ -4420,7 +4420,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: ის ავიდა ...",
     "variants": ["კიბის საფეხურზე", "კიბის ირგვლივ", "კიბის საფეხურში", "კიბის საფეხურისგან"],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027756/questionsType3/type3Q19_n8zaig.mp3"
+    "audio": "yes"
   },
   {
     "id": 420,
@@ -4428,7 +4428,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: გავემართე ...",
     "variants": ["ცირკისგან", "ცირკისთვის", "ცირკისკენ", "ცირკივით"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027757/questionsType3/type3Q20_lynbwq.mp3"
+    "audio": "yes"
   },
   {
     "id": 421,
@@ -4441,7 +4441,7 @@
       "ჭავჭავაძის გამზირზე"
     ],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027756/questionsType3/type3Q21_hlnm4e.mp3"
+    "audio": "yes"
   },
   {
     "id": 422,
@@ -4449,7 +4449,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: აბაშიძის ქუჩიდან გადავედი .....",
     "variants": ["წერეთლის ქუჩაში", "წერეთლის ქუჩაზე", "წერეთლის ქუჩიდან", "წერეთლის ქუჩისთვის"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027756/questionsType3/type3Q22_ghpy4x.mp3"
+    "audio": "yes"
   },
   {
     "id": 423,
@@ -4457,7 +4457,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: ის დასახლდა ...",
     "variants": ["თბილისიდან", "თბილისზე", "თბილისში", "თბილისისგან"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027756/questionsType3/type3Q23_hwoy6a.mp3"
+    "audio": "yes"
   },
   {
     "id": 424,
@@ -4470,7 +4470,7 @@
       "რუსთაველის გამზირისთვის"
     ],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027757/questionsType3/type3Q24_iy70nq.mp3"
+    "audio": "yes"
   },
   {
     "id": 425,
@@ -4478,7 +4478,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: მე დავიბადე ...",
     "variants": ["თბილისისკენ", "თბილისიდან", "თბილისში", "თბილისზე"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027757/questionsType3/type3Q25_owl5b6.mp3"
+    "audio": "yes"
   },
   {
     "id": 426,
@@ -4491,7 +4491,7 @@
       "მოგზაური გამოვიდა სასტუმროდან"
     ],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027757/questionsType3/type3Q26_mjannr.mp3"
+    "audio": "yes"
   },
   {
     "id": 427,
@@ -4504,7 +4504,7 @@
       "დათო წამოვიდა მეგობარში"
     ],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027757/questionsType3/type3Q27_sk3nwb.mp3"
+    "audio": "yes"
   },
   {
     "id": 428,
@@ -4512,7 +4512,7 @@
     "title": "შემოხაზეთ არასწორი პასუხი: ის ბრუნდება ...",
     "variants": ["მეგობრისგან", "მეგობრისკენ", "მეგობარი", "მეგობრისთვის"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027757/questionsType3/type3Q28_zo5qso.mp3"
+    "audio": "yes"
   },
   {
     "id": 429,
@@ -4525,7 +4525,7 @@
       "მსახიობი წამოვიდა თეატრში"
     ],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027758/questionsType3/type3Q29_orpeux.mp3"
+    "audio": "yes"
   },
   {
     "id": 430,
@@ -4533,7 +4533,7 @@
     "title": ". შემოხაზეთ სწორი პასუხი: შენ თეატრში…",
     "variants": ["იყავით?", "მიდის?", "წავალ?", "მიდიხარ?"],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668027758/questionsType3/type3Q30_sgrgsg.mp3"
+    "audio": "yes"
   },
   {
     "id": 431,
@@ -4541,7 +4541,7 @@
     "title": "თქვენ სამსახურში ...",
     "variants": ["იყავით?", "მიდის?", "მივიდა?", "იყო?"],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668029216/questionsType3/type3Q31_aizml7.mp3"
+    "audio": "yes"
   },
   {
     "id": 432,
@@ -4549,7 +4549,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: ისინი ბაზარში ...",
     "variants": ["იყო?", "იყვნენ?", "წავა?", "წახვედით?"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071047/questionsType3/type3Q32_yibtht.mp3"
+    "audio": "yes"
   },
   {
     "id": 433,
@@ -4557,7 +4557,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: ჩვენ თამაშს ...",
     "variants": ["მოიგებ?", "მოიგებთ?", "მოვიგებთ?", "მოიგებენ?"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071052/questionsType3/type3Q33_ma8kkk.mp3"
+    "audio": "yes"
   },
   {
     "id": 434,
@@ -4565,7 +4565,7 @@
     "title": ". შემოხაზეთ სწორი პასუხი: ვალაგებთ .....",
     "variants": ["ისინი", "ჩვენ", "მე", "თქვენ"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071048/questionsType3/type3Q34_ynrddo.mp3"
+    "audio": "yes"
   },
   {
     "id": 435,
@@ -4573,7 +4573,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: მიემგზავრები .....",
     "variants": ["მე", "ის", "შენ", "ჩვენ"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668029065/questionsType3/type3Q35_ilr1pe.mp3"
+    "audio": "yes"
   },
   {
     "id": 436,
@@ -4586,7 +4586,7 @@
       "ვარ დარწმუნებული, რომ სახლში იქნებიან"
     ],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071080/questionsType3/type3Q36_tuxdn1.mp3"
+    "audio": "yes"
   },
   {
     "id": 437,
@@ -4594,7 +4594,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: „არ ვიცი, გაიგე თუ არა” - გულისხმობს:",
     "variants": ["ვიცი, რომ ვერ გაიგე;", "ალბათ გაიგე", "ვიცი, რომ გაიგე", "მჯერა, რომ გაიგე"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071074/questionsType3/type3Q37_y7l8h6.mp3"
+    "audio": "yes"
   },
   {
     "id": 438,
@@ -4602,7 +4602,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: „ალბათ დავხატავ“ ნიშნავს:",
     "variants": ["აუცილებლად დავხატავ", "არ დავხატავ", "უნდა დავხატო", "შეიძლება დავხატო"],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668029404/questionsType3/type3Q38_lu8x9o.mp3"
+    "audio": "yes"
   },
   {
     "id": 439,
@@ -4610,7 +4610,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: „შეიძლება ვიყიდო“ გულისხმობს",
     "variants": ["ალბათ ვიყიდი", "რა თქმა უნდა, ვიყიდი", "უნდა ვიყიდო", "აუცილებლად ვიყიდი"],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668029121/questionsType3/type3Q39_iqbqhp.mp3"
+    "audio": "yes"
   },
   {
     "id": 440,
@@ -4618,7 +4618,7 @@
     "title": "შემოხაზეთ არასწორი პასუხი: ხვალ წვიმა წამოვა?",
     "variants": ["კი", "რატომ", "ჰო", "დიახ"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668029149/questionsType3/type3Q40_efbd0u.mp3"
+    "audio": "yes"
   },
   {
     "id": 441,
@@ -4626,7 +4626,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: „დიახ“ ნიშნავს:",
     "variants": ["უარვყოფ", "ვეთანხმები", "ვეკითხები", "ვასწავლი"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071256/questionsType3/type3Q41_hos97o.mp3"
+    "audio": "yes"
   },
   {
     "id": 442,
@@ -4634,7 +4634,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: შეკითხვაზე - „სასტუმროში გავჩერდეთ?“ - პასუხია:",
     "variants": ["როგორ?", "საით?", "ამისთვის?", "კი"],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071255/questionsType3/type3Q42_afhxk6.mp3"
+    "audio": "yes"
   },
   {
     "id": 443,
@@ -4642,7 +4642,7 @@
     "title": "შემოხაზეთ არასწორი პასუხი: მისამართი იცით?",
     "variants": ["კი", "დიახ", "ჰო", "უკვე"],
     "correct": 3,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071254/questionsType3/type3Q43_s5x5en.mp3"
+    "audio": "yes"
   },
   {
     "id": 444,
@@ -4650,7 +4650,7 @@
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["თქვენ ვართ ირაკლი", "მე ვარ ირაკლი", "ის არიან დათო", "შენ არის დათო"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071256/questionsType3/type3Q44_nesrbv.mp3"
+    "audio": "yes"
   },
   {
     "id": 445,
@@ -4663,7 +4663,7 @@
       "შენ სანდრო გვქვია?"
     ],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071261/questionsType3/type3Q45_bnhz9p.mp3"
+    "audio": "yes"
   },
   {
     "id": 446,
@@ -4671,7 +4671,7 @@
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["იმას არის ჯიმი", "იმას ჰქვია ჯიმი", "ის ჰქვია ჯიმი", "იმან ჰქვია ჯიმი"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071258/questionsType3/type3Q46_mkbe9d.mp3"
+    "audio": "yes"
   },
   {
     "id": 447,
@@ -4679,7 +4679,7 @@
     "title": "შემოხაზეთ არასწორი პასუხი: ჩამონათვალში სხვა მნიშვნელობისაა:",
     "variants": ["გამარჯობა", "კარგად იყავი", "ხვალამდე", "ნახვამდის"],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071260/questionsType3/type3Q47_w7cyps.mp3"
+    "audio": "yes"
   },
   {
     "id": 448,
@@ -4687,7 +4687,7 @@
     "title": "შემოხაზეთ არასწორი პასუხი: „ნახვამდის“ შეიძლება ნიშნავდეს:",
     "variants": ["შეხვედრამდე", "კარგად იყავი", "დილა მშვიდობის", "ხვალამდე"],
     "correct": 2,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071264/questionsType3/type3Q48_ksj6ya.mp3"
+    "audio": "yes"
   },
   {
     "id": 449,
@@ -4700,7 +4700,7 @@
       "ღამე მშვიდობის, ნახვამდის"
     ],
     "correct": 0,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071265/questionsType3/type3Q49_mfyxyq.mp3"
+    "audio": "yes"
   },
   {
     "id": 450,
@@ -4708,7 +4708,7 @@
     "title": "შემოხაზეთ სწორი პასუხი: ეს ბილეთი არის:",
     "variants": ["თეატრში", "თვითმფრინავის", "კინომ", "სპექტაკლისგან"],
     "correct": 1,
-    "audio": "https://res.cloudinary.com/dcu45fjb6/video/upload/v1668071263/questionsType3/type3Q50_sxojqt.mp3"
+    "audio": "yes"
   },
   {
     "id": 451,
