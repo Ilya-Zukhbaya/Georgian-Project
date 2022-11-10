@@ -24,7 +24,7 @@
           width: 80px;
           margin: 0 auto;
           position: absolute;
-          top: 10px;
+          top: -30px;
           left: 0;
           right: 0;
         }
@@ -38,8 +38,9 @@
     justify-content: center;
     &__rightside {
       position: absolute;
-      right: 20px;
-      top: 10px;
+      top: 20px;
+      right: auto;
+      left: auto;
     }
   }
   @media (max-width: 470px) {
@@ -54,7 +55,7 @@
     }
     &__rightside {
       right: unset !important;
-      top: 40px !important;
+      top: -8px !important;
     }
   }
 

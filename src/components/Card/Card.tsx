@@ -61,19 +61,21 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
   return (
     <div className={styles.root}>
       <span className={styles.root__progressBar}>
-        <b>{t('header.__progress')}: </b>
-        <span>
-          {step + 1} / {items.length}
-        </span>
+        <div>
+          <b>{t('header.__progress')}: </b>
+          <span>
+            {step + 1} / {items.length}
+          </span>
+          {favoriteItems.find((obj) => obj.id === id) ? (
+            <Unsave onClick={removeFromFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
+          ) : (
+            <Save onClick={addToFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
+          )}
+        </div>
         {audio ? <audio controls preload="auto" crossOrigin="anonymous" src={src}></audio> : ''}
       </span>
       <div className={styles.root__header}>
         <h3>{title}</h3>
-        {favoriteItems.find((obj) => obj.id === id) ? (
-          <Unsave onClick={removeFromFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
-        ) : (
-          <Save onClick={addToFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
-        )}
       </div>
       <div className={styles.root__main}>
         {variants.map((obj, i) => (

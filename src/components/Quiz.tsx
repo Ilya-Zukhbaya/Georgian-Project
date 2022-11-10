@@ -5,10 +5,12 @@ import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../redux/store';
 import data from '../assets/questions.json';
 import { setItems } from '../redux/slices/quizSlice';
+import { useNavigate } from 'react-router-dom';
 
 export const Quiz: React.FC = () => {
   const { step, items, active, cardId } = useSelector((state: RootState) => state.quiz);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   React.useEffect(() => {
     dispatch(
@@ -19,11 +21,10 @@ export const Quiz: React.FC = () => {
           .slice(0, cardId < 3 ? 20 : data.length),
       ),
     );
+    if (step === items.length && items.length !== 0) {
+      navigate('/result');
+    }
   }, [active]);
-
-  if (step === items.length) {
-    return <Result />;
-  }
 
   return (
     <div>
