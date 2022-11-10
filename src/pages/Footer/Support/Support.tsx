@@ -19,7 +19,7 @@ export const Support: React.FC = () => {
         </li>
         <li>
           - Bank Of Georgia
-          <span>5488 8808 0418 9822</span>
+          <span>GE08BG0000000537888364</span>
           ZUKHBAYA ILYA
         </li>
       </ul>

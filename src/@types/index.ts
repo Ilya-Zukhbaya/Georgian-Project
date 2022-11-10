@@ -4,6 +4,7 @@ export type itemsT = {
   type: number[];
   variants: string[];
   correct: number;
+  audio?: string | undefined;
 };
 
 export type emptyCardP = {

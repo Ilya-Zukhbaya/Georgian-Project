@@ -17,15 +17,21 @@ import styles from './index.module.scss';
 import { Link } from 'react-router-dom';
 import { getFavoritesFromLs } from '../../utils/getFromLs';
 
-export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) => {
-  const { t } = useTranslation();
+export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, audio }) => {
+  React.useEffect(() => {
+    if (audio) {
+      const newId = id.toString();
+      setSrc(`${process.env.REACT_APP_URL}${type[0] + 1}/type${type[0] + 1}Q${newId}.mp3`);
+    }
+  }, [id]);
 
+  const { t } = useTranslation();
   const data = getFavoritesFromLs();
   const favoriteItems: itemsT[] = data.items;
-
   const { disable, correctAns, favorite, progress } = useSelector((state: RootState) => state.card);
   const { step, items } = useSelector((state: RootState) => state.quiz);
   const { value } = useSelector((state: RootState) => state.theme);
+  const [src, setSrc] = React.useState('');
   const dispatch = useDispatch();
 
   const onVariantClick = (i: number) => {
@@ -59,6 +65,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type }) =
         <span>
           {step + 1} / {items.length}
         </span>
+        {audio ? <audio controls preload="auto" crossOrigin="anonymous" src={src}></audio> : ''}
       </span>
       <div className={styles.root__header}>
         <h3>{title}</h3>
