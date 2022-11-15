@@ -15,6 +15,14 @@ export type emptyCardP = {
   numberOfQ: number;
   lng: string;
   type: number;
+  navTitle: string;
+};
+
+export type emptyMainCardT = {
+  id: number;
+  title: string;
+  lng: string;
+  navigate: string;
 };
 
 export type lngsT = {
@@ -31,3 +39,16 @@ export type lngsT = {
     geName: string;
   };
 };
+
+export type TestT = {
+  title: number;
+  sub: number;
+};
+
+export interface quizSliceI {
+  items: itemsT[];
+  step: number;
+  active: boolean;
+  cardId: number;
+  variant: number[];
+}

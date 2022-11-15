@@ -1,0 +1,34 @@
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '../../redux/store';
+import { Test } from '../Test';
+import { TestT } from '../../@types';
+
+export const CardVariants: React.FC = () => {
+  const { items } = useSelector((state: RootState) => state.quiz);
+  const newArray: TestT[] = [];
+  const [test, setTest] = React.useState<TestT[]>([]);
+
+  React.useEffect(() => {
+    let value = Math.ceil(items.length / 20) - 1;
+    if ((value + 1) % 5 === 0) value = 10;
+    for (var i = 0; i < value; i++) {
+      newArray.push(
+        i === 0
+          ? { title: 0, sub: 20 }
+          : i === value - 1
+          ? { title: 20 * i + 1, sub: items.length }
+          : { title: 20 * i + 1, sub: 20 * (i + 1) },
+      );
+    }
+    setTest(newArray);
+  }, []);
+
+  return (
+    <div className="prepo">
+      {test.map((obj, i) => {
+        return <Test key={i} {...obj} />;
+      })}
+    </div>
+  );
+};

@@ -29,7 +29,7 @@ export const Quiz: React.FC = () => {
     <div>
       {items
         ? items.filter((_, i) => i === step).map((obj, i) => <Card {...obj} key={i} />)
-        : 'Hello'}
+        : 'Sorry, no questions found!'}
     </div>
   );
 };

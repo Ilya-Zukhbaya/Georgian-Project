@@ -1,28 +1,26 @@
 import { useSelector } from 'react-redux';
-import { EmptyCard } from '../components/EmptyCard/EmptyCard';
-import { emptyCardInfo } from '../assets/EmptyCard';
 import { RootState } from '../redux/store';
-import { Quiz } from '../components/Quiz';
+import { Quiz } from '../components/MemoQuiz';
 import i18n from '../i18n';
-import { Footer } from '../components/Footer/Footer';
+import { EmptyMainCard } from '../components/EmptyMainCard';
+import { mainCard } from '../assets/mainCard';
 
 export const Home = () => {
   const { active } = useSelector((state: RootState) => state.quiz);
 
   return (
-    <div>
+    <>
       {active ? (
         <Quiz />
       ) : (
         <div className="main">
-          {emptyCardInfo
+          {mainCard
             .filter((obj) => obj.lng === i18n.resolvedLanguage)
             .map((obj, i) => (
-              <EmptyCard key={i} {...obj} />
+              <EmptyMainCard key={i} {...obj} />
             ))}
         </div>
       )}
-      <Footer />
-    </div>
+    </>
   );
 };

@@ -17,6 +17,11 @@ i18n
           window: {
             __confirmFavorite: 'Are you sure you want to remove questions?',
           },
+          main: {
+            __memo: 'Memorization',
+            __preparing: 'Preparing for tests',
+            __test: 'Test simulation',
+          },
           header: {
             __progress: 'Progress',
             __saved: 'Saved',
@@ -137,6 +142,11 @@ i18n
           window: {
             __confirmFavorite: 'დარწმუნებული ხართ, რომ გსურთ წაშალოთ კითხვები?',
           },
+          main: {
+            __memo: 'დამახსოვრება',
+            __preparing: 'ტესტებისთვის მზადება',
+            __test: 'ტესტის სიმულაცია',
+          },
           header: {
             __progress: 'პროგრესი',
             __saved: 'სანიშნეები',
@@ -256,6 +266,11 @@ i18n
         translation: {
           window: {
             __confirmFavorite: 'Вы уверены, что хотите удалить вопросы?',
+          },
+          main: {
+            __memo: 'Заучивание',
+            __preparing: 'Подготовка к тестам',
+            __test: 'Имитация теста',
           },
           header: {
             __progress: 'Прогресс',

@@ -8,8 +8,6 @@ import { ReactComponent as Light } from '../../assets/pictures/header/light.svg'
 import { ReactComponent as Dark } from '../../assets/pictures/header/dark.svg';
 import { lngs } from '../../assets/Languages';
 import { Link, useLocation } from 'react-router-dom';
-import { setActive, setStep } from '../../redux/slices/quizSlice';
-import { setCorrectAns, setDisable } from '../../redux/slices/cardSlice';
 
 export const Header = () => {
   const theme = useSelector((state: RootState) => state.theme.value);
@@ -32,18 +30,11 @@ export const Header = () => {
     i18n.changeLanguage(lng);
   };
 
-  const onHeaderClick = () => {
-    dispatch(setActive(false));
-    dispatch(setCorrectAns(0));
-    dispatch(setStep(0));
-    dispatch(setDisable(false));
-  };
-
   return (
     <div className={styles.root}>
       <div className={styles.root__lefside}>
         <Link to="/">
-          <h1 onClick={onHeaderClick}>G-PROJECT</h1>
+          <h1>G-PROJECT</h1>
         </Link>
         <nav>
           <Link to="/progress">

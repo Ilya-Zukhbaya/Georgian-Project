@@ -4,16 +4,17 @@ import styles from './index.module.scss';
 import { setActive, setStep } from '../../redux/slices/quizSlice';
 import { setCorrectAns } from '../../redux/slices/cardSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { RootState } from '../../redux/store';
 import { useTranslation } from 'react-i18next';
 
 export const Result: React.FC = () => {
-  const dispatch = useDispatch();
+  const { t } = useTranslation();
+
   const { correctAns } = useSelector((state: RootState) => state.card);
   const { items, cardId } = useSelector((state: RootState) => state.quiz);
 
-  const { t } = useTranslation();
+  const dispatch = useDispatch();
 
   const restart = () => {
     dispatch(setActive(false));
