@@ -26,6 +26,7 @@ import { Memo } from './pages/Memo';
 import { Prepo } from './pages/Prepo';
 import { CardVariants } from './components/CardVariants';
 import { PrepoQuiz } from './components/PrepoQuiz';
+import { Link } from 'react-router-dom';
 
 function App() {
   const theme = useSelector((state: RootState) => state.theme.value);
@@ -50,6 +51,11 @@ function App() {
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
       <div className="app">
+        <div className="logo">
+          <Link to="/">
+            <h1>G-PROJECT</h1>
+          </Link>
+        </div>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

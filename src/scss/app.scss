@@ -25,6 +25,10 @@
   display: none;
 }
 
+.logo {
+  padding-top: 15px;
+}
+
 .not-found {
   margin-top: 50px;
 }
@@ -45,6 +49,11 @@
 }
 
 @media (max-width: 740px) {
+  h1 {
+    font-size: 15px;
+    width: 80px;
+    margin: 0 auto;
+  }
   .main {
     width: 625px;
     margin: 100px auto;
@@ -65,7 +74,7 @@
 @media (max-width: 470px) {
   .main {
     flex-direction: column;
-    margin: 100px auto 0;
+    margin: 15px auto 0;
     width: 300px;
     display: flex;
   }
@@ -98,9 +107,10 @@
 
   @media (max-width: 740px) {
     margin: 0 auto;
+    padding-bottom: 15px;
 
     p {
-      bottom: -30px;
+      bottom: 0;
       position: absolute;
       left: 0;
     }
@@ -125,7 +135,9 @@
     }
   }
   @media (max-width: 630px) {
+    padding-bottom: 15px;
     justify-content: center;
+    align-items: baseline;
     h3 {
       font-weight: 400;
     }
@@ -133,9 +145,8 @@
 
   @media (max-width: 470px) {
     p {
-      bottom: unset;
-      margin-top: 40px;
-      font-size: 8.5px;
+      bottom: 0;
+      font-size: 7.5px;
     }
   }
 

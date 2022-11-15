@@ -11,7 +11,6 @@
   }
 
   @media (max-width: 740px) {
-    margin: 50px 20px 0;
     &__rightside {
       button {
         font-size: 11px !important;
@@ -35,10 +34,12 @@
     }
   }
   @media (max-width: 630px) {
+    margin: unset;
+    padding-top: 10px;
     justify-content: center;
     &__rightside {
       position: absolute;
-      top: 30px;
+      top: 70px;
       right: auto;
       left: auto;
     }
@@ -50,12 +51,8 @@
   }
 
   @media (max-width: 375px) {
-    nav {
-      margin-top: 20px;
-    }
     &__rightside {
       right: unset !important;
-      top: -8px !important;
     }
   }
 

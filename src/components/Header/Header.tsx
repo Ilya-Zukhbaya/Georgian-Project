@@ -33,9 +33,6 @@ export const Header = () => {
   return (
     <div className={styles.root}>
       <div className={styles.root__lefside}>
-        <Link to="/">
-          <h1>G-PROJECT</h1>
-        </Link>
         <nav>
           <Link to="/progress">
             <button className={location.pathname === '/progress' ? 'bold' : ''}>
