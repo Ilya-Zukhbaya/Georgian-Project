@@ -47,6 +47,7 @@ export type TestT = {
 
 export interface quizSliceI {
   items: itemsT[];
+  testItems: itemsT[];
   step: number;
   active: boolean;
   cardId: number;

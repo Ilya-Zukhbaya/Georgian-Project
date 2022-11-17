@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
 import { TestT } from '../@types';
-import { setVariant } from '../redux/slices/quizSlice';
+import { setActive, setVariant } from '../redux/slices/quizSlice';
 import { Link, useLocation } from 'react-router-dom';
 
 export const Test: React.FC<TestT> = ({ title, sub }) => {
@@ -14,6 +14,7 @@ export const Test: React.FC<TestT> = ({ title, sub }) => {
 
   const onButtonClick = (title: number, sub: number) => {
     dispatch(setVariant([title, sub]));
+    dispatch(setActive(true));
   };
 
   return (

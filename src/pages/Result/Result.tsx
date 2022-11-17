@@ -4,7 +4,7 @@ import styles from './index.module.scss';
 import { setActive, setStep } from '../../redux/slices/quizSlice';
 import { setCorrectAns } from '../../redux/slices/cardSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { RootState } from '../../redux/store';
 import { useTranslation } from 'react-i18next';
 
@@ -12,7 +12,7 @@ export const Result: React.FC = () => {
   const { t } = useTranslation();
 
   const { correctAns } = useSelector((state: RootState) => state.card);
-  const { items, cardId } = useSelector((state: RootState) => state.quiz);
+  const { items, cardId, testItems } = useSelector((state: RootState) => state.quiz);
 
   const dispatch = useDispatch();
 
@@ -25,9 +25,14 @@ export const Result: React.FC = () => {
   return (
     <div className={styles.root}>
       <h1>
-        {t('result.__result')}: {correctAns} {t('result.__correct')} {items.length}{' '}
-        {t('result.__questions')} (
-        {items.length === 0 ? '0' : Math.floor((correctAns / items.length) * 100)} %)
+        {t('result.__result')}: {correctAns} {t('result.__correct')}{' '}
+        {items.length === 0 ? testItems.length : items.length} {t('result.__questions')} (
+        {correctAns === 0
+          ? '0'
+          : items.length === 0
+          ? Math.floor((correctAns / testItems.length) * 100)
+          : Math.floor((correctAns / items.length) * 100)}
+        %)
       </h1>
       <div className={styles.root__buttonContainer}>
         <Link to={`/card/${cardId}`}>

@@ -29,7 +29,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
   const data = getFavoritesFromLs();
   const favoriteItems: itemsT[] = data.items;
   const { disable, correctAns, favorite, progress } = useSelector((state: RootState) => state.card);
-  const { step, items } = useSelector((state: RootState) => state.quiz);
+  const { step, items, testItems } = useSelector((state: RootState) => state.quiz);
   const { value } = useSelector((state: RootState) => state.theme);
   const [src, setSrc] = React.useState('');
   const dispatch = useDispatch();
@@ -64,7 +64,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
         <div>
           <b>{t('header.__progress')}: </b>
           <span>
-            {step + 1} / {items.length}
+            {step + 1} / {items.length === 0 ? testItems.length : items.length}
           </span>
           {favoriteItems.find((obj) => obj.id === id) ? (
             <Unsave onClick={removeFromFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
@@ -91,7 +91,32 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
           </button>
         ))}
       </div>
-      {step === items.length - 1 ? (
+      {items.length === 0 ? (
+        step === testItems.length - 1 ? (
+          <Link to="/result" className={styles.root__footer}>
+            <button
+              style={
+                value === 'dark'
+                  ? { backgroundColor: 'rgb(112 112 112)' }
+                  : { backgroundColor: 'rgb(183 183 183)' }
+              }
+              onClick={() => onStepClick(step)}>
+              <span>{t('button.__next')}</span>
+            </button>
+          </Link>
+        ) : (
+          <button
+            style={
+              value === 'dark'
+                ? { backgroundColor: 'rgb(112 112 112)' }
+                : { backgroundColor: 'rgb(183 183 183)' }
+            }
+            onClick={() => onStepClick(step)}
+            className={styles.root__footer}>
+            <span>{t('button.__next')}</span>
+          </button>
+        )
+      ) : step === items.length - 1 ? (
         <Link to="/result" className={styles.root__footer}>
           <button
             style={

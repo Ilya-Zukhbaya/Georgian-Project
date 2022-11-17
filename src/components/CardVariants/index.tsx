@@ -3,9 +3,13 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
 import { Test } from '../Test';
 import { TestT } from '../../@types';
+import { Link } from 'react-router-dom';
+import { setActive } from '../../redux/slices/quizSlice';
 
 export const CardVariants: React.FC = () => {
-  const { items } = useSelector((state: RootState) => state.quiz);
+  const dispatch = useDispatch();
+  const { items, cardId } = useSelector((state: RootState) => state.quiz);
+  const { value } = useSelector((state: RootState) => state.theme);
   const newArray: TestT[] = [];
   const [test, setTest] = React.useState<TestT[]>([]);
 
@@ -25,10 +29,20 @@ export const CardVariants: React.FC = () => {
   }, []);
 
   return (
-    <div className="prepo">
-      {test.map((obj, i) => {
-        return <Test key={i} {...obj} />;
-      })}
-    </div>
+    <>
+      <Link to={`/card/${cardId}`}>
+        <button
+          onClick={() => dispatch(setActive(true))}
+          style={value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}
+          className="prepo__header">
+          20 случайных вопросов
+        </button>
+      </Link>
+      <div className="prepo">
+        {test.map((obj, i) => {
+          return <Test key={i} {...obj} />;
+        })}
+      </div>
+    </>
   );
 };

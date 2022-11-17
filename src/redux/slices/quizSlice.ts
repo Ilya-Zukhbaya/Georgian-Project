@@ -6,6 +6,7 @@ import { quizSliceI } from '../../@types/index';
 const initialState: quizSliceI = {
   active: false,
   items: [],
+  testItems: [],
   step: 0,
   cardId: 0,
   variant: [],
@@ -30,9 +31,23 @@ export const quizSlice = createSlice({
     setVariant(state, action: PayloadAction<number[]>) {
       state.variant = action.payload;
     },
+    setTestItems(state, action: PayloadAction<itemsT[]>) {
+      state.testItems.push(...action.payload);
+    },
+    removeTestItems(state, action: PayloadAction<[]>) {
+      state.testItems = action.payload;
+    },
   },
 });
 
-export const { setItems, setStep, setActive, setCardId, setVariant } = quizSlice.actions;
+export const {
+  setItems,
+  setStep,
+  setActive,
+  setCardId,
+  setVariant,
+  setTestItems,
+  removeTestItems,
+} = quizSlice.actions;
 
 export default quizSlice.reducer;
