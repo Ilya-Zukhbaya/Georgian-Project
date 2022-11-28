@@ -10,6 +10,10 @@ export const ContQuiz: React.FC = () => {
   const { active, items, step } = useSelector((state: RootState) => state.quiz);
   const dispatch = useDispatch();
 
+  if (step === items.length - 1) {
+    localStorage.setItem('savedItems', JSON.stringify([]));
+  }
+
   React.useEffect(() => {
     const { items, currentStep, correctAns } = getSavedItems();
     dispatch(setItems(items));
@@ -19,9 +23,11 @@ export const ContQuiz: React.FC = () => {
 
   return (
     <>
-      {items
-        ? items.filter((_, i) => i === step).map((obj, i) => <Card {...obj} key={i} />)
-        : 'Sorry, no questions found!'}
+      {items ? (
+        items.filter((_, i) => i === step).map((obj, i) => <Card {...obj} key={i} />)
+      ) : (
+        <div>Sorry, no questions found!</div>
+      )}
     </>
   );
 };
