@@ -1,6 +1,7 @@
 .root {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   margin: 10px 20px 0;
 
@@ -39,9 +40,8 @@
     justify-content: center;
     &__rightside {
       position: absolute;
-      top: 70px;
-      right: auto;
-      left: auto;
+      top: 12px;
+      right: 15px;
     }
   }
   @media (max-width: 470px) {
@@ -50,17 +50,14 @@
     }
   }
 
-  @media (max-width: 375px) {
-    &__rightside {
-      right: unset !important;
-    }
-  }
-
   &__lefside {
     display: flex;
     align-items: center;
+    padding: 15px 0;
     nav {
       display: flex;
+      width: 100%;
+      justify-content: center;
       align-items: center;
       margin-left: 20px;
       button {
@@ -90,5 +87,11 @@
     background: unset;
     border: unset;
     margin-right: 15px;
+  }
+  @media (max-width: 380px) {
+    &__rightSideMob {
+      top: 70px;
+      right: auto;
+    }
   }
 }

@@ -4,6 +4,7 @@ export type itemsT = {
   type: number[];
   variants: string[];
   correct: number;
+  answered: boolean;
   audio?: string | undefined;
 };
 
@@ -45,11 +46,24 @@ export type TestT = {
   sub: number;
 };
 
+export type itemT = {
+  id: number;
+  title: string;
+  correct: number;
+  variants: string[];
+  type: number[];
+  answered: boolean;
+  choosenVariant: string;
+  correctVariant: string;
+};
+
 export interface quizSliceI {
   items: itemsT[];
   testItems: itemsT[];
+  incItems: itemT[];
   step: number;
   active: boolean;
   cardId: number;
   variant: number[];
+  activeLink: boolean;
 }

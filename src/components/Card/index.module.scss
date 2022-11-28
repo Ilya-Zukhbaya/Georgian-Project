@@ -5,8 +5,10 @@
   margin: 50px auto;
   display: flex;
   flex-direction: column;
+
   &__progressBar {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -20,9 +22,17 @@
       font-size: 23px;
       margin-right: 15px;
     }
-    b {
+    &__progress {
       margin-right: 10px;
     }
+  }
+
+  &__buttonContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__outButton {
+    margin-top: 20px;
   }
 
   @media (max-width: 1000px) {
@@ -49,16 +59,20 @@
 
   @media (max-width: 550px) {
     justify-content: unset;
+    &__progressContainer {
+      order: 1;
+    }
     &__progressBar {
       margin-bottom: 20px;
       flex-direction: column;
       audio {
-        margin-top: 10px;
+        width: 210px;
+        margin-left: 10px;
       }
     }
     width: 300px;
     max-height: 620px;
-    margin: 60px auto 0;
+    margin: 20px auto 0;
     &__main {
       margin-top: 20px;
     }

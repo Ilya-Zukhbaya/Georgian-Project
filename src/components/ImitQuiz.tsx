@@ -3,23 +3,25 @@ import { Card } from './Card/Card';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../redux/store';
 import data from '../assets/questions.json';
-import { removeTestItems, setTestItems } from '../redux/slices/quizSlice';
+import { removeTestItems, setActiveLink, setTestItems } from '../redux/slices/quizSlice';
 import { useNavigate } from 'react-router-dom';
-import { TimeContext } from '../App';
+import { CountDown } from './Timer';
+import { useTranslation } from 'react-i18next';
 
 export const ImitQuiz: React.FC = () => {
   const { step, active, testItems } = useSelector((state: RootState) => state.quiz);
+  const { incorrectAns } = useSelector((state: RootState) => state.card);
+  const { t } = useTranslation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { seconds, timerActive, setSeconds, setTimerActive } = React.useContext(TimeContext);
 
   React.useEffect(() => {
-    if (seconds > 0 && timerActive) {
-      setTimeout(setSeconds, 100, seconds - 1);
-    } else {
-      setTimerActive(false);
-    }
-  }, [seconds, timerActive]);
+    incorrectAns.map((obj) => {
+      if (obj.incAns > 3) {
+        navigate('/result');
+      }
+    });
+  }, [step]);
 
   React.useEffect(() => {
     for (let i = 0; i < 3; i++) {
@@ -36,6 +38,7 @@ export const ImitQuiz: React.FC = () => {
     if (step === testItems.length && testItems.length !== 0) {
       navigate('/result');
     }
+    dispatch(setActiveLink(false));
   }, [active]);
 
   React.useEffect(() => {
@@ -47,7 +50,12 @@ export const ImitQuiz: React.FC = () => {
 
   return (
     <div>
-      {Math.floor(seconds / 60000)} {seconds}
+      <div className="timer">
+        {t('timer.__left')}
+        <b>
+          <CountDown hours={0} minutes={20} />
+        </b>
+      </div>
       {testItems
         ? testItems.filter((_, i) => i === step).map((obj, i) => <Card {...obj} key={i} />)
         : 'Sorry, no questions found!'}

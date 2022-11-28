@@ -1,0 +1,135 @@
+.root {
+  border: 1px solid;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 800px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  border: 1px solid #9d9d9d;
+  font-weight: 500;
+  background: transparent;
+  display: inline-block;
+  border-radius: 15px;
+  border-style: none;
+  box-shadow: rgb(0 0 0 / 20%) 0 3px 5px -1px, rgb(0 0 0 / 14%) 0 6px 10px 0,
+    rgb(0 0 0 / 12%) 0 1px 18px 0;
+  -webkit-user-select: none;
+  user-select: none;
+
+  &__main {
+    width: 800px;
+  }
+
+  &__check {
+    color: rgb(71 153 81);
+  }
+  &__cross {
+    color: rgb(141 72 72);
+  }
+  &__header {
+    margin-top: 15px;
+  }
+  &__footer {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    div {
+      display: flex;
+      align-items: center;
+      span {
+        max-width: 400px;
+      }
+    }
+  }
+
+  @media (max-width: 910px) {
+    width: 600px;
+    &__main {
+      width: 600px;
+    }
+    &__footer {
+      div {
+        span {
+          max-width: 250px;
+        }
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    span {
+      font-size: 14px;
+    }
+    div {
+      font-size: 14px;
+    }
+    width: 450px;
+    &__main {
+      width: 450px;
+    }
+    &__footer {
+      div {
+        span {
+          max-width: 150px;
+        }
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    span {
+      font-size: 10px;
+    }
+    div {
+      font-size: 12px;
+    }
+    width: 350px;
+    &__main {
+      width: 350px;
+    }
+    &__footer {
+      div {
+        span {
+          max-width: 150px;
+          width: fit-content;
+        }
+      }
+    }
+  }
+  @media (max-width: 455px) {
+    span {
+      font-size: 9px;
+    }
+    div {
+      font-size: 11px;
+    }
+    width: 250px;
+    &__main {
+      width: 250px;
+    }
+    &__footer {
+      div {
+        span {
+          max-width: 100px;
+        }
+      }
+    }
+  }
+  @media (max-width: 355px) {
+    width: 200px;
+    span {
+      font-size: 8px;
+    }
+    &__main {
+      width: 200px;
+    }
+    &__footer {
+      div {
+        span {
+          max-width: 80px;
+        }
+      }
+    }
+  }
+}

@@ -9,11 +9,16 @@ const favoriteData = getFavoritesFromLs();
 const choosenType = getChoosenTypeFromLs();
 const progress = getProgressFromLs();
 
+type incAns = {
+  id: number;
+  incAns: number;
+};
 export interface cardI {
   favorite: itemsT[];
   progress: itemsT[];
   disable: boolean;
   correctAns: number;
+  incorrectAns: incAns[];
   type: number | undefined;
 }
 
@@ -23,6 +28,11 @@ const initialState: cardI = {
   type: choosenType.type,
   disable: false,
   correctAns: 0,
+  incorrectAns: [
+    { id: 0, incAns: 0 },
+    { id: 1, incAns: 0 },
+    { id: 2, incAns: 0 },
+  ],
 };
 
 export const cardSlice = createSlice({
@@ -34,6 +44,9 @@ export const cardSlice = createSlice({
     },
     setCorrectAns(state, action: PayloadAction<number>) {
       state.correctAns = action.payload;
+    },
+    setIncorrectAns(state, action: PayloadAction<number>) {
+      state.incorrectAns.map((obj) => (obj.id === action.payload ? (obj.incAns += 1) : null));
     },
     setType(state, action: PayloadAction<number>) {
       state.type = action.payload;
@@ -50,6 +63,9 @@ export const cardSlice = createSlice({
     removeAllFromFavorite(state) {
       state.favorite = [];
     },
+    removeIncorrectAns(state) {
+      state.incorrectAns.map((obj) => (obj.incAns = 0));
+    },
   },
 });
 
@@ -57,10 +73,12 @@ export const {
   setDisable,
   setCorrectAns,
   addToFavorite,
-  removeFromFavorite,
+  setIncorrectAns,
   setType,
   addToProgress,
   removeAllFromFavorite,
+  removeFromFavorite,
+  removeIncorrectAns,
 } = cardSlice.actions;
 
 export default cardSlice.reducer;

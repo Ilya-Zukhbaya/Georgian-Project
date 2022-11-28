@@ -1,12 +1,24 @@
 .root {
-  margin-top: 150px;
+  margin-top: 50px;
   padding: 0 50px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  &__incResult {
+    display: flex;
+    overflow: scroll;
+    max-width: 815px;
+    height: 300px;
+    margin: 15px auto 0;
+  }
 
   &__buttonContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
     button {
       width: 90px;
       height: 50px;
@@ -29,6 +41,26 @@
       margin-left: 15px;
     }
   }
+
+  @media (max-width: 910px) {
+    &__incResult {
+      max-width: 615px;
+      height: 250px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    &__incResult {
+      max-width: 465px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    &__incResult {
+      max-width: 365px;
+    }
+  }
+
   @media (max-width: 500px) {
     h1 {
       font-size: 16px;
@@ -36,6 +68,16 @@
     &__buttonContainer {
       display: flex;
       justify-content: center;
+    }
+  }
+  @media (max-width: 455px) {
+    &__incResult {
+      max-width: 265px;
+    }
+  }
+  @media (max-width: 355px) {
+    &__incResult {
+      max-width: 215px;
     }
   }
 }

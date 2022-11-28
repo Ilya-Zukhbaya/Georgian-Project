@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from './Card/Card';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../redux/store';
-import { setItems } from '../redux/slices/quizSlice';
+import { setActiveLink, setItems } from '../redux/slices/quizSlice';
 import { useNavigate } from 'react-router-dom';
 
 export const PrepoQuiz: React.FC = () => {
@@ -15,12 +15,14 @@ export const PrepoQuiz: React.FC = () => {
     if (step === items.length && items.length !== 0) {
       navigate('/result');
     }
+    dispatch(setActiveLink(false));
   }, [active]);
+
   return (
-    <div>
+    <>
       {items
         ? items.filter((_, i) => i === step).map((obj, i) => <Card {...obj} key={i} />)
         : 'Sorry, no questions found!'}
-    </div>
+    </>
   );
 };

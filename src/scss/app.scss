@@ -11,7 +11,7 @@
 }
 .main {
   display: flex;
-  margin: 150px auto 0;
+  margin: 150px auto 50px;
   justify-content: space-between;
   width: 1000px;
 }
@@ -43,7 +43,7 @@
 
 @media (max-width: 1050px) {
   .main {
-    margin: 100px auto 0;
+    margin: 100px auto 50px;
     width: 700px;
   }
 }
@@ -51,7 +51,6 @@
 @media (max-width: 740px) {
   h1 {
     font-size: 15px;
-    width: 80px;
     margin: 0 auto;
   }
   .main {
@@ -74,7 +73,7 @@
 @media (max-width: 470px) {
   .main {
     flex-direction: column;
-    margin: 50px auto 0;
+    margin: 0 auto 0;
     width: 300px;
     display: flex;
   }
@@ -263,5 +262,65 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0,
       rgba(0, 0, 0, 0.12) 0 1px 18px 0;
     user-select: none;
+  }
+}
+.timer {
+  margin-top: 15px;
+  @media (max-width: 630px) {
+    margin-top: 30px;
+  }
+}
+
+.info {
+  position: absolute;
+  flex-direction: column;
+  z-index: 50;
+  border: 1px solid #9d9d9d;
+  opacity: 0;
+  animation: opacity 0.5s forwards;
+  padding: 15px;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  user-select: none;
+  right: 0px;
+  top: 50px;
+  p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    b,
+    img {
+      margin: 0 5px;
+    }
+  }
+  @media (max-width: 550px) {
+    width: 100%;
+    top: 35px;
+    right: unset;
+    p {
+      font-size: 7px;
+    }
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-height: 520px) and (max-width: 470px) {
+  .footer__container {
+    position: unset;
+    margin-top: 30px;
+    justify-content: space-between;
+    p {
+      position: unset;
+    }
   }
 }

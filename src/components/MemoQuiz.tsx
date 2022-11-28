@@ -3,7 +3,7 @@ import { Card } from './Card/Card';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../redux/store';
 import data from '../assets/questions.json';
-import { setItems } from '../redux/slices/quizSlice';
+import { removeItems, setActiveLink, setItems } from '../redux/slices/quizSlice';
 import { useNavigate } from 'react-router-dom';
 
 export const Quiz: React.FC = () => {
@@ -23,13 +23,21 @@ export const Quiz: React.FC = () => {
     if (step === items.length && items.length !== 0) {
       navigate('/result');
     }
+    dispatch(setActiveLink(false));
   }, [active]);
 
+  React.useEffect(() => {
+    if (!active) {
+      dispatch(removeItems([]));
+      navigate('/');
+    }
+  }, []);
+
   return (
-    <div>
+    <>
       {items
         ? items.filter((_, i) => i === step).map((obj, i) => <Card {...obj} key={i} />)
         : 'Sorry, no questions found!'}
-    </div>
+    </>
   );
 };

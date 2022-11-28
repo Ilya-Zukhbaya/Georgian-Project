@@ -29,4 +29,7 @@ export const GlobalStyles = createGlobalStyle`
    button {
     color: ${(props) => props.theme.textColor};
    }
+   .info {
+    background: ${(props) => props.theme.body};
+   }
   `;

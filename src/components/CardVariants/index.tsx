@@ -3,14 +3,17 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
 import { Test } from '../Test';
 import { TestT } from '../../@types';
-import { Link } from 'react-router-dom';
-import { setActive } from '../../redux/slices/quizSlice';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { removeItems, setActive } from '../../redux/slices/quizSlice';
+import { useTranslation } from 'react-i18next';
 
 export const CardVariants: React.FC = () => {
   const dispatch = useDispatch();
   const { items, cardId } = useSelector((state: RootState) => state.quiz);
   const { value } = useSelector((state: RootState) => state.theme);
   const newArray: TestT[] = [];
+  const { t } = useTranslation();
+  const navigate = useNavigate();
   const [test, setTest] = React.useState<TestT[]>([]);
 
   React.useEffect(() => {
@@ -26,6 +29,10 @@ export const CardVariants: React.FC = () => {
       );
     }
     setTest(newArray);
+
+    if (items.length === 0) {
+      navigate('/');
+    }
   }, []);
 
   return (
@@ -35,7 +42,7 @@ export const CardVariants: React.FC = () => {
           onClick={() => dispatch(setActive(true))}
           style={value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}
           className="prepo__header">
-          20 случайных вопросов
+          {t('button.__randomQ')}
         </button>
       </Link>
       <div className="prepo">

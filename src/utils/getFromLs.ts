@@ -18,3 +18,15 @@ export const getTheme = () => {
   const value = theme ? theme : 'light';
   return { value };
 };
+
+export const getSavedItems = () => {
+  const data = localStorage.getItem('savedItems');
+  const step = localStorage.getItem('step');
+  const ca = localStorage.getItem('ca');
+
+  const correctAns = ca ? JSON.parse(ca) : 0;
+  const currentStep = step ? JSON.parse(step) : 0;
+  const items = data ? JSON.parse(data) : [];
+
+  return { items, currentStep, correctAns };
+};

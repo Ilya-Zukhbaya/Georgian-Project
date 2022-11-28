@@ -14,8 +14,37 @@ i18n
     resources: {
       en: {
         translation: {
+          cardInfo: {
+            __p1: 'shows what question you are currently on',
+            __p1B: 'Progress',
+            __p2: 'Click on the icon',
+            __p2p: 'to add a question to',
+            __p2B: 'Favorites',
+            __p3: 'If you want to exit the test, click on the button',
+            __p3B: 'exit',
+            __p4: 'Clicking',
+            __p4B1: 'prev.',
+            __p4B2: 'next',
+            __p4p: 'button move between questions',
+            __p5: 'If your answer is correct, it will be added to your total',
+            __p5B: 'Progress',
+            __p6: 'Click on the audio player cursor to listen to the question',
+          },
+          imitation: {
+            __h3: 'Test Imitation',
+            __h4: '10 random questions from each topic',
+            __h4S: '20 minutes to complete',
+            __h4S2: 'The timer will start counting when the button is pressed',
+            __h4S3: 'Skip and listen to questions',
+            __h4B: 'forbidden',
+            __h4B1: ' start',
+          },
+          timer: {
+            __left: 'Time left:',
+          },
           window: {
             __confirmFavorite: 'Are you sure you want to remove questions?',
+            __confirmExit: 'Are you sure you want to exit?',
           },
           main: {
             __memo: 'Memorization',
@@ -38,6 +67,8 @@ i18n
             __result: 'Result',
             __correct: 'correct answers from',
             __questions: 'questions',
+            __how: 'You answered incorrectly on',
+            __how2: 'question(s)',
           },
           lngs: {
             __buttonEn: 'en',
@@ -47,8 +78,12 @@ i18n
           button: {
             __start: 'start',
             __next: 'next',
+            __prev: 'prev.',
+            __exit: 'exit',
+            __show: 'show result',
             __try: 'Try again',
             __tomain: 'To main page',
+            __randomQ: '20 random questions',
           },
           footer: {
             __about: 'about',
@@ -139,8 +174,37 @@ i18n
       },
       ge: {
         translation: {
+          cardInfo: {
+            __p1: 'აჩვენებს, რა კითხვაზე ხართ ამჟამად',
+            __p1B: 'პროგრესი',
+            __p2: 'დააწკაპუნეთ ხატულაზე',
+            __p2p: 'კითხვის დასამატებლად',
+            __p2B: 'რჩეულები',
+            __p3: 'თუ გსურთ გამოცდის გასვლა, დააჭირეთ ღილაკს',
+            __p3B: 'გასასვლელი',
+            __p4: 'ღილაკები',
+            __p4B1: 'წინა',
+            __p4B2: 'შემდეგი',
+            __p4p: 'ღილაკი გადაადგილება კითხვებს შორის',
+            __p5: 'თუ თქვენი პასუხი სწორია, ის დაემატება თქვენს საერთო რაოდენობას',
+            __p5B: 'პროგრესი',
+            __p6: 'დააწკაპუნეთ აუდიო დამკვრელის კურსორზე კითხვის მოსასმენად',
+          },
+          imitation: {
+            __h3: 'ტესტის იმიტაცია',
+            __h4: '10 შემთხვევითი კითხვა თითოეული თემიდან',
+            __h4S: 'დასასრულებლად 20 წუთი',
+            __h4S2: 'ღილაკზე დაჭერის შემდეგ ტაიმერი დაიწყებს დათვლას.',
+            __h4S3: 'გამოტოვეთ და მოუსმინეთ კითხვებს',
+            __h4B: 'აკრძალულია',
+            __h4B1: ' დაწყება',
+          },
+          timer: {
+            __left: 'Დარჩენილი დრო:',
+          },
           window: {
             __confirmFavorite: 'დარწმუნებული ხართ, რომ გსურთ წაშალოთ კითხვები?',
+            __confirmExit: 'დარწმუნებული ხართ, რომ გსურთ გასვლა?',
           },
           main: {
             __memo: 'დამახსოვრება',
@@ -163,6 +227,8 @@ i18n
             __result: 'შედეგი',
             __correct: 'სწორი პასუხები',
             __questions: 'კითხვებიდან',
+            __how: 'თქვენ არასწორად უპასუხეთ',
+            __how2: 'კითხვა(ს)',
           },
           lngs: {
             __buttonEn: 'ინგ',
@@ -172,8 +238,12 @@ i18n
           button: {
             __start: 'დაწყება',
             __next: 'შემდეგი',
+            __prev: 'წინა',
+            __exit: 'გასა.',
+            __show: 'შედეგის ჩვენება',
             __try: 'Კიდევ სცადე',
             __tomain: 'მთავარ გვერდზე',
+            __randomQ: '20 შემთხვევითი კითხვა',
           },
           footer: {
             __about: 'შესახებ',
@@ -264,8 +334,37 @@ i18n
       },
       ru: {
         translation: {
+          cardInfo: {
+            __p1: 'показывет на каком сейчас вы находитесь вопросе',
+            __p1B: 'Прогесс',
+            __p2: 'Нажмите на иконку',
+            __p2p: 'чтобы добавить вопрос в',
+            __p2B: 'Избранное',
+            __p3: 'Если вы хотите выйти из теста, нажмите на кнопку',
+            __p3B: 'выход',
+            __p4: 'С помощью кнопок',
+            __p4B1: 'пред.',
+            __p4B2: 'след.',
+            __p4p: 'переходите между вопросами',
+            __p5: 'Если ваш ответ правильный, то он добавиться в ваш общий',
+            __p5B: 'Прогресс',
+            __p6: 'Нажмите на курсор аудиоплеера, для того, чтобы прослушать вопрос',
+          },
+          imitation: {
+            __h3: 'Имитация теста',
+            __h4: '10 случайных вопросов из каждой темы',
+            __h4S: 'На выполнение дается 20 минут',
+            __h4S2: 'Таймер начнет отсчет после нажатия кнопки',
+            __h4S3: 'Пропускать и прослушивать вопросы',
+            __h4B: 'нельзя',
+            __h4B1: ' cтарт',
+          },
+          timer: {
+            __left: 'Осталось:',
+          },
           window: {
             __confirmFavorite: 'Вы уверены, что хотите удалить вопросы?',
+            __confirmExit: 'Вы уверены, что хотите выйти?',
           },
           main: {
             __memo: 'Заучивание',
@@ -288,6 +387,8 @@ i18n
             __result: 'Результат',
             __correct: 'правильных ответов из',
             __questions: 'вопросов',
+            __how: 'Вы ответили неправильно на',
+            __how2: 'вопросa(ов)',
           },
           lngs: {
             __buttonEn: 'ан',
@@ -297,8 +398,12 @@ i18n
           button: {
             __start: 'старт',
             __next: 'след.',
+            __prev: 'пред.',
+            __exit: 'выход',
+            __show: 'посмотреть результат',
             __try: 'Поробовать еще раз',
             __tomain: 'На главную',
+            __randomQ: '20 случайных вопросов',
           },
           footer: {
             __about: 'О проекте',
