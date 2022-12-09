@@ -1,20 +1,28 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../../redux/store';
-import { Test } from '../Test';
+
 import { TestT } from '../../@types';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { removeItems, setActive } from '../../redux/slices/quizSlice';
+
+import { Test } from '../index';
+
+import { useSelector } from 'react-redux';
+import { selectQuiz, selectTheme, useAppDispatch } from '../../redux/store';
+import { setActive } from '../../redux/slices/quizSlice';
+
+import { Link, useNavigate } from 'react-router-dom';
+
 import { useTranslation } from 'react-i18next';
 
 export const CardVariants: React.FC = () => {
-  const dispatch = useDispatch();
-  const { items, cardId } = useSelector((state: RootState) => state.quiz);
-  const { value } = useSelector((state: RootState) => state.theme);
-  const newArray: TestT[] = [];
-  const { t } = useTranslation();
-  const navigate = useNavigate();
+  const dispatch = useAppDispatch();
+  const { items, cardId } = useSelector(selectQuiz);
+  const { theme } = useSelector(selectTheme);
+
   const [test, setTest] = React.useState<TestT[]>([]);
+  const newArray: TestT[] = [];
+
+  const { t } = useTranslation();
+
+  const navigate = useNavigate();
 
   React.useEffect(() => {
     let value = Math.ceil(items.length / 20) - 1;
@@ -40,7 +48,7 @@ export const CardVariants: React.FC = () => {
       <Link to={`/card/${cardId}`}>
         <button
           onClick={() => dispatch(setActive(true))}
-          style={value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}
+          style={theme === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}
           className="prepo__header">
           {t('button.__randomQ')}
         </button>

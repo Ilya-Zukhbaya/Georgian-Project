@@ -1,16 +1,19 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
-import { RootState } from '../../../redux/store';
 import styles from './index.module.scss';
+
 import data from '../../../assets/questions.json';
 import { ReactComponent as Done } from '../../../assets/pictures/header/done.svg';
+
+import { selectCard, selectTheme } from '../../../redux/store';
+import { useSelector } from 'react-redux';
+
 import { useTranslation } from 'react-i18next';
 
-export const Progress = () => {
-  const { progress } = useSelector((state: RootState) => state.card);
-  const { value } = useSelector((state: RootState) => state.theme);
-
+export const Progress: React.FC = () => {
   const { t } = useTranslation();
+
+  const { progress } = useSelector(selectCard);
+  const { theme } = useSelector(selectTheme);
 
   const history = progress.filter((obj) => obj.type[0] === 0).length;
   const historyTotal = data.filter((obj) => obj.type[0] === 0).length;
@@ -29,7 +32,7 @@ export const Progress = () => {
         <li>
           - {t('progress.__history')}:{' '}
           <span>
-            {history} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
+            {history} {theme === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
           {t('progress.__from')} <b>{historyTotal}</b> {t('progress.__questions')} (~
           {history === 0 ? 0 : Math.ceil((history / historyTotal) * 100)}
@@ -38,7 +41,7 @@ export const Progress = () => {
         <li>
           - {t('progress.__law')}:{' '}
           <span>
-            {law} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
+            {law} {theme === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
           {t('progress.__from')} <b>{lawTotal} </b> {t('progress.__questions')} (~
           {law === 0 ? 0 : Math.ceil((law / lawTotal) * 100)}
@@ -47,7 +50,7 @@ export const Progress = () => {
         <li>
           - {t('progress.__languages')}:{' '}
           <span>
-            {lng} {value === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
+            {lng} {theme === 'light' ? <Done fill="#333" /> : <Done fill="#b3b3b3" />}{' '}
           </span>{' '}
           {t('progress.__from')} <b>{lngTotal} </b> {t('progress.__questions')} (~
           {lng === 0 ? 0 : Math.ceil((lng / lngTotal) * 100)}

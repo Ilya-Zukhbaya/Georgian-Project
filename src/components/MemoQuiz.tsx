@@ -1,14 +1,19 @@
 import React from 'react';
-import { Card } from './Card/Card';
-import { useSelector, useDispatch } from 'react-redux';
-import { RootState } from '../redux/store';
+
 import data from '../assets/questions.json';
+
+import { Card } from './index';
+
+import { useSelector } from 'react-redux';
+import { selectQuiz, useAppDispatch } from '../redux/store';
 import { removeItems, setActiveLink, setItems } from '../redux/slices/quizSlice';
+
 import { useNavigate } from 'react-router-dom';
 
-export const Quiz: React.FC = () => {
-  const { step, items, active, cardId } = useSelector((state: RootState) => state.quiz);
-  const dispatch = useDispatch();
+export const MemoQuiz: React.FC = () => {
+  const dispatch = useAppDispatch();
+  const { step, items, active, cardId } = useSelector(selectQuiz);
+
   const navigate = useNavigate();
 
   React.useEffect(() => {

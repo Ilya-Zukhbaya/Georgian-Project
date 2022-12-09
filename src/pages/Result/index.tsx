@@ -1,36 +1,32 @@
 import React from 'react';
 import styles from './index.module.scss';
 
-import {
-  removeIncItems,
-  removeItems,
-  removeTestItems,
-  setActive,
-  setStep,
-} from '../../redux/slices/quizSlice';
+import { useSelector } from 'react-redux';
+import * as Quiz from '../../redux/slices/quizSlice';
+import { selectCard, selectQuiz, useAppDispatch } from '../../redux/store';
 import { removeIncorrectAns, setCorrectAns } from '../../redux/slices/cardSlice';
-import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { RootState } from '../../redux/store';
+
 import { useTranslation } from 'react-i18next';
-import { IncResult } from '../../components/IncResult';
+
+import { Link } from 'react-router-dom';
+
+import { IncResult } from '../../components/index';
 
 export const Result: React.FC = () => {
+  const dispatch = useAppDispatch();
   const { t } = useTranslation();
 
-  const { correctAns } = useSelector((state: RootState) => state.card);
-  const { items, testItems, incItems } = useSelector((state: RootState) => state.quiz);
-
-  const dispatch = useDispatch();
+  const { correctAns } = useSelector(selectCard);
+  const { items, testItems, incItems } = useSelector(selectQuiz);
 
   const restart = () => {
-    dispatch(setActive(false));
-    dispatch(setStep(0));
+    dispatch(Quiz.setActive(false));
+    dispatch(Quiz.setStep(0));
     dispatch(setCorrectAns(0));
     dispatch(removeIncorrectAns());
-    dispatch(removeTestItems([]));
-    dispatch(removeItems([]));
-    dispatch(removeIncItems([]));
+    dispatch(Quiz.removeTestItems([]));
+    dispatch(Quiz.removeItems([]));
+    dispatch(Quiz.removeIncItems([]));
   };
 
   return (

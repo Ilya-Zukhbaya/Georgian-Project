@@ -1,7 +1,7 @@
 import React from 'react';
 import i18n from '../../i18n';
 import { emptyCardInfo } from '../../assets/EmptyCard';
-import { EmptyCard } from '../../components/EmptyCard/EmptyCard';
+import { EmptyCard } from '../../components/index';
 
 export const Prepo: React.FC = () => {
   return (

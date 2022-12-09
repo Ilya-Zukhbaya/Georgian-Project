@@ -1,6 +1,7 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import styles from './index.module.scss';
+
+import { useTranslation } from 'react-i18next';
 
 export const About: React.FC = () => {
   const { t } = useTranslation();

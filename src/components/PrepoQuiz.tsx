@@ -1,13 +1,17 @@
 import React from 'react';
-import { Card } from './Card/Card';
-import { useSelector, useDispatch } from 'react-redux';
-import { RootState } from '../redux/store';
+
+import { Card } from './index';
+
+import { useSelector } from 'react-redux';
+import { selectQuiz, useAppDispatch } from '../redux/store';
 import { setActiveLink, setItems } from '../redux/slices/quizSlice';
+
 import { useNavigate } from 'react-router-dom';
 
 export const PrepoQuiz: React.FC = () => {
-  const { step, items, active, variant } = useSelector((state: RootState) => state.quiz);
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
+  const { step, items, active, variant } = useSelector(selectQuiz);
+
   const navigate = useNavigate();
 
   React.useEffect(() => {

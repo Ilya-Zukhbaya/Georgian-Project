@@ -1,15 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styles from './index.module.scss';
+
+import { Link } from 'react-router-dom';
 import { ReactComponent as Light } from '../../../assets/pictures/header/light.svg';
 import { ReactComponent as Dark } from '../../../assets/pictures/header/dark.svg';
+
 import { useSelector } from 'react-redux';
-import { RootState } from '../../../redux/store';
+import { selectTheme } from '../../../redux/store';
+
 import { useTranslation } from 'react-i18next';
 
-export const Info = () => {
+export const Info: React.FC = () => {
   const { t } = useTranslation();
-  const { value } = useSelector((state: RootState) => state.theme);
+
+  const { theme } = useSelector(selectTheme);
 
   return (
     <div className={styles.root}>
@@ -41,8 +45,8 @@ export const Info = () => {
         </li>
         <li>
           - {t('info.__click')}{' '}
-          {value === 'light' ? <Light fill="#333" /> : <Light fill="#b3b3b3" />} {t('info.__or')}{' '}
-          {value === 'light' ? <Dark fill="#333" /> : <Dark fill="#b3b3b3" />} {t('info.__4li')}
+          {theme === 'light' ? <Light fill="#333" /> : <Light fill="#b3b3b3" />} {t('info.__or')}{' '}
+          {theme === 'light' ? <Dark fill="#333" /> : <Dark fill="#b3b3b3" />} {t('info.__4li')}
         </li>
         <li>
           - {t('info.__click')} <span>EN, GE, RU</span> {t('info.__5li')}

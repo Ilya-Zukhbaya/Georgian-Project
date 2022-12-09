@@ -1,6 +1,8 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+
 import save from '../../assets/pictures/main/add.svg';
+
+import { useTranslation } from 'react-i18next';
 
 export const Info: React.FC = () => {
   const { t } = useTranslation();

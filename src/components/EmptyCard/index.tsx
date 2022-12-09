@@ -1,12 +1,16 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { emptyCardP } from '../../@types';
-import { Link } from 'react-router-dom';
-import data from '../../assets/questions.json';
 import styles from './index.module.scss';
-import { useSelector, useDispatch } from 'react-redux';
+import { emptyCardP } from '../../@types';
+
+import data from '../../assets/questions.json';
+
+import { useSelector } from 'react-redux';
 import { setActive, setCardId, setItems } from '../../redux/slices/quizSlice';
-import { RootState } from '../../redux/store';
+import { selectQuiz, selectTheme, useAppDispatch } from '../../redux/store';
+
+import { Link } from 'react-router-dom';
+
+import { useTranslation } from 'react-i18next';
 
 export const EmptyCard: React.FC<emptyCardP> = ({
   title,
@@ -16,10 +20,11 @@ export const EmptyCard: React.FC<emptyCardP> = ({
   subtitle,
   navTitle,
 }) => {
+  const dispatch = useAppDispatch();
+  const { active } = useSelector(selectQuiz);
+  const { theme } = useSelector(selectTheme);
+
   const { t } = useTranslation();
-  const { active } = useSelector((state: RootState) => state.quiz);
-  const dispatch = useDispatch();
-  const { value } = useSelector((state: RootState) => state.theme);
 
   const onButtonClick = () => {
     dispatch(setActive(true));
@@ -34,7 +39,7 @@ export const EmptyCard: React.FC<emptyCardP> = ({
   return (
     <div
       className={styles.root}
-      style={value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}>
+      style={theme === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}>
       <div className={styles.root__header}>
         <h3>{subtitle}</h3>
       </div>
@@ -51,7 +56,7 @@ export const EmptyCard: React.FC<emptyCardP> = ({
           <Link to={`/prepo/${navTitle}`}>
             <button
               style={
-                value === 'dark'
+                theme === 'dark'
                   ? { backgroundColor: 'rgb(112 112 112)' }
                   : { backgroundColor: 'rgb(183 183 183)' }
               }
@@ -64,7 +69,7 @@ export const EmptyCard: React.FC<emptyCardP> = ({
           <Link to={`/card/${id}`}>
             <button
               style={
-                value === 'dark'
+                theme === 'dark'
                   ? { backgroundColor: 'rgb(112 112 112)' }
                   : { backgroundColor: 'rgb(183 183 183)' }
               }

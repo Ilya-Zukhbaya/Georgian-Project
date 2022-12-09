@@ -1,18 +1,22 @@
 import React from 'react';
+import styles from './index.module.scss';
+
 import { itemT } from '../../@types';
-import styles from './styles.module.scss';
+
 import { ReactComponent as Check } from '../../assets/pictures/main/check.svg';
 import { ReactComponent as Cross } from '../../assets/pictures/main/cross.svg';
+
 import { useSelector } from 'react-redux';
-import { RootState } from '../../redux/store';
+import { selectTheme } from '../../redux/store';
 
 export const IncResult: React.FC<itemT> = ({ id, title, correctVariant, choosenVariant }) => {
-  const { value } = useSelector((state: RootState) => state.theme);
+  const { theme } = useSelector(selectTheme);
+
   return (
     <div
       className={styles.root}
       style={
-        value === 'dark'
+        theme === 'dark'
           ? { backgroundColor: 'rgb(112 112 112)' }
           : { backgroundColor: 'rgb(183 183 183)' }
       }>

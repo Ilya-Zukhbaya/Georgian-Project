@@ -1,20 +1,24 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { setActive } from '../../redux/slices/quizSlice';
-import { RootState } from '../../redux/store';
 import styles from './index.module.scss';
 
+import { useTranslation } from 'react-i18next';
+
+import { setActive } from '../../redux/slices/quizSlice';
+import { selectTheme, useAppDispatch } from '../../redux/store';
+import { useSelector } from 'react-redux';
+
+import { Link } from 'react-router-dom';
+
 export const Imitation: React.FC = () => {
-  const { value } = useSelector((state: RootState) => state.theme);
-  const dispatch = useDispatch();
   const { t } = useTranslation();
+
+  const { theme } = useSelector(selectTheme);
+  const dispatch = useAppDispatch();
 
   return (
     <div
       className={styles.root}
-      style={value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}>
+      style={theme === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}>
       <div className={styles.root__header}>
         <h3>{t('imitation.__h3')}</h3>
       </div>

@@ -1,18 +1,25 @@
 import React from 'react';
-import { Card } from './Card/Card';
-import { useSelector, useDispatch } from 'react-redux';
-import { RootState } from '../redux/store';
+
 import data from '../assets/questions.json';
+
+import { Card } from './index';
+import { CountDown } from './index';
+
+import { useSelector } from 'react-redux';
+import { selectCard, selectQuiz, useAppDispatch } from '../redux/store';
 import { removeTestItems, setActiveLink, setTestItems } from '../redux/slices/quizSlice';
+
 import { useNavigate } from 'react-router-dom';
-import { CountDown } from './Timer';
+
 import { useTranslation } from 'react-i18next';
 
 export const ImitQuiz: React.FC = () => {
-  const { step, active, testItems } = useSelector((state: RootState) => state.quiz);
-  const { incorrectAns } = useSelector((state: RootState) => state.card);
+  const dispatch = useAppDispatch();
+  const { step, active, testItems } = useSelector(selectQuiz);
+  const { incorrectAns } = useSelector(selectCard);
+
   const { t } = useTranslation();
-  const dispatch = useDispatch();
+
   const navigate = useNavigate();
 
   React.useEffect(() => {

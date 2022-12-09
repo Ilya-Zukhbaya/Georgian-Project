@@ -1,11 +1,8 @@
 @import url(./libs/_normalize.scss);
 @import './variables';
 
-@mixin app {
-  text-align: center;
-}
 .app {
-  @include app;
+  text-align: center;
   height: 100vh;
   position: relative;
 }

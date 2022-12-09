@@ -1,10 +1,12 @@
 import React from 'react';
-import { Favorite } from './Favorite/Favorite';
-import { useSelector } from 'react-redux';
-import { RootState } from '../redux/store';
 
-export const FavoritiesProvider = () => {
-  const { type } = useSelector((state: RootState) => state.card);
+import { Favorite } from './index';
+
+import { useSelector } from 'react-redux';
+import { selectCard } from '../redux/store';
+
+export const FavoritiesProvider: React.FC = () => {
+  const { type } = useSelector(selectCard);
 
   return <>{type !== undefined ? <Favorite type={type} /> : 'Error'}</>;
 };

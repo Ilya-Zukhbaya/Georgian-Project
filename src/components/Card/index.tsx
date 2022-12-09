@@ -1,45 +1,43 @@
 import React from 'react';
-import { itemsT } from '../../@types';
-import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../../redux/store';
-import {
-  setDisable,
-  setCorrectAns,
-  addToFavorite,
-  addToProgress,
-  removeFromFavorite,
-  setIncorrectAns,
-} from '../../redux/slices/cardSlice';
-import { Info } from '../Info';
-import { setAnswer, setIncItems, setStep } from '../../redux/slices/quizSlice';
+import styles from './index.module.scss';
+
+import { itemsT, itemT } from '../../@types';
+
+import { Info } from '../index';
+
+import { selectCard, selectQuiz, selectTheme, useAppDispatch } from '../../redux/store';
 import { ReactComponent as Save } from '../../assets/pictures/main/unsave.svg';
 import { ReactComponent as Unsave } from '../../assets/pictures/main/save.svg';
 import { ReactComponent as Inf } from '../../assets/pictures/main/info.svg';
+
+import { useSelector } from 'react-redux';
+import * as CardS from '../../redux/slices/cardSlice';
+import { setAnswer, setIncItems, setStep } from '../../redux/slices/quizSlice';
+
 import { useTranslation } from 'react-i18next';
-import styles from './index.module.scss';
+
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+
 import { getFavoritesFromLs } from '../../utils/getFromLs';
-import { itemT } from '../../@types';
 
 export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, audio, answered }) => {
-  React.useEffect(() => {
-    if (audio) {
-      const newId = id.toString();
-      setSrc(`${process.env.REACT_APP_URL}${type[0] + 1}/type${type[0] + 1}Q${newId}.mp3`);
-    }
-  }, [id]);
-
   const [infoActive, setInfoActive] = React.useState<boolean>(false);
+  const [src, setSrc] = React.useState('');
+
   const { t } = useTranslation();
+
   const data = getFavoritesFromLs();
   const favoriteItems: itemsT[] = data.items;
-  const { disable, correctAns, favorite, progress } = useSelector((state: RootState) => state.card);
-  const { step, items, testItems } = useSelector((state: RootState) => state.quiz);
-  const { value } = useSelector((state: RootState) => state.theme);
-  const [src, setSrc] = React.useState('');
-  const dispatch = useDispatch();
-  const location = useLocation();
+
+  const dispatch = useAppDispatch();
+  const { step, items, testItems } = useSelector(selectQuiz);
+  const { disable, correctAns, favorite, progress } = useSelector(selectCard);
+  const { theme } = useSelector(selectTheme);
+
   const navigate = useNavigate();
+
+  const location = useLocation();
+  const path = location.pathname.slice(location.pathname.lastIndexOf('/') + 1);
 
   React.useEffect(() => {
     if (location.pathname.includes('/test/st') && step === testItems.length - 1) {
@@ -47,7 +45,12 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
     }
   }, [step]);
 
-  const path = location.pathname.slice(location.pathname.lastIndexOf('/') + 1);
+  React.useEffect(() => {
+    if (audio) {
+      const newId = id.toString();
+      setSrc(`${process.env.REACT_APP_URL}${type[0] + 1}/type${type[0] + 1}Q${newId}.mp3`);
+    }
+  }, [id]);
 
   const onExitClick = () => {
     if (location.pathname.includes('/continue')) {
@@ -55,8 +58,10 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
         localStorage.setItem('ca', JSON.stringify(correctAns));
         localStorage.setItem('step', JSON.stringify(step));
         localStorage.setItem('savedItems', JSON.stringify(items));
+
         dispatch(setStep(0));
-        dispatch(setCorrectAns(0));
+        dispatch(CardS.setCorrectAns(0));
+
         navigate('/');
       }
     }
@@ -66,6 +71,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
         localStorage.setItem('ca', JSON.stringify(correctAns));
         localStorage.setItem('step', JSON.stringify(step));
         localStorage.setItem('savedItems', JSON.stringify(items));
+
         navigate('/');
       }
     }
@@ -94,13 +100,13 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
     }
 
     if (correct === i) {
-      dispatch(setCorrectAns(correctAns + 1));
+      dispatch(CardS.setCorrectAns(correctAns + 1));
       localStorage.setItem('progress', JSON.stringify(progress));
-      dispatch(addToProgress(item));
+      dispatch(CardS.addToProgress(item));
     }
 
     if (correct !== i && location.pathname.includes('test/st')) {
-      dispatch(setIncorrectAns(type[0]));
+      dispatch(CardS.setCorrectAns(type[0]));
     }
 
     if (correct !== i) {
@@ -108,13 +114,13 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
     }
 
     if (!location.pathname.includes('test/st')) {
-      dispatch(setDisable(true));
+      dispatch(CardS.setDisable(true));
       dispatch(setAnswer(true));
     }
   };
   const addToFavorities = () => {
     localStorage.setItem('favorities', JSON.stringify(favorite));
-    dispatch(addToFavorite({ id, title, correct, variants, type, answered }));
+    dispatch(CardS.addToFavorite({ id, title, correct, variants, type, answered }));
   };
 
   const onStepClick = (step: number) => {
@@ -122,9 +128,9 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
 
     if (!location.pathname.includes('test/st')) {
       if (items[step + 1].answered === true) {
-        dispatch(setDisable(true));
+        dispatch(CardS.setDisable(true));
       } else {
-        dispatch(setDisable(false));
+        dispatch(CardS.setDisable(false));
       }
     }
   };
@@ -135,12 +141,12 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
     }
 
     if (items[step - 1].answered === true) {
-      dispatch(setDisable(true));
+      dispatch(CardS.setDisable(true));
     }
   };
 
   const removeFromFavorities = () => {
-    dispatch(removeFromFavorite(id));
+    dispatch(CardS.removeFromFavorite(id));
   };
 
   return (
@@ -152,9 +158,9 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
             {step + 1} / {location.pathname.includes('/test') ? testItems.length : items.length}
           </span>
           {favoriteItems.find((obj) => obj.id === id) ? (
-            <Unsave onClick={removeFromFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
+            <Unsave onClick={removeFromFavorities} fill={theme === 'light' ? '#333' : '#b3b3b3'} />
           ) : (
-            <Save onClick={addToFavorities} fill={value === 'light' ? '#333' : '#b3b3b3'} />
+            <Save onClick={addToFavorities} fill={theme === 'light' ? '#333' : '#b3b3b3'} />
           )}
         </div>
         <div>
@@ -178,7 +184,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
         {variants.map((obj, i) => (
           <button
             style={
-              value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }
+              theme === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }
             }
             key={i}
             onClick={() => onVariantClick(i, variants[correct], variants[i])}
@@ -195,7 +201,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
           <Link to="/result">
             <button
               style={
-                value === 'dark'
+                theme === 'dark'
                   ? { backgroundColor: 'rgb(112 112 112)' }
                   : { backgroundColor: 'rgb(183 183 183)' }
               }
@@ -210,7 +216,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
           <div className={styles.root__buttonContainer}>
             <button
               style={
-                value === 'dark'
+                theme === 'dark'
                   ? { backgroundColor: 'rgb(112 112 112)' }
                   : { backgroundColor: 'rgb(183 183 183)' }
               }
@@ -220,7 +226,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
             </button>
             <button
               style={
-                value === 'dark'
+                theme === 'dark'
                   ? { backgroundColor: 'rgb(112 112 112)' }
                   : { backgroundColor: 'rgb(183 183 183)' }
               }
@@ -232,7 +238,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
           <div className={styles.root__outButton}>
             <button
               style={
-                value === 'dark'
+                theme === 'dark'
                   ? { backgroundColor: 'rgb(112 112 112)' }
                   : { backgroundColor: 'rgb(183 183 183)' }
               }

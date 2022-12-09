@@ -1,22 +1,29 @@
 import React from 'react';
 import styles from './index.module.scss';
-import { useTranslation } from 'react-i18next';
-import { useSelector, useDispatch } from 'react-redux';
-import type { RootState } from '../../redux/store';
-import { changeTheme } from '../../redux/slices/themeSlice';
+
 import { ReactComponent as Light } from '../../assets/pictures/header/light.svg';
 import { ReactComponent as Dark } from '../../assets/pictures/header/dark.svg';
 import { lngs } from '../../assets/Languages';
-import { Link, useLocation } from 'react-router-dom';
+
+import { useSelector } from 'react-redux';
+import { selectCard, selectQuiz, selectTheme, useAppDispatch } from '../../redux/store';
+import { changeTheme } from '../../redux/slices/themeSlice';
 import { setStep } from '../../redux/slices/quizSlice';
 import { setCorrectAns } from '../../redux/slices/cardSlice';
 
+import { useTranslation } from 'react-i18next';
+
+import { Link, useLocation } from 'react-router-dom';
+
 export const Header: React.FC = () => {
-  const theme = useSelector((state: RootState) => state.theme.value);
-  const { step, items } = useSelector((state: RootState) => state.quiz);
-  const { correctAns } = useSelector((state: RootState) => state.card);
+  const dispatch = useAppDispatch();
+  const { theme } = useSelector(selectTheme);
+  const { step, items } = useSelector(selectQuiz);
+  const { correctAns } = useSelector(selectCard);
+
   const location = useLocation();
-  const dispatch = useDispatch();
+  const path = location.pathname.slice(location.pathname.lastIndexOf('/') + 1);
+
   const { t, i18n } = useTranslation();
 
   React.useEffect(() => {
@@ -36,8 +43,6 @@ export const Header: React.FC = () => {
     window.location.reload();
     i18n.changeLanguage(lng);
   };
-
-  const path = location.pathname.slice(location.pathname.lastIndexOf('/') + 1);
 
   const saveInfo = () => {
     localStorage.setItem('ca', JSON.stringify(correctAns));

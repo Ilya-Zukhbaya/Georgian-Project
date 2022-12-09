@@ -1,15 +1,18 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../redux/store';
 import { TestT } from '../@types';
+
+import { useSelector } from 'react-redux';
+import { selectQuiz, selectTheme, useAppDispatch } from '../redux/store';
 import { setActive, setVariant } from '../redux/slices/quizSlice';
+
 import { Link, useLocation } from 'react-router-dom';
 
 export const Test: React.FC<TestT> = ({ title, sub }) => {
-  const { value } = useSelector((state: RootState) => state.theme);
-  const { cardId } = useSelector((state: RootState) => state.quiz);
+  const dispatch = useAppDispatch();
+  const { theme } = useSelector(selectTheme);
+  const { cardId } = useSelector(selectQuiz);
+
   const location = useLocation();
-  const dispatch = useDispatch();
   const path = location.pathname.slice(location.pathname.lastIndexOf('/') + 1);
 
   const onButtonClick = (title: number, sub: number) => {
@@ -21,7 +24,7 @@ export const Test: React.FC<TestT> = ({ title, sub }) => {
     <Link to={`/prepo/${path}/card/${cardId}`}>
       <div
         onClick={() => onButtonClick(title, sub)}
-        style={value === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}>
+        style={theme === 'dark' ? { backgroundColor: '#4e4e4e' } : { backgroundColor: '#cbcbcb' }}>
         {title} - {sub}
       </div>
     </Link>

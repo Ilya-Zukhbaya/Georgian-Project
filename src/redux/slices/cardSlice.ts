@@ -1,26 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
-import { getFavoritesFromLs } from '../../utils/getFromLs';
-import { getChoosenTypeFromLs } from '../../utils/getFromLs';
-import { getProgressFromLs } from '../../utils/getFromLs';
-import { itemsT } from '../../@types';
+import { getFavoritesFromLs, getChoosenTypeFromLs, getProgressFromLs } from '../../utils/getFromLs';
+import { cardI, itemsT } from '../../@types';
 
 const favoriteData = getFavoritesFromLs();
 const choosenType = getChoosenTypeFromLs();
 const progress = getProgressFromLs();
-
-type incAns = {
-  id: number;
-  incAns: number;
-};
-export interface cardI {
-  favorite: itemsT[];
-  progress: itemsT[];
-  disable: boolean;
-  correctAns: number;
-  incorrectAns: incAns[];
-  type: number | undefined;
-}
 
 const initialState: cardI = {
   favorite: favoriteData.items,

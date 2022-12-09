@@ -1,23 +1,24 @@
 import React from 'react';
-import { Container, Pagination, Stack, PaginationItem } from '@mui/material';
-import { itemsT } from '../../@types';
-import { getFavoritesFromLs } from '../../utils/getFromLs';
 import styles from './index.module.scss';
-import { Link, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { Container, Pagination, Stack, PaginationItem } from '@mui/material';
 
-type favoriteT = {
-  type: number;
-};
+import { favoriteT, itemsT } from '../../@types';
+
+import { getFavoritesFromLs } from '../../utils/getFromLs';
+
+import { Link, useLocation } from 'react-router-dom';
+
+import { useTranslation } from 'react-i18next';
 
 export const Favorite: React.FC<favoriteT> = ({ type }) => {
   const data = getFavoritesFromLs();
   const items: itemsT[] = data.items;
+
   const location = useLocation();
-  const { t } = useTranslation();
   const id = location.pathname.split('ed/')[1].slice(0, 1);
   const [page, setPage] = React.useState<number>(Number(location.search?.split('=')[1] || 1));
 
+  const { t } = useTranslation();
   return (
     <>
       {items.filter((obj) => obj.type[0] === type).length !== 0 ? (

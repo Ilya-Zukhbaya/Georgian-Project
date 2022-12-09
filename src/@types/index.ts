@@ -46,6 +46,10 @@ export type TestT = {
   sub: number;
 };
 
+export type favoriteT = {
+  type: number;
+};
+
 export type itemT = {
   id: number;
   title: string;
@@ -66,4 +70,21 @@ export interface quizSliceI {
   cardId: number;
   variant: number[];
   activeLink: boolean;
+}
+
+export interface ThemeState {
+  theme: string;
+}
+
+type incAns = {
+  id: number;
+  incAns: number;
+};
+export interface cardI {
+  favorite: itemsT[];
+  progress: itemsT[];
+  disable: boolean;
+  correctAns: number;
+  incorrectAns: incAns[];
+  type: number | undefined;
 }

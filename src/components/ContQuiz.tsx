@@ -1,14 +1,17 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+
+import { Card } from './index';
+
+import { useSelector } from 'react-redux';
 import { setCorrectAns } from '../redux/slices/cardSlice';
 import { setItems, setStep } from '../redux/slices/quizSlice';
-import { RootState } from '../redux/store';
+import { selectQuiz, useAppDispatch } from '../redux/store';
+
 import { getSavedItems } from '../utils/getFromLs';
-import { Card } from './Card/Card';
 
 export const ContQuiz: React.FC = () => {
-  const { active, items, step } = useSelector((state: RootState) => state.quiz);
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
+  const { active, items, step } = useSelector(selectQuiz);
 
   if (step === items.length - 1) {
     localStorage.setItem('savedItems', JSON.stringify([]));
