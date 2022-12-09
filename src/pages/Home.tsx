@@ -1,8 +1,8 @@
 import React from 'react';
 import i18n from '../i18n';
 import { EmptyMainCard } from '../components/EmptyMainCard';
-import { mainCard } from '../assets/MainCard';
 import { getSavedItems } from '../utils/getFromLs';
+import { mainCard } from '../assets/MainCard';
 
 export const Home: React.FC = () => {
   const { items } = getSavedItems();
