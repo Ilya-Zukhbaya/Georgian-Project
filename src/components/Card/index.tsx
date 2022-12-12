@@ -39,6 +39,13 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
   const location = useLocation();
   const path = location.pathname.slice(location.pathname.lastIndexOf('/') + 1);
 
+  const testV = [
+    { name: 'ა', id: 0 },
+    { name: 'ბ', id: 1 },
+    { name: 'გ', id: 2 },
+    { name: 'დ', id: 3 },
+  ];
+
   React.useEffect(() => {
     if (location.pathname.includes('/test/st') && step === testItems.length - 1) {
       navigate('/result');
@@ -95,27 +102,31 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
       choosenVariant: choosen,
     };
 
-    if (location.pathname.includes('/test/st')) {
-      dispatch(setStep(step + 1));
-    }
+    if (location.pathname.includes('/card') && Number(path) >= 3) {
+      console.log('test');
+    } else {
+      if (location.pathname.includes('/test/st')) {
+        dispatch(setStep(step + 1));
+      }
 
-    if (correct === i) {
-      dispatch(CardS.setCorrectAns(correctAns + 1));
-      localStorage.setItem('progress', JSON.stringify(progress));
-      dispatch(CardS.addToProgress(item));
-    }
+      if (correct === i) {
+        dispatch(CardS.setCorrectAns(correctAns + 1));
+        localStorage.setItem('progress', JSON.stringify(progress));
+        dispatch(CardS.addToProgress(item));
+      }
 
-    if (correct !== i && location.pathname.includes('test/st')) {
-      dispatch(CardS.setCorrectAns(type[0]));
-    }
+      if (correct !== i && location.pathname.includes('test/st')) {
+        dispatch(CardS.setIncorrectAns(type[0]));
+      }
 
-    if (correct !== i) {
-      dispatch(setIncItems(item));
-    }
+      if (correct !== i) {
+        dispatch(setIncItems(item));
+      }
 
-    if (!location.pathname.includes('test/st')) {
-      dispatch(CardS.setDisable(true));
-      dispatch(setAnswer(true));
+      if (!location.pathname.includes('test/st')) {
+        dispatch(CardS.setDisable(true));
+        dispatch(setAnswer(true));
+      }
     }
   };
   const addToFavorities = () => {
@@ -125,6 +136,12 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
 
   const onStepClick = (step: number) => {
     dispatch(setStep(step + 1));
+
+    if (step === items.length - 1) {
+      localStorage.setItem('ca', JSON.stringify(0));
+      localStorage.setItem('step', JSON.stringify(0));
+      localStorage.setItem('savedItems', JSON.stringify([]));
+    }
 
     if (!location.pathname.includes('test/st')) {
       if (items[step + 1].answered === true) {
@@ -188,8 +205,29 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
             }
             key={i}
             onClick={() => onVariantClick(i, variants[correct], variants[i])}
-            disabled={disable}
-            className={disable ? (correct === i ? 'green button' : 'red button') : 'button'}>
+            disabled={
+              (location.pathname.includes('/card') && Number(path) >= 3) ||
+              location.pathname.includes('/continue')
+                ? false
+                : disable
+            }
+            className={
+              (location.pathname.includes('/card') && Number(path) >= 3) ||
+              location.pathname.includes('/continue')
+                ? correct === i
+                  ? 'green button'
+                  : 'red button'
+                : disable
+                ? correct === i
+                  ? 'green button'
+                  : 'red button'
+                : 'button'
+            }>
+            {testV.map((obj) => {
+              if (obj.id === i) {
+                return <b style={{ marginRight: '10px' }}>{obj.name}</b>;
+              }
+            })}
             <span>{obj}</span>
           </button>
         ))}

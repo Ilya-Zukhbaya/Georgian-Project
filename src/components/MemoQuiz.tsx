@@ -21,12 +21,11 @@ export const MemoQuiz: React.FC = () => {
       setItems(
         data
           .filter((obj) => (cardId < 3 ? obj.type[0] === cardId : obj.type[1] === cardId))
-          .sort(() => Math.random() - 0.5)
           .slice(0, cardId < 3 ? 20 : data.length),
       ),
     );
     if (step === items.length && items.length !== 0) {
-      navigate('/result');
+      navigate('/');
     }
     dispatch(setActiveLink(false));
   }, [active]);
