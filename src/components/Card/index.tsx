@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.module.scss';
 
-import { itemsT, itemT } from '../../@types';
+import { itemsT, itemT, letterT } from '../../@types';
 
 import { Info } from '../index';
 
@@ -22,7 +22,7 @@ import { getFavoritesFromLs } from '../../utils/getFromLs';
 
 export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, audio, answered }) => {
   const [infoActive, setInfoActive] = React.useState<boolean>(false);
-  const [src, setSrc] = React.useState('');
+  const [src, setSrc] = React.useState<string>('');
 
   const { t } = useTranslation();
 
@@ -39,11 +39,11 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
   const location = useLocation();
   const path = location.pathname.slice(location.pathname.lastIndexOf('/') + 1);
 
-  const testV = [
-    { name: 'ა', id: 0 },
-    { name: 'ბ', id: 1 },
-    { name: 'გ', id: 2 },
-    { name: 'დ', id: 3 },
+  const letterV: letterT[] = [
+    { id: 0, lett: 'ა' },
+    { id: 1, lett: 'ბ' },
+    { id: 2, lett: 'გ' },
+    { id: 3, lett: 'დ' },
   ];
 
   React.useEffect(() => {
@@ -103,7 +103,7 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
     };
 
     if (location.pathname.includes('/card') && Number(path) >= 3) {
-      console.log('test');
+      return null;
     } else {
       if (location.pathname.includes('/test/st')) {
         dispatch(setStep(step + 1));
@@ -223,9 +223,13 @@ export const Card: React.FC<itemsT> = ({ id, title, correct, variants, type, aud
                   : 'red button'
                 : 'button'
             }>
-            {testV.map((obj) => {
+            {letterV.map((obj, varI) => {
               if (obj.id === i) {
-                return <b style={{ marginRight: '10px' }}>{obj.name}</b>;
+                return (
+                  <b key={varI} style={{ marginRight: '10px' }}>
+                    {obj.lett}
+                  </b>
+                );
               }
             })}
             <span>{obj}</span>
