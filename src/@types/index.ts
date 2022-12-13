@@ -8,6 +8,11 @@ export type itemsT = {
   audio?: string | undefined;
 };
 
+export type letterT = {
+  id: number;
+  lett: string;
+};
+
 export type emptyCardP = {
   id: number;
   title: string;
