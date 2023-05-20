@@ -11,7 +11,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 1,
@@ -29,7 +29,7 @@
     "variants": ["ასურეთიდან", "ურარტუდან", "შუმერიდან", "საბერძნეთიდან"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 3,
@@ -38,7 +38,7 @@
     "variants": ["თბილისი", "ფაზისი", "ვანი", "მცხეთა"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 4,
@@ -47,7 +47,7 @@
     "variants": ["ბერძნები", "იბერიელები", "კოლხები", "ეგვიპტელები"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 5,
@@ -56,7 +56,7 @@
     "variants": ["სომხებთან", "სპარსელებთან", "ეგვიპტელებთან", "კოლხებთან"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 6,
@@ -65,7 +65,7 @@
     "variants": ["ტიგრანი", "იასონი", "აიეტი", "ჰერაკლე"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "variants": ["ეგვიპტელებთან", "ბერძნებთან", "აიეტი", "სპარსელებთან"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 8,
@@ -92,7 +92,7 @@
     "variants": ["9", "6", "3", "12"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 10,
@@ -106,7 +106,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 11,
@@ -115,7 +115,7 @@
     "variants": ["ზევსი", "გაცი", "მარსი", "არმაზი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 12,
@@ -124,7 +124,7 @@
     "variants": ["ერევანი", "თბილისი", "მცხეთა", "ვანი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 13,
@@ -133,7 +133,7 @@
     "variants": ["არტაგი", "დავით აღმაშენებელი", "ტიგრან დიდი", "ბაგრატ მესამე"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 14,
@@ -142,7 +142,7 @@
     "variants": ["დარიოს I-მა", "იულიუს კეისარმა", "რამზეს II-მ", "პომპეუსმა"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 15,
@@ -156,7 +156,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 16,
@@ -165,7 +165,7 @@
     "variants": ["ფარნავაზის", "ფარსმან II ქველის", "მირიანის", "ვახტანგ გორგასლის"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 17,
@@ -174,7 +174,7 @@
     "variants": ["ურარტუში", "რომის იმპერიაში", "არაბთა სახალიფოში", "სასანურ ირანში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 18,
@@ -183,7 +183,7 @@
     "variants": ["IX საუკუნიდან", "IV საუკუნიდან", "VII საუკუნიდან", "I საუკუნიდან"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 19,
@@ -192,7 +192,7 @@
     "variants": ["ფარსმან II-ს", "ფარნავაზს", "მირიანს", "ვახტანგ გორგასალს"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 20,
@@ -206,7 +206,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 21,
@@ -215,7 +215,7 @@
     "variants": ["I საუკუნეში", "II საუკუნეში", "IV საუკუნეში", "III საუკუნეში"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 22,
@@ -229,7 +229,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 23,
@@ -238,7 +238,7 @@
     "variants": ["იოანე ოქროპირს", "სიმონ კანანელს", "ანდრია პირველწოდებულს", "წმ. ნინოს"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 24,
@@ -252,7 +252,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 25,
@@ -266,7 +266,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 26,
@@ -275,7 +275,7 @@
     "variants": ["ჩეხი", "სომეხი", "კაპადოკიელი", "ინდოელი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 27,
@@ -284,7 +284,7 @@
     "variants": ["სამხრეთიდან", "ჩრდილოეთიდან", "აღმოსავლეთიდან", "დასავლეთიდან"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 28,
@@ -293,7 +293,7 @@
     "variants": ["I საუკუნეში", "XVIII საუკუნეში", "XII საუკუნეში", "V საუკუნეში"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 29,
@@ -302,7 +302,7 @@
     "variants": ["„შუშანიკის წამება“", "„დავითიანი“", "„ვეფხისტყაოსანი“", "„სიბრძნე-სიცრუისა“"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 30,
@@ -311,7 +311,7 @@
     "variants": ["I საუკუნეში", "V საუკუნეში", "XVIII საუკუნეში", "XII საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 31,
@@ -320,7 +320,7 @@
     "variants": ["ფარნავაზი", "ლაშა-გიორგი", "ბაგრატ III", "ვახტანგ გორგასალი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 32,
@@ -334,7 +334,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 33,
@@ -343,7 +343,7 @@
     "variants": ["I საუკუნეში", "III საუკუნეში", "VII საუკუნეში", "V საუკუნეში"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 34,
@@ -352,7 +352,7 @@
     "variants": ["„ლომისთავას“", "„მგლისთავას“", "„დათვისთავას“", "„ვეფხვისთავას“"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 35,
@@ -361,7 +361,7 @@
     "variants": ["არმაზის კულტის", "ისლამის", "იუდაიზმის", "მაზდეანობის"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 36,
@@ -375,7 +375,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 37,
@@ -384,7 +384,7 @@
     "variants": ["I საუკუნეში", "III საუკუნეში", "VII საუკუნეში", "XII საუკუნეში"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 38,
@@ -393,7 +393,7 @@
     "variants": ["მცხეთაში", "წალენჯიხაში", "ბათუმში", "თბილისში"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 39,
@@ -402,7 +402,7 @@
     "variants": ["ირანელი", "ბიზანტიელი", "არაბი", "მონღოლი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 40,
@@ -411,7 +411,7 @@
     "variants": ["II საუკუნეში", "VIII საუკუნეში", "IV საუკუნეში", "XII საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 41,
@@ -425,7 +425,7 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 42,
@@ -434,7 +434,7 @@
     "variants": ["ირანელი", "არაბი", "რომაელი", "თურქი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 43,
@@ -443,7 +443,7 @@
     "variants": ["გრიგოლ ხანძთელთან", "წმ. ნინოსთან", "მეფე მირიანთან", "სულხან-საბა ორბელიანთან"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 44,
@@ -452,7 +452,7 @@
     "variants": ["ბაგრატიონებს", "ბაღვაშებს", "დადიანებს", "მხარგრძელებს"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 45,
@@ -461,7 +461,7 @@
     "variants": ["გიორგი სააკაძე", "გრიგოლ ხანძთელი", "იოანე მარუშისძე", "სულხან-საბა ორბელიანი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 46,
@@ -470,7 +470,7 @@
     "variants": ["დავით III", "ბაგრატ III", "ვახტანგ გორგასალი", "გიორგი V"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 47,
@@ -479,7 +479,7 @@
     "variants": ["II საუკუნეში", "VIII საუკუნეში", "XI საუკუნეში", "XVIII საუკუნეში"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 48,
@@ -493,7 +493,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 49,
@@ -502,7 +502,7 @@
     "variants": ["ლანკასტერები", "ვალუები", "ბაგრატიონები", "ფარნავაზიანები"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 50,
@@ -516,7 +516,7 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 51,
@@ -525,7 +525,7 @@
     "variants": ["I საუკუნეში", "III საუკუნეში", "XVIII საუკუნეში", "XI საუკუნეში"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 52,
@@ -534,7 +534,7 @@
     "variants": ["XX საუკუნეში", "XI საუკუნეში", "XXI საუკუნეში", "V საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 53,
@@ -548,7 +548,7 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 54,
@@ -557,7 +557,7 @@
     "variants": ["ფარსმან II-მ", "გიორგი II-მ", "აშოტ I-მა", "დავით აღმაშენებელმა"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 55,
@@ -566,7 +566,7 @@
     "variants": ["ერეკლე მეორის", "გუბაზ ლაზთა მეფის", "უშვილო იყო", "დავით აღმაშენებლის"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 56,
@@ -575,7 +575,7 @@
     "variants": ["XI საუკუნეში", "V საუკუნეში", "I საუკუნეში", "XVIII საუკუნეში"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 57,
@@ -584,7 +584,7 @@
     "variants": ["889 წელს", "1289 წელს", "789 წელს", "1089 წელს"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 58,
@@ -593,7 +593,7 @@
     "variants": ["იმერეთის", "სამცხის", "კლდეკარის", "სამეგრელოს"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 59,
@@ -607,7 +607,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 60,
@@ -616,7 +616,7 @@
     "variants": ["გელათში", "ალავერდში", "სვეტიცხოველში", "ბედიაში"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 61,
@@ -625,7 +625,7 @@
     "variants": ["825 წელს", "1225 წელს", "925 წელს", "1125 წელს"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 62,
@@ -634,7 +634,7 @@
     "variants": ["ტრაპიზონი", "მცხეთა", "თბილისი", "ფაზისი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 63,
@@ -643,7 +643,7 @@
     "variants": ["შამქორის", "დიდგორის", "ბასიანის", "გარნისის"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 64,
@@ -652,7 +652,7 @@
     "variants": ["1003 წელს", "1072 წელს", "1200 წელს", "1121 წელს"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 65,
@@ -661,7 +661,7 @@
     "variants": ["მონღოლები", "რუსები", "ყივჩაღები", "ვიკინგები"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 66,
@@ -675,7 +675,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 67,
@@ -684,7 +684,7 @@
     "variants": ["დავით აღმაშენებელმა", "ვახტანგ გორგასალმა", "თამარმა", "გიორგი ბრწყინვალემ"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 68,
@@ -693,7 +693,7 @@
     "variants": ["ერეკლე მეორემ", "გიორგი ბრწყინვალემ", "თამარ მეფემ", "დავით აღმაშენებელმა"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 69,
@@ -707,7 +707,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 70,
@@ -716,7 +716,7 @@
     "variants": ["თამარ მეფე", "ვარსქენ პიტიახში", "ერეკლე მეორე", "ფარსმან ქველი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 71,
@@ -725,7 +725,7 @@
     "variants": ["რუსუდანი", "ქეთევან წამებული", "შუშანიკი", "თამარ მეფე"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 72,
@@ -734,7 +734,7 @@
     "variants": ["„პარლამენტი“", "„კარავი“", "„სენატი“", "„კონგრესი“"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 73,
@@ -743,7 +743,7 @@
     "variants": ["თამარ მეფის", "ქეთევან წამებულის", "წმინდა ნინოს", "არცერთის"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 74,
@@ -757,7 +757,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 75,
@@ -766,7 +766,7 @@
     "variants": ["ჩინეთში", "ინდოეთში", "რუსეთში", "ირანში"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 76,
@@ -775,7 +775,7 @@
     "variants": ["V საუკუნეში", "XII საუკუნეში", "IX საუკუნეში", "XVII საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 77,
@@ -784,7 +784,7 @@
     "variants": ["ქართველი წმინდანი", "ქართველი სარდალი", "ქართველი მოგზაური", "ქართველი პოეტი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 78,
@@ -798,7 +798,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 79,
@@ -807,7 +807,7 @@
     "variants": ["დავით კურაპალატის", "თამარ მეფის", "ერეკლე მეორის", "ვახტანგ გორგასლის"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 80,
@@ -816,7 +816,7 @@
     "variants": ["ბასიანთან", "კრწანისთან", "დიდგორთან", "ფარცხისთან"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 81,
@@ -825,7 +825,7 @@
     "variants": ["IV საუკუნეში", "XIII საუკუნეში", "VIII საუკუნეში", "XV საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 82,
@@ -834,7 +834,7 @@
     "variants": ["იულიუს კეისრის", "პეტრე პირველის", "ჯალალ ედ-დინის", "ჩინგიზ ხანის"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 83,
@@ -843,7 +843,7 @@
     "variants": ["რუსუდანი", "ლაშა-გიორგი", "დემეტრე II", "გიორგი V"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 84,
@@ -852,7 +852,7 @@
     "variants": ["XIII საუკუნეში", "V საუკუნეში", "IX საუკუნეში", "XVIII საუკუნეში"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 85,
@@ -861,7 +861,7 @@
     "variants": ["თამარი", "გიორგი VIII", "ვახტანგ VI", "ლაშა-გიორგი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 86,
@@ -870,7 +870,7 @@
     "variants": ["VII საუკუნეში", "IX საუკუნეში", "XIII საუკუნეში", "XI საუკუნეში"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 87,
@@ -884,7 +884,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 88,
@@ -893,7 +893,7 @@
     "variants": ["მონღოლებმა", "რომის იმპერიამ", "ბიზანტიამ", "რუსეთმა"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 89,
@@ -902,7 +902,7 @@
     "variants": ["დავით აღმაშენებლის", "გიორგი ბრწყინვალის", "ბაგრატ მესამის", "თამარ მეფის"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 90,
@@ -911,7 +911,7 @@
     "variants": ["რუსუდანი", "შუშანიკი", "ნანა", "მარიამი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 91,
@@ -920,7 +920,7 @@
     "variants": ["ავ-დემეტრე", "თავდადებული", "ქველი", "აღმაშენებელი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 92,
@@ -929,7 +929,7 @@
     "variants": ["ბიზანტიელებმა", "თურქ-სელჩუკებმა", "მონღოლებმა", "ვიკინგებმა"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 93,
@@ -938,7 +938,7 @@
     "variants": ["დემეტრე II", "დავით V", "გიორგი I", "დავით IX"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 94,
@@ -947,7 +947,7 @@
     "variants": ["დავით III", "გიორგი V ბრწყინვალე", "დავით აღმაშენებელი", "ვახტანგ VI"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 95,
@@ -956,7 +956,7 @@
     "variants": ["VI საუკუნეში", "IX საუკუნეში", "XIV საუკუნეში", "XI საუკუნეში"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 96,
@@ -965,7 +965,7 @@
     "variants": ["დავით აღმაშენებელმა", "გიორგი V ბრწყინვალემ", "თამარმა", "ალექსანდრე I-მა"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 97,
@@ -974,7 +974,7 @@
     "variants": ["თემურ-ლენგმა", "ქსერქსემ", "იუსტინიანე I-მა", "ატილამ"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 98,
@@ -983,7 +983,7 @@
     "variants": ["2-ჯერ", "არ ულაშქრია", "15-ჯერ", "8-ჯერ"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 99,
@@ -997,7 +997,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 100,
@@ -1006,7 +1006,7 @@
     "variants": ["კოჭლს", "მათხოვარს", "კუზიანს", "ცალთვალას"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 101,
@@ -1015,7 +1015,7 @@
     "variants": ["XV საუკუნეში", "XII საუკუნეში", "XI საუკუნეში", "XVIII საუკუნეში"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 102,
@@ -1024,7 +1024,7 @@
     "variants": ["ვახტანგ გორგასალი;", "დავით აღმაშენებელი", "გიორგი VIII", "თამარი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 103,
@@ -1038,7 +1038,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 104,
@@ -1047,7 +1047,7 @@
     "variants": ["ვახტანგ გორგასალი", "ალექსანდრე I", "ერეკლე მეორე", "დავით აღმაშენებელი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 105,
@@ -1061,7 +1061,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 106,
@@ -1070,7 +1070,7 @@
     "variants": ["მამა-შვილი", "ძმები", "ბიძაშვილები", "არ ყოფილან ნათესავები"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 107,
@@ -1084,7 +1084,7 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 108,
@@ -1093,7 +1093,7 @@
     "variants": ["შაბურ I-თან", "შაჰ-აბასთან", "დარიოს III-თან", "აღა-მაჰმად ხანთან"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 109,
@@ -1102,7 +1102,7 @@
     "variants": ["გიორგი სააკაძე", "ერეკლე II", "ქეთევან დედოფალი", "სულხან-საბა ორბელიანი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 110,
@@ -1116,7 +1116,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 111,
@@ -1125,7 +1125,7 @@
     "variants": ["XVII საუკუნეში", "XI საუკუნეში", "XIV საუკუნეში", "VIII საუკუნეში"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 112,
@@ -1134,7 +1134,7 @@
     "variants": ["VII საუკუნეში", "XVII საუკუნეში", "XIII საუკუნეში", "X საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 113,
@@ -1148,7 +1148,7 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 114,
@@ -1157,7 +1157,7 @@
     "variants": ["ვახტანგ გორგასალი", "დავით გურამიშვილი", "გიორგი ბრწყინვალე", "ვახტანგ VI"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 115,
@@ -1166,7 +1166,7 @@
     "variants": ["ექიმი", "არქიტექტორი", "გეოგრაფი", "იურისტი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 116,
@@ -1175,7 +1175,7 @@
     "variants": ["სულხან-საბა ორბელიანმა", "შოთა რუსთაველმა", "გიორგი სააკაძემ", "ერეკლე მეორემ"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 117,
@@ -1184,7 +1184,7 @@
     "variants": ["გიორგი სააკაძეს", "ერეკლე II-ს", "ვახტანგ VI-ს", "ილია ჭავჭავაძეს"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 118,
@@ -1193,7 +1193,7 @@
     "variants": ["საფრანგეთში", "მონღოლეთში", "აშშ-ში", "ალჟირში"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 119,
@@ -1202,7 +1202,7 @@
     "variants": ["IX საუკუნეში", "XIII საუკუნეში", "XVIII საუკუნეში", "V საუკუნეში"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 120,
@@ -1211,7 +1211,7 @@
     "variants": ["დემეტრე I", "დავით ნარინი", "ერეკლე II", "ბაგრატ V"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 121,
@@ -1220,7 +1220,7 @@
     "variants": ["X საუკუნეში", "XVIII საუკუნეში", "XVI საუკუნეში", "III საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 122,
@@ -1229,7 +1229,7 @@
     "variants": ["რუსებთან", "ფრანგებთან", "მონღოლებთან", "სპარსელებთან"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 123,
@@ -1238,7 +1238,7 @@
     "variants": ["1783 წელს", "1578 წელს", "1659 წელს", "1492 წელს"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 124,
@@ -1247,7 +1247,7 @@
     "variants": ["საფრანგეთის", "ინგლისის", "რუსეთის", "აშშ-ს"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 125,
@@ -1261,7 +1261,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 126,
@@ -1270,7 +1270,7 @@
     "variants": ["თემურ ლენგი", "შაჰ აბასი", "ნადირ შაჰი", "აღა-მაჰმად ხანი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 127,
@@ -1279,7 +1279,7 @@
     "variants": ["გიორგი XII", "თამარი", "ერეკლე II", "გიორგი სააკაძე"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 128,
@@ -1288,7 +1288,7 @@
     "variants": ["ოსმალეთმა", "ჩინეთმა", "ირანმა", "რუსეთმა"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 129,
@@ -1297,7 +1297,7 @@
     "variants": ["XI საუკუნეში", "XIX საუკუნეში", "XVII საუკუნეში", "XIV საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 130,
@@ -1306,7 +1306,7 @@
     "variants": ["ბურბონების", "ფეჰლევების", "ბაგრატიონების", "ტიუდორების"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 131,
@@ -1315,7 +1315,7 @@
     "variants": ["ბაგრატ მესამე", "სოლომონ მეორე", "გუბაზ პირველი", "თეოდოს მეორე"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 132,
@@ -1324,7 +1324,7 @@
     "variants": ["რუსებმა", "რომის პაპმა", "მონღოლებმა", "არაბებმა"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 133,
@@ -1338,7 +1338,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 134,
@@ -1347,7 +1347,7 @@
     "variants": ["ინგლისის", "თურქეთის", "ირანის", "რუსეთის"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 135,
@@ -1356,7 +1356,7 @@
     "variants": ["1810 წელს", "1921 წელს", "არ გაუუქმებია", "1710 წელს"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 136,
@@ -1370,7 +1370,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 137,
@@ -1379,7 +1379,7 @@
     "variants": ["მეფისნაცვალი", "კაუდილიო", "ბეგლარბეგი", "ფაშა"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 138,
@@ -1393,7 +1393,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 139,
@@ -1407,7 +1407,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 140,
@@ -1416,7 +1416,7 @@
     "variants": ["აფხაზები", "სომხები", "ბერძნები", "ოსები"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 141,
@@ -1425,7 +1425,7 @@
     "variants": ["ავღანეთთან", "ინგლისთან", "ოსმალეთთან", "ავსტრიასთან"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 142,
@@ -1434,7 +1434,7 @@
     "variants": ["ირლანდიელები", "სომხები", "ბურები", "ავღანელები"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 143,
@@ -1443,7 +1443,7 @@
     "variants": ["XIX საუკუნეში", "XIV საუკუნეში", "XVII საუკუნეში", "XI საუკუნეში"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 144,
@@ -1452,7 +1452,7 @@
     "variants": ["მიხეილ ვორონცოვი", "იოსებ სტალინი", "ედუარდ შევარდნაძე", "ნოე ჟორდანია"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 145,
@@ -1461,7 +1461,7 @@
     "variants": ["ერეკლე მეორეს", "გიორგი სააკაძეს", "ილია ჭავჭავაძეს", "ზვიად გამსახურდიას"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 146,
@@ -1470,7 +1470,7 @@
     "variants": ["ილია ჭავჭავაძე", "ვასილ მჟავანაძე", "სოლომონ დოდაშვილი", "სოლომონ ლიონიძე"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 147,
@@ -1479,7 +1479,7 @@
     "variants": ["V საუკუნეში", "XIX საუკუნეში", "XV საუკუნეში", "X საუკუნეში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 148,
@@ -1488,7 +1488,7 @@
     "variants": ["იოანე მარუშისძე", "ლავრენტი ბერია", "იაკობ გოგებაშვილი", "გიორგი სააკაძე"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 149,
@@ -1502,7 +1502,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 150,
@@ -1511,7 +1511,7 @@
     "variants": ["ილია ჭავჭავაძე", "შოთა რუსთაველი", "სულხან-საბა ორბელიანი", "მეფე ბაგრატ III"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 151,
@@ -1520,7 +1520,7 @@
     "variants": ["XII საუკუნეში", "XV საუკუნეში", "XX საუკუნეში", "XVIII საუკუნეში"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 152,
@@ -1529,7 +1529,7 @@
     "variants": ["„ივერიას“", "„კომუნისტს“", "„ჯორჯიან ნიუსს“", "„პრავდას“"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 153,
@@ -1538,7 +1538,7 @@
     "variants": ["ილია ჭავჭავაძე", "ნიკო ნიკოლაძე", "აკაკი წერეთელი", "გიორგი ჭყონდიდელი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 154,
@@ -1547,7 +1547,7 @@
     "variants": ["დავით ულუ", "დიმიტრი ყიფიანი", "მაია წყნეთელი", "სიმონ I"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 155,
@@ -1561,7 +1561,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 156,
@@ -1575,7 +1575,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 157,
@@ -1584,7 +1584,7 @@
     "variants": ["კირიონი", "დავით გარეჯელი", "შალვა ახალციხელი", "ლეონტი მროველი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 158,
@@ -1593,7 +1593,7 @@
     "variants": ["1801 წელს", "1918 წელს", "1863 წელს", "1953 წელს"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 159,
@@ -1607,7 +1607,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 160,
@@ -1616,7 +1616,7 @@
     "variants": ["ნოე რამიშვილი", "სოლომონ დოდაშვილი", "არჩილ ჯორჯაძე", "ლავრენტი ბერია"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 161,
@@ -1625,7 +1625,7 @@
     "variants": ["ივანე ჯავახიშვილი", "იოსებ სტალინი", "ილია ჭავჭავაძე", "ნოე ჟორდანია"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 162,
@@ -1634,7 +1634,7 @@
     "variants": ["დოლარი", "ფუნტი", "ბონი", "ფრანკი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 163,
@@ -1643,7 +1643,7 @@
     "variants": ["იაპონიის", "დიდი ბრიტანეთის", "არგენტინის", "რუსეთის"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 164,
@@ -1652,7 +1652,7 @@
     "variants": ["ივანე ჯავახიშვილი", "იაკობ გოგებაშვილი", "ვახტანგ VI", "გრიგოლ ორბელიანი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 165,
@@ -1661,7 +1661,7 @@
     "variants": ["აშშ-გან", "იაპონიისგან", "გერმანიისგან", "რუსეთისგან"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 166,
@@ -1670,7 +1670,7 @@
     "variants": ["1712 წელს", "1783 წელს", "1921 წელს", "1878 წელს"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 167,
@@ -1679,7 +1679,7 @@
     "variants": ["საბჭოთა რუსეთმა", "იაპონიამ", "იტალიამ", "გერმანიამ"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 168,
@@ -1688,7 +1688,7 @@
     "variants": ["გაეროს", "ერთა ლიგის", "ნატოს", "ეუთოს"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 169,
@@ -1697,7 +1697,7 @@
     "variants": ["პაკისტანმა", "საბჭოთა რუსეთმა", "ჩრდილოეთმა კორეამ", "არგენტინამ"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 170,
@@ -1706,7 +1706,7 @@
     "variants": ["იოსებ სტალინი", "ვილჰემლ II", "ვუდრო ვილსონი", "მაო ძედუნი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 171,
@@ -1715,7 +1715,7 @@
     "variants": ["ინგლისელებთან", "ავღანელებთან", "ინდოელებთან", "თურქებთან"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 172,
@@ -1724,7 +1724,7 @@
     "variants": ["საბჭოთა კავშირის", "აშშ-ის", "დიდი ბრიტანეთის თანამეგობრობის", "ესპანეთის"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 173,
@@ -1733,7 +1733,7 @@
     "variants": ["მექსიკაში", "საფრანგეთში", "არგენტინაში", "სამხრეთ აფრიკაში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 174,
@@ -1747,7 +1747,7 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 175,
@@ -1756,7 +1756,7 @@
     "variants": ["1795 წელს", "1856 წელს", "1989 წელს", "1924 წელს"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 176,
@@ -1765,7 +1765,7 @@
     "variants": ["1795 წელს", "1937 წელს", "877 წელს", "1980 წელს"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 177,
@@ -1774,7 +1774,7 @@
     "variants": ["ქაქუცა ჩოლოყაშვილი", "ნიკოლოზ ბარათაშვილი", "სერგო ორჯონიკიძე", "ილია ჭავჭავაძე"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 178,
@@ -1783,7 +1783,7 @@
     "variants": ["ინგლისის", "იაპონიის", "საბჭოთა კავშირის", "იტალიის"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 179,
@@ -1797,7 +1797,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 180,
@@ -1806,7 +1806,7 @@
     "variants": ["ლავრენტი ბერია", "ლევ ტროცკი", "ბუდუ მდივანი", "ედუარდ შევარდნაძე"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 181,
@@ -1815,7 +1815,7 @@
     "variants": ["ვლადიმერ ლენინის", "მაო ძედუნის", "მაო ძედუნის", "იოსებ სტალინის"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 182,
@@ -1829,7 +1829,7 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 183,
@@ -1838,7 +1838,7 @@
     "variants": ["ჩინეთის", "საბჭოთა კავშირის", "აშშ-ის", "ირანის"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 184,
@@ -1852,7 +1852,7 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 185,
@@ -1861,7 +1861,7 @@
     "variants": ["ილია ჭავჭავაძე", "ზვიად გამსახურდია", "დიმიტრი ყიფიანი", "მიხეილ სააკაშვილი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 186,
@@ -1870,7 +1870,7 @@
     "variants": ["1863 წელს", "1909 წელს", "1991 წელს", "1950 წელს"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 187,
@@ -1884,7 +1884,7 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 188,
@@ -1893,7 +1893,7 @@
     "variants": ["სერგო ორჯონიკიძე", "მერაბ კოსტავა", "ფილიპე მახარაძე", "შადიმან ბარათაშვილი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 189,
@@ -1902,7 +1902,7 @@
     "variants": ["ბრიტანეთის იმპერიის", "ჩეხოსლოვაკიის", "იუგოსლავიის", "საბჭოთა კავშირის"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 190,
@@ -1911,7 +1911,7 @@
     "variants": ["რუსეთი", "ვენესუელა", "ჩინეთი", "პაკისტანი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 191,
@@ -1920,7 +1920,7 @@
     "variants": ["აკაკი წერეთელი", "ნიკო ნიკოლაძე", "ედუარდ შევარდნაძე", "ლავრენტი ბერია"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 192,
@@ -1934,7 +1934,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 193,
@@ -1943,7 +1943,7 @@
     "variants": ["ევროკავშირის წევრი", "არაბული ლიგის წევრი", "მერკოსურის წევრი", "გაეროს წევრი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 194,
@@ -1952,7 +1952,7 @@
     "variants": ["2003 წელს", "1960 წელს", "1987 წელს", "1925 წელს"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 195,
@@ -1961,7 +1961,7 @@
     "variants": ["მემედ აბაშიძე", "ავლიპ ზურაბაშვილი", "ტიციან ტაბიძე", "მიხეილ სააკაშვილი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 196,
@@ -1970,7 +1970,7 @@
     "variants": ["რეზო ამაშუკელი", "ასლან აბაშიძე", "მიხეილ სააკაშვილი", "ჯაბა იოსელიანი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 197,
@@ -1979,7 +1979,7 @@
     "variants": ["1913 წელს", "2008 წელს", "1984 წელს", "1939 წელს"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 198,
@@ -1988,7 +1988,7 @@
     "variants": ["ისრაელის", "ჩინეთის", "იაპონიის", "რუსეთის"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 199,
@@ -1997,7 +1997,7 @@
     "variants": ["აშშ", "სამხრეთი კორეა", "სამხრეთი აფრიკა", "ბრაზილია"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 200,
@@ -2006,7 +2006,7 @@
     "variants": ["ნიკარაგუა", "ნაურუ", "ლიეტუვა", "ვენესუელა"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 201,
@@ -2015,7 +2015,7 @@
     "variants": ["იოსებ სტალინს", "ლეხ კაჩინსკის", "ვლადიმერ პუტინს", "უგო ჩავესს"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 202,
@@ -2029,7 +2029,7 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 203,
@@ -2043,7 +2043,7 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
     "id": 204,
@@ -2057,10 +2057,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 204,
+    "id": 205,
     "type": [1, 4],
     "title": "ვის შეუძლია სასამართლოს გადაწყვეტილების გაუქმება, შეცვლა ან შეჩერება?",
     "variants": [
@@ -2071,10 +2071,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 205,
+    "id": 206,
     "type": [1, 4],
     "title": "ვინ ამტკიცებს საქართველოს მთავრობას?",
     "variants": [
@@ -2085,10 +2085,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 206,
+    "id": 207,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, ვისი უფლებები უნდა დაიცვას სახელმწიფომ?",
     "variants": [
@@ -2099,19 +2099,19 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 207,
+    "id": 208,
     "type": [1, 4],
     "title": "როგორ მოიპოვება საქართველოს მოქალაქეობა?",
     "variants": ["დაბადებით", "ნატურალიზაციით", "მემკვიდრეობით", "დაბადებით და ნატურალიზაციით"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 208,
+    "id": 209,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, შეიძლება თუ არა საქართველომ თავისი მოქალაქე გააძევოს საქართველოდან?",
     "variants": [
@@ -2122,10 +2122,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 209,
+    "id": 210,
     "type": [1, 4],
     "title": "ვინ მეთაურობს საქართველოს მთავრობას?",
     "variants": [
@@ -2136,10 +2136,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 210,
+    "id": 211,
     "type": [1, 4],
     "title": "დასაშვებია თუ არა ადამიანისთვის რელიგიის თავისუფლების შეზღუდვა?",
     "variants": [
@@ -2150,10 +2150,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 211,
+    "id": 212,
     "type": [1, 4],
     "title": "სჭირდებათ თუ არა ადამიანებს წინასწარი ნებართვა საჯაროდ და უიარაღოდ შეკრებისთვის?",
     "variants": [
@@ -2164,10 +2164,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 212,
+    "id": 213,
     "type": [1, 4],
     "title": "ვინ არის საქართველოს თავდაცვის ძალების უმაღლესი მთავარსარდალი?",
     "variants": [
@@ -2178,10 +2178,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 213,
+    "id": 214,
     "type": [1, 4],
     "title": "ვინ ამტკიცებს საქართველოს სახელმწიფო ბიუჯეტს?d",
     "variants": [
@@ -2192,19 +2192,19 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 214,
+    "id": 215,
     "type": [1, 4],
     "title": "რა არის საქართველო?",
     "variants": ["მონარქია", "დემოკრატია", "დემოკრატიული რესპუბლიკა", "კონსტიტუციური მონარქია"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 215,
+    "id": 216,
     "type": [1, 4],
     "title": "ვინ არის სახელმწიფო ხელისუფლების წყარო?",
     "variants": [
@@ -2215,10 +2215,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 216,
+    "id": 217,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, შესაძლებელია თუ არა ადამიანის წამება?",
     "variants": [
@@ -2229,10 +2229,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 217,
+    "id": 218,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა პარლამენტის სხდომის დახურვა?",
     "variants": [
@@ -2243,10 +2243,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 218,
+    "id": 219,
     "type": [1, 4],
     "title": "რომელ უწყებას აქვს ფულის ემისიის უფლება?",
     "variants": [
@@ -2257,10 +2257,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 219,
+    "id": 220,
     "type": [1, 4],
     "title": "არის თუ არა საქართველო დამოუკიდებელი სახელმწიფო?",
     "variants": [
@@ -2271,10 +2271,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 220,
+    "id": 221,
     "type": [1, 4],
     "title": "დაასახელეთ საქართველოს უზენაესი კანონი:",
     "variants": [
@@ -2285,21 +2285,21 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 221,
+    "id": 222,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, რა არის ბრალდებულის წინასწარი პატიმრობის მაქსიმალური ვადა?",
     "variants": ["21 დღე", "6 თვე", "2 წელიწადი", "19 თვე"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 222,
+    "id": 223,
     "type": [1, 4],
-    "title": " როდის არის შეკრების შესახებ წინასწარი გაფრთხილება აუცილებელი?",
+    "title": "როდის არის შეკრების შესახებ წინასწარი გაფრთხილება აუცილებელი?",
     "variants": [
       "თუ შეკრება ხალხის ან ტრანსპორტის სამოძრაო ადგილას იმართება",
       "არასდროს",
@@ -2308,10 +2308,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 223,
+    "id": 224,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა ისეთი პოლიტიკური პარტიის შექმნა, რომელიც ომის ან ძალადობის პროპაგანდას ეწევა?",
     "variants": [
@@ -2322,19 +2322,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 224,
+    "id": 225,
     "type": [1, 4],
     "title": "რომელი სქესის მოქალაქეებს აქვთ არჩევნებში მონაწილეობის უფლება?",
     "variants": ["მხოლოდ ქალებს", "არცერთს", "მხოლოდ კაცებს", "ქალებს და კაცებს თანაბრად"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 225,
+    "id": 226,
     "type": [1, 4],
     "title": "ვისი თანხმობით შეიძლება სახალხო დამცველის დაკავება ან დაპატიმრება, მისი საცხოვრებელი ან სამუშაო ადგილის, მანქანის ან პირადი გაჩხრეკა?",
     "variants": [
@@ -2345,10 +2345,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 226,
+    "id": 227,
     "type": [1, 4],
     "title": "შეიძლება თუ არა საქართველოს სახელმწიფოს ტერიტორიის გასხვისება?",
     "variants": [
@@ -2359,19 +2359,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 227,
+    "id": 228,
     "type": [1, 4],
     "title": "რა ეწოდება საქართველოს სახელმწიფოს?",
     "variants": ["რესპუბლიკა", "საქართველოს მონარქია", "საქართველოს სამეფო", "საქართველო"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 228,
+    "id": 229,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა კერძო საკუთრების საყოველთაო უფლების გაუქმება?",
     "variants": [
@@ -2382,10 +2382,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 229,
+    "id": 230,
     "type": [1, 4],
     "title": "ვინ შეიძლება მიუსაჯოს ადამიანს თავისუფლების აღკვეთა?",
     "variants": [
@@ -2396,10 +2396,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 230,
+    "id": 231,
     "type": [1, 4],
     "title": "ვინ აკონტროლებს მთავრობის საქმიანობას?",
     "variants": [
@@ -2410,10 +2410,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 231,
+    "id": 232,
     "type": [1, 4],
     "title": "ვინ დებს კონსტიტუციურ შეთანხმებას საქართველოს სამოციქულო ავტოკეფალურ მართლმადიდებელ ეკლესიასთან?",
     "variants": [
@@ -2424,10 +2424,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 232,
+    "id": 233,
     "type": [1, 4],
     "title": "შეიძლება თუ არა საქართველოს სახელმწიფო საზღვრის შეცვლა?",
     "variants": [
@@ -2438,10 +2438,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 233,
+    "id": 234,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით სახელმწიფომ უნდა შექმნას თუ არა განსაკუთრებული პირობები შეზღუდული შესაძლებლობის მქონე პირთა უფლებებისა და ინტერესების რეალიზებისათვის?",
     "variants": [
@@ -2452,10 +2452,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 234,
+    "id": 235,
     "type": [1, 4],
     "title": "როდის უნდა განემარტოს დაკავებულ პირს მისი უფლებები და დაკავების საფუძველი?",
     "variants": [
@@ -2466,10 +2466,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 235,
+    "id": 236,
     "type": [1, 4],
     "title": "შეიძლება თუ არა, ადამიანი ორჯერ დაისაჯოს ერთი და იმავე დანაშაულისთვის?",
     "variants": [
@@ -2480,10 +2480,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 236,
+    "id": 237,
     "type": [1, 4],
     "title": "ვის წინაშე არის მთავრობა ანგარიშვალდებული?",
     "variants": [
@@ -2494,10 +2494,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 237,
+    "id": 238,
     "type": [1, 4],
     "title": "როგორ მონაწილეობს სამართალწარმოებაში პირი, რომელმაც სახელმწიფო ენა არ იცის?",
     "variants": [
@@ -2508,19 +2508,19 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 238,
+    "id": 239,
     "type": [1, 4],
     "title": "როგორ ცხადდება სასამართლოს გადაწყვეტილება?",
     "variants": ["მიღებიდან 1 წელიწადში", "მხოლოდ მხარეებისთვის", "საქვეყნოდ", "მხოლოდ წერილობით"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 239,
+    "id": 240,
     "type": [1, 4],
     "title": "ვინ ირჩევს საქართველოს გენერალურ პროკურორს?",
     "variants": [
@@ -2531,10 +2531,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 240,
+    "id": 241,
     "type": [1, 4],
     "title": "როდის შეუძლია დაკავებულ პირს მოითხოვოს ადვოკატის დახმარება?",
     "variants": [
@@ -2545,10 +2545,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 241,
+    "id": 242,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, შესაძლებელია თუ არა ადამიანის პირადი და ოჯახური ცხოვრების უფლების შეზღუდვა?",
     "variants": [
@@ -2559,19 +2559,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 242,
+    "id": 243,
     "type": [1, 4],
     "title": "ვის აქვს ადამიანის დაკავების უფლება?",
     "variants": ["ნებისმიერ ადამიანს", "კანონით უფლებამოსილ პირს", "მღვდელს", "არავის"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 243,
+    "id": 244,
     "type": [1, 4],
     "title": "ვის შეუძლია ქვეყნის მთელ ტერიტორიაზე თავისუფალი მიმოსვლა?",
     "variants": [
@@ -2582,10 +2582,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 244,
+    "id": 245,
     "type": [1, 4],
     "title": "რა შემთხვევაში შეიძლება რწმენის, აღმსარებლობისა და სინდისის თავისუფლების შეზღუდვა?",
     "variants": [
@@ -2596,10 +2596,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 245,
+    "id": 246,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა მოქალაქეობის ჩამორთმევა?",
     "variants": [
@@ -2610,19 +2610,19 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 246,
+    "id": 247,
     "type": [1, 4],
     "title": "რა ასაკიდან შეიძლება აირჩეს საქართველოს პარლამენტის წევრი?",
     "variants": ["25 წლიდან", "21 წლიდან", "18 წლიდან", "30 წლიდან"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 247,
+    "id": 248,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა საქართველოს პრეზიდენტის იმპიჩმენტის პროცედურის განხორციელება საგანგებო ან საომარი მდგომარეობის დროს?",
     "variants": [
@@ -2633,10 +2633,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 248,
+    "id": 249,
     "type": [1, 4],
     "title": "რა იურიდიული ძალა აქვს საქართველოში საერთაშორისო ხელშეკრულებას?",
     "variants": [
@@ -2647,10 +2647,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 249,
+    "id": 250,
     "type": [1, 4],
     "title": "რა ტიპის განათლება არის საქართველოში სავალდებულო?",
     "variants": [
@@ -2661,10 +2661,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 250,
+    "id": 251,
     "type": [1, 4],
     "title": "რას ნიშნავს უდანაშაულობის პრეზუმფცია?",
     "variants": [
@@ -2675,10 +2675,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 251,
+    "id": 252,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა საქართველოს მოქალაქის სხვა სახელმწიფოსათვის გადაცემა, თუ მან იმ სახელმწიფოში ჩაიდინა დანაშაული?",
     "variants": [
@@ -2689,19 +2689,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 252,
+    "id": 253,
     "type": [1, 4],
     "title": "რამდენი წლით აირჩევა საქართველოს სახალხო დამცველი?",
     "variants": ["3 წლით", "6 წლით", "5 წლით", "4 წლით"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 253,
+    "id": 254,
     "type": [1, 4],
     "title": "რა შემთხვევაში შეიძლება პარლამენტის წევრის დაკავება ან დაპატიმრება, მისი საცხოვრებელი ან სამუშაო ადგილის, მანქანის ან პირადი გაჩხრეკა?",
     "variants": [
@@ -2712,10 +2712,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 254,
+    "id": 255,
     "type": [1, 4],
     "title": "რამდენ ამომრჩეველს აქვს საკანონმდებლო ინიციატივის უფლება?",
     "variants": [
@@ -2726,10 +2726,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 255,
+    "id": 256,
     "type": [1, 4],
     "title": "ვის აქვს უფლება, მოსამართლეს მოსთხოვოს ანგარიში კონკრეტულ საქმეზე?",
     "variants": [
@@ -2740,10 +2740,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 256,
+    "id": 257,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, რა უნდა გააკეთოს სახელმწიფომ უცხოეთში მცხოვრები თანამემამულეებისთვის?",
     "variants": [
@@ -2754,10 +2754,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 257,
+    "id": 258,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, რა სახის საქმეებს აწესრიგებენ ადგილობრივი თვითმმართველობის წარმომადგენლობითი და აღმასრულებელი ორგანოების მეშვეობით?",
     "variants": [
@@ -2768,10 +2768,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 258,
+    "id": 259,
     "type": [1, 4],
     "title": "რა ენაზე ხორციელდება სამართალწარმოება საქართველოში?",
     "variants": [
@@ -2782,10 +2782,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 259,
+    "id": 260,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, ვის არ აქვს წინასწარი ნებართვის გარეშე საჯაროდ და უიარაღოდ შეკრების უფლება?",
     "variants": [
@@ -2796,10 +2796,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 260,
+    "id": 261,
     "type": [1, 4],
     "title": "სასჯელის აღსრულების დაწესებულებაში მყოფ რომელ საქართველოს მოქალაქეებს არ აქვთ არჩევნებსა და რეფერენდუმში ხმის მიცემის უფლება?",
     "variants": [
@@ -2810,10 +2810,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 261,
+    "id": 262,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, ვინ არის საქართველოს სახელმწიფოს მეთაური?",
     "variants": [
@@ -2824,10 +2824,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 262,
+    "id": 263,
     "type": [1, 4],
     "title": "როდის არის საქართველოს კონსტიტუცია მიღებული?",
     "variants": [
@@ -2838,10 +2838,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 263,
+    "id": 264,
     "type": [1, 4],
     "title": "ვის აქვს უფლება, დაიკავოს საჯარო თანამდებობა?",
     "variants": [
@@ -2852,10 +2852,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 264,
+    "id": 265,
     "type": [1, 4],
     "title": "როგორ აფინანსებს სახელმწიფო ზოგად განათლებას?",
     "variants": [
@@ -2866,10 +2866,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 265,
+    "id": 266,
     "type": [1, 4],
     "title": "შეიძლება თუ არა, საქართველოს მოქალაქეს უარი ეთქვას ქვეყნის ტერიტორიაზე შემოსვლაზე?",
     "variants": [
@@ -2880,10 +2880,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 266,
+    "id": 267,
     "type": [1, 4],
     "title": "ვის წინაშე არის ანგარიშვალდებული ეროვნული ბანკი?",
     "variants": [
@@ -2894,10 +2894,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 267,
+    "id": 268,
     "type": [1, 4],
     "title": "ჩამოთვლილთაგან რა ეკრძალება მოსამართლეს?",
     "variants": [
@@ -2908,19 +2908,19 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 268,
+    "id": 269,
     "type": [1, 4],
     "title": "რა ვადით განწესდება მოსამართლე თანამდებობაზე?",
     "variants": ["20 წლით", "10 წლით", "100 წლით", "უვადოდ"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 269,
+    "id": 270,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, რა არის საქართველოს სახელმწიფო ენა?",
     "variants": [
@@ -2931,10 +2931,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 270,
+    "id": 271,
     "type": [1, 4],
     "title": "ვის შეუძლია სასამართლოს გადაწყვეტილების გაუქმება?",
     "variants": [
@@ -2945,19 +2945,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 271,
+    "id": 272,
     "type": [1, 4],
     "title": "ვინ უცხადებს ნდობას საქართველოს მთავრობას?",
     "variants": ["პარლამენტი", "ხალხი", "პრეზიდენტი", "პრემიერმინისტრი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 272,
+    "id": 273,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, უწყობს თუ არა მოქალაქეს ხელს სახელმწიფო დასაქმებაში?",
     "variants": [
@@ -2968,10 +2968,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 273,
+    "id": 274,
     "type": [1, 4],
     "title": "სახალხო დამცველის დაკავება ან დაპატიმრება, მისი საცხოვრებელი ან სამუშაო ადგილის, მანქანის ან პირადი გაჩხრეკა შეიძლება:",
     "variants": [
@@ -2982,10 +2982,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 274,
+    "id": 275,
     "type": [1, 4],
     "title": "შეიძლება თუ არა, საქართველომ თავისი მოქალაქე გააძევოს საქართველოდან?",
     "variants": [
@@ -2996,10 +2996,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 275,
+    "id": 276,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, ვინ მეთაურობს საქართველოს მთავრობას?",
     "variants": [
@@ -3010,10 +3010,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 276,
+    "id": 277,
     "type": [1, 4],
     "title": "რა შემთხვევაში შეიძლება ადამიანისთვის რელიგიის თავისუფლების შეზღუდვა?",
     "variants": [
@@ -3024,10 +3024,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 277,
+    "id": 278,
     "type": [1, 4],
     "title": "რა ტიპის წინასწარი ნებართვა სჭირდებათ ადამიანებს საჯაროდ და უიარაღოდ შეკრებისთვის?",
     "variants": [
@@ -3038,10 +3038,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 278,
+    "id": 279,
     "type": [1, 4],
     "title": "რა ასაკიდან აქვთ საქართველოს მოქალაქეებს უფლება, კენჭი იყარონ მეფის არჩევნებზე?",
     "variants": [
@@ -3052,10 +3052,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 279,
+    "id": 280,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, ვის ეწოდება საქართველოს თავდაცვის ძალების უმაღლესი მთავარსარდალი?",
     "variants": [
@@ -3066,10 +3066,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 280,
+    "id": 281,
     "type": [1, 4],
     "title": "რამდენ წელიწადში ერთხელ ამტიკიცებს საქართველოს პარლამენტი სახელმწიფო ბიუჯეტს?",
     "variants": [
@@ -3080,10 +3080,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 281,
+    "id": 282,
     "type": [1, 4],
     "title": "ვინ აწერს ხელს კანონებს?",
     "variants": [
@@ -3094,19 +3094,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 282,
+    "id": 283,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, ვინ არის სახელმწიფო ხელისუფლების წყარო?",
     "variants": ["ეკლესია", "ხალხი", "საქართველოს პრეზიდენტი", "საქართველოს პარლამენტის წევრები"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 283,
+    "id": 284,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, შესაძლებელია თუ არა ადამიანისთვის არაჰუმანური, სასტიკი ან პატივისა და ღირსების შემლახველი სასჯელის შეფარდება?",
     "variants": [
@@ -3117,10 +3117,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 284,
+    "id": 285,
     "type": [1, 4],
     "title": "შეიძლება თუ არა, საქართველოს პრეზიდენტის თანამდებობა ეკავოს საქართველოს მოქალაქეს, რომელიც იმავდროულად სხვა სახელმწიფოს მოქალაქეა?",
     "variants": [
@@ -3131,10 +3131,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 285,
+    "id": 286,
     "type": [1, 4],
     "title": "პარლამენტის რომელი სხდომის ოქმები არის საჯარო?",
     "variants": [
@@ -3145,10 +3145,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 286,
+    "id": 287,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციის მიხედვით, რომელი უწყება აკეთებს ფულის ემისიას?",
     "variants": [
@@ -3159,10 +3159,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 287,
+    "id": 288,
     "type": [1, 4],
     "title": "ჩამოთვლილთაგან რომელია საქართველოს უზენაესი კანონი?",
     "variants": [
@@ -3173,19 +3173,19 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 288,
+    "id": 289,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, რამდენ თვეს არ უნდა აღემატებოდეს ბრალდებულის წინასწარი პატიმრობის ვადა?",
     "variants": ["9 თვეს", "19 თვეს", "6 თვეს", "2 თვეს"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 289,
+    "id": 290,
     "type": [1, 4],
     "title": "როდის შეიძლება დაწესდეს შეკრების შესახებ წინასწარი გაფრთხილება?",
     "variants": [
@@ -3196,10 +3196,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 290,
+    "id": 291,
     "type": [1, 4],
     "title": "რომელი უწყება ზედამხედველობს საბიუჯეტო სახსრების ხარჯვას?",
     "variants": [
@@ -3210,10 +3210,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 291,
+    "id": 292,
     "type": [1, 4],
     "title": "შეუძლიათ თუ არა საქართველოს მოქალაქეებს, ისარგებლონ დედაენით?",
     "variants": [
@@ -3224,10 +3224,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 292,
+    "id": 293,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, შესაძლებელია თუ არა კერძო საკუთრების საყოველთაო უფლების გაუქმება?",
     "variants": [
@@ -3238,10 +3238,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 293,
+    "id": 294,
     "type": [1, 4],
     "title": "ვინ შეიძლება მიუსაჯოს ადამიანს თავისუფლების აღკვეთა ან თავისუფლების სხვაგვარი შეზღუდვა?",
     "variants": [
@@ -3252,10 +3252,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 294,
+    "id": 295,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციის მიხედვით, შეუძლია თუ არა საქართველოს მოქალაქეს საცხოვრებელი ადგილის თავისუფლად არჩევა?",
     "variants": [
@@ -3266,10 +3266,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 295,
+    "id": 296,
     "type": [1, 4],
     "title": "რა უფლებამოსილებები აქვს საქართველოს პრეზიდენტს საგარეო ურთიერთობებში?",
     "variants": [
@@ -3280,10 +3280,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 296,
+    "id": 297,
     "type": [1, 4],
     "title": "შეიძლება თუ არა პარლამენტის წევრად აირჩეს პირი, რომელსაც სასამართლოს განაჩენით შეფარდებული აქვს თავისუფლების აღკვეთა?",
     "variants": [
@@ -3294,10 +3294,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 297,
+    "id": 298,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, როდის უნდა განემარტოს დაკავებულ პირს მისი უფლებები და დაკავების საფუძველი?",
     "variants": [
@@ -3308,10 +3308,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 298,
+    "id": 299,
     "type": [1, 4],
     "title": "ვინ ნიშნავს პარლამენტისა და ადგილობრივი თვითმმართველობის ორგანოების არჩევნებს?",
     "variants": [
@@ -3322,10 +3322,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 299,
+    "id": 300,
     "type": [1, 4],
     "title": "რომელი სასამართლო არის უფლებამოსილი, განიხილოს ნორმატიული აქტის კონსტიტუციურობის საკითხი?",
     "variants": [
@@ -3336,19 +3336,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 300,
+    "id": 301,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, რომელ თვეში ინიშნება საქართველოს პრეზიდენტის არჩევნები?",
     "variants": ["თვე განსაზღვრული არ არის", "ოქტომბერში", "სექტემბერში", "მაისში"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 301,
+    "id": 302,
     "type": [1, 4],
     "title": "ვის ეკისრება ბრალდების მტკიცების მოვალეობა?",
     "variants": [
@@ -3359,10 +3359,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 302,
+    "id": 303,
     "type": [1, 4],
     "title": "არის თუ არა აუცილებელი სასამართლოში საკუთარი უფლებების დასაცავად ადვოკატის აყვანა?",
     "variants": [
@@ -3373,10 +3373,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 303,
+    "id": 304,
     "type": [1, 4],
     "title": "როდის შეუძლია დაკავებულ პირს, მოითხოვოს ადვოკატის დახმარება?",
     "variants": [
@@ -3387,10 +3387,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 304,
+    "id": 305,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, აქვთ თუ არა ადამიანებს უფლება, დროულად მიიღონ სრული ინფორმაცია გარემოს მდგომარეობის შესახებ?",
     "variants": [
@@ -3401,10 +3401,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 305,
+    "id": 306,
     "type": [1, 4],
     "title": "რა ეტაპამდე ითვლება ადამიანი უდანაშაულოდ, საქართველოს კონსტიტუციის მიხედვით?",
     "variants": [
@@ -3415,10 +3415,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 306,
+    "id": 307,
     "type": [1, 4],
     "title": "რა შემთხვევაში აქვს კანონის დარღვევით მოპოვებულ მტკიცებულებას იურიდიული ძალა?",
     "variants": [
@@ -3429,10 +3429,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 307,
+    "id": 308,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, ვის აქვს გენერალური პროკურორის იმპიჩმენტის წესით თანამდებობიდან გადაყენების საკითხის აღძვრის უფლება?",
     "variants": [
@@ -3443,10 +3443,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 308,
+    "id": 309,
     "type": [1, 4],
     "title": "რომელი უწყება განიხილავს და წარუდგენს დასკვნას პარლამენტს პრეზიდენტის იმპიჩმენტის საკითხთან დაკავშირებით?",
     "variants": [
@@ -3457,10 +3457,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 309,
+    "id": 310,
     "type": [1, 4],
     "title": "ვის აქვს საკანონმდებლო ინიციატივის უფლება?",
     "variants": [
@@ -3471,10 +3471,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 310,
+    "id": 311,
     "type": [1, 4],
     "title": "აქვს თუ არა უფლება პარლამენტის წევრს, ეწეოდეს სამეწარმეო საქმიანობას?",
     "variants": [
@@ -3485,10 +3485,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 311,
+    "id": 312,
     "type": [1, 4],
     "title": "რა შემთხვევაში არის დაშვებული სიკვდილით დასჯა საქართველოში?",
     "variants": [
@@ -3499,10 +3499,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 312,
+    "id": 313,
     "type": [1, 4],
     "title": "დასაშვებია თუ არა საქართველოს მოქალაქისთვის საკუთრების ჩამორთმევა?",
     "variants": [
@@ -3513,28 +3513,28 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 313,
+    "id": 314,
     "type": [1, 4],
     "title": "რა ასაკიდან აქვთ საქართველოს მოქალაქეებს არჩევნებსა და რეფერენდუმში ხმის მიცემის უფლება?",
     "variants": ["16 წლიდან", "21 წლიდან", "18 წლიდან", "25 წლიდან"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 314,
+    "id": 315,
     "type": [1, 4],
     "title": "რამდენი წევრისგან შედგება საქართველოს პარლამენტი?",
     "variants": ["150", "345", "100", "50"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 315,
+    "id": 316,
     "type": [1, 4],
     "title": "ვინ არის საქართველოს სახელმწიფოს მეთაური?",
     "variants": [
@@ -3545,10 +3545,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 316,
+    "id": 317,
     "type": [1, 4],
     "title": "რომელია საქართველოს სახელმწიფო ენა?",
     "variants": [
@@ -3559,19 +3559,19 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 317,
+    "id": 318,
     "type": [1, 4],
     "title": "საქართველოს დედაქალაქია:",
     "variants": ["მცხეთა", "თბილისი და მცხეთა", "თბილისი", "ქუთაისი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 318,
+    "id": 319,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუცია მიღებულია:",
     "variants": [
@@ -3582,28 +3582,28 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 319,
+    "id": 320,
     "type": [1, 4],
     "title": "საქართველოს პრეზიდენტად შეიძლება არჩეულ იქნეს საქართველოს მოქალაქე, რომელსაც შესრულებული აქვს:",
     "variants": ["40 წელი", "30 წელი", "18 წელი", "21 წელი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 320,
+    "id": 321,
     "type": [1, 4],
     "title": "მოსამართლე შეიძლება გახდეს საქართველოს მოქალაქე, რომელსაც შესრულებული აქვს:",
     "variants": ["21 წელი", "18 წელი", "28 წელი", "30 წელი"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 321,
+    "id": 322,
     "type": [1, 4],
     "title": "რომელი სახელმწიფო ორგანო ზედამხედველობს ადამიანის უფლებების დაცვას საქართველოს ტერიტორიაზე?",
     "variants": [
@@ -3614,10 +3614,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 322,
+    "id": 323,
     "type": [1, 4],
     "title": "რა შემთხვევაში შეიძლება პრეზიდენტის იმპიჩმენტის წესით თანამდებობიდან გადაყენება?",
     "variants": [
@@ -3628,10 +3628,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 323,
+    "id": 324,
     "type": [1, 4],
     "title": "ვისი სახელით გამოაქვს სასამართლოს გადაწყვეტილება?",
     "variants": [
@@ -3642,10 +3642,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 324,
+    "id": 325,
     "type": [1, 4],
     "title": "ვინ ნიშნავს მინისტრებს?",
     "variants": [
@@ -3656,28 +3656,28 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 325,
+    "id": 326,
     "type": [1, 4],
     "title": "საჯარო მოხელე შეიძლება გახდეს საქართველოს მოქალაქე, რომელსაც შესრულებული აქვს:",
     "variants": ["30 წელი", "18 წელი", "21 წელი", "28 წელი"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 326,
+    "id": 327,
     "type": [1, 4],
     "title": "საქართველოს სახელმწიფო რელიგია არის:",
     "variants": ["არცერთი", "ისლამი", "ბუდიზმი", "მართლმადიდებლური ქრისტიანობა"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 327,
+    "id": 328,
     "type": [1, 4],
     "title": "ვის აქვს უფლება, მიმართოს სასამართლოს თავის უფლებათა და თავისუფლებათა დასაცავად?",
     "variants": [
@@ -3688,10 +3688,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 328,
+    "id": 329,
     "type": [1, 4],
     "title": "რა პრინციპის საფუძველზე ხორციელდება სახელმწიფო ხელისუფლება?",
     "variants": [
@@ -3702,10 +3702,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 329,
+    "id": 330,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, შესაძლებელია თუ არა ადამიანისთვის საკუთრების ჩამორთმევა?",
     "variants": [
@@ -3716,10 +3716,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 330,
+    "id": 331,
     "type": [1, 4],
     "title": "აქვთ თუ არა საქართველოში მცხოვრებ სხვა სახელმწიფოს მოქალაქეებს და მოქალაქეობის არმქონე პირებს პოლიტიკური საქმიანობა შეზღუდული?",
     "variants": [
@@ -3730,10 +3730,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 331,
+    "id": 332,
     "type": [1, 4],
     "title": "ვრცელდება თუ არა ადამიანის უფლებები იურიდიულ პირებზე?",
     "variants": [
@@ -3744,10 +3744,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 332,
+    "id": 333,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, უნდა მიიღოს თუ არა სახელმწიფომ განსაკუთრებული ზომები მამაკაცებისა და ქალების არსებითი თანასწორობის უზრუნველსაყოფად და უთანასწორობის აღმოსაფხვრელად?",
     "variants": [
@@ -3758,10 +3758,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 333,
+    "id": 334,
     "type": [1, 4],
     "title": "როდის შეიძლება სამხედრო სასამართლოს შემოღება?",
     "variants": [
@@ -3772,10 +3772,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 334,
+    "id": 335,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციის მიხედვით, რა არის საქართველოს სახელმწიფოს სახელწოდება?",
     "variants": [
@@ -3786,10 +3786,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 335,
+    "id": 336,
     "type": [1, 4],
     "title": "ვინ ზედამხედველობს საბიუჯეტო სახსრებისა და სხვა საჯარო რესურსების გამოყენებასა და ხარჯვას?",
     "variants": [
@@ -3800,10 +3800,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 336,
+    "id": 337,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, არის თუ არა დაშვებული ცენზურა?",
     "variants": [
@@ -3814,19 +3814,19 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 337,
+    "id": 338,
     "type": [1, 4],
     "title": "რამდენი წლით აირჩევა საქართველოს პრეზიდენტი?",
     "variants": ["10 წლით", "5 წლით", "4 წლით", "6 წლით"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 338,
+    "id": 339,
     "type": [1, 4],
     "title": "ვინ წყვეტს მოქალაქეობის საკითხებს?",
     "variants": [
@@ -3837,10 +3837,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 339,
+    "id": 340,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა საქართველოს მოქალაქის გაძევება საქართველოდან?",
     "variants": [
@@ -3851,19 +3851,19 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 340,
+    "id": 341,
     "type": [1, 4],
     "title": "რამდენი მოსამართლისგან შედგება საქართველოს საკონსტიტუციო სასამართლო?",
     "variants": ["3 მოსამართლისგან", "15 მოსამართლისგან", "17 მოსამართლისგან", "9 მოსამართლისგან"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 341,
+    "id": 342,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციით, რა ტიპის განათლება არის საქართველოში სავალდებულო?",
     "variants": [
@@ -3874,10 +3874,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 342,
+    "id": 343,
     "type": [1, 4],
     "title": "რით დასტურდება, რომ საქართველო არის დამოუკიდებელი, ერთიანი და განუყოფელი სახელმწიფო?",
     "variants": [
@@ -3888,10 +3888,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 343,
+    "id": 344,
     "type": [1, 4],
     "title": "რომელი წლის მდგომარეობით არის საქართველოს სახელმწიფოს ტერიტორია განსაზღვრული?",
     "variants": [
@@ -3902,10 +3902,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 344,
+    "id": 345,
     "type": [1, 4],
     "title": "რის ისტორიულ-სამართლებრივ მემკვიდრეობაზე დაყრდნობით გამოცხადდა საქართველოს კონსტიტუცია?",
     "variants": [
@@ -3916,10 +3916,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 345,
+    "id": 346,
     "type": [1, 4],
     "title": "ვის წინაშე ცხადდება საქართველოს კონსტიტუცია?",
     "variants": [
@@ -3930,10 +3930,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 346,
+    "id": 347,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა საყოველთაო არჩევნებში არჩეული ორგანოს მიმდინარე უფლებამოსილების ვადის კონსტიტუციით ან კანონით შემცირება ან გაზრდა?",
     "variants": [
@@ -3944,10 +3944,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 347,
+    "id": 348,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციის თანახმად, ვინ შეიწყალებს მსჯავრდებულებს?",
     "variants": [
@@ -3958,10 +3958,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 348,
+    "id": 349,
     "type": [1, 4],
     "title": "საჭიროებს თუ არა თანახელმოწერას საქართველოს პრეზიდენტის სამართლებრივი აქტი პრემიერ-მინისტრის დანიშვნის შესახებ?",
     "variants": [
@@ -3972,19 +3972,19 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 349,
+    "id": 350,
     "type": [1, 4],
     "title": "რამდენი მოსამართლე შედის უზენაესი სასამართლოს შემადგენლობაში?",
     "variants": ["9", "30", "11", "28"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 350,
+    "id": 351,
     "type": [1, 4],
     "title": "ვინ და რა წესით ირჩევს უზენაესი სასამართლოს თავმჯდომარეს?",
     "variants": [
@@ -3995,10 +3995,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 351,
+    "id": 352,
     "type": [1, 4],
     "title": "შეიძლება თუ არა საქართველოს პრეზიდენტად არჩეულ იქნას მოქალაქე, რომელსაც საქართველოში 5 წელი უცხოვრია?",
     "variants": [
@@ -4009,10 +4009,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 352,
+    "id": 353,
     "type": [1, 4],
     "title": "რა წესით აირჩევა საქართველოს პრეზიდენტი?",
     "variants": [
@@ -4023,10 +4023,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 353,
+    "id": 354,
     "type": [1, 4],
     "title": "რა მიზნით ნიშნავს მთავრობა სახელმწიფო რწმუნებულებს?",
     "variants": [
@@ -4037,10 +4037,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 354,
+    "id": 355,
     "type": [1, 4],
     "title": "შეიძლება თუ არა საკონსტიტუციო სასამართლოს მოსამართლე იყოს პირი, რომელსაც ადრე ეკავა ეს თანამდებობა?",
     "variants": [
@@ -4051,10 +4051,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 355,
+    "id": 356,
     "type": [1, 4],
     "title": "რა წესით აირჩევა საკონსტიტუციო სასამართლოს თავმჯდომარე?",
     "variants": [
@@ -4065,10 +4065,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 356,
+    "id": 357,
     "type": [1, 4],
     "title": "ვინ შედის იუსტიციის უმაღლესი საბჭოს შემადგენლობაში?",
     "variants": [
@@ -4079,10 +4079,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 357,
+    "id": 358,
     "type": [1, 4],
     "title": "ვინ ირჩევს იუსტიციის უმაღლესი საბჭოს მდივანს?",
     "variants": [
@@ -4093,10 +4093,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 358,
+    "id": 359,
     "type": [1, 4],
     "title": "რა წესით აირჩევა გენერალური პროკურორი?",
     "variants": [
@@ -4107,19 +4107,19 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 359,
+    "id": 360,
     "type": [1, 4],
     "title": "რამდენი წევრისგან შედგენა საპროკურორო საბჭო?",
     "variants": ["10", "15", "21", "5"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 360,
+    "id": 361,
     "type": [1, 4],
     "title": "სად არის სავალდებულო შესასრულებლად ადგილობრივი თვითმმართველობის ორგანოს მიერ მისი უფლებამოსილების ფარგლებში მიღებული გადაწყვეტილება?",
     "variants": [
@@ -4130,10 +4130,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 361,
+    "id": 362,
     "type": [1, 4],
     "title": "ვის აქვს კონსტიტუციის გადასინჯვის პროექტის წარდგენის უფლება?",
     "variants": [
@@ -4144,10 +4144,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 362,
+    "id": 363,
     "type": [1, 4],
     "title": "რა შემთხვევაში ითვლება კანონი მიღებულად?",
     "variants": [
@@ -4158,10 +4158,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 363,
+    "id": 364,
     "type": [1, 4],
     "title": "რა შემთხვევაში ჩაითვლება მიღებულად ორგანული კანონი?",
     "variants": [
@@ -4172,10 +4172,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 364,
+    "id": 365,
     "type": [1, 4],
     "title": "როდის შედის კანონი ძალაში?",
     "variants": [
@@ -4186,10 +4186,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 365,
+    "id": 366,
     "type": [1, 4],
     "title": "შესაძლებელია თუ არა პარლამენტის წევრის გაწვევა?",
     "variants": [
@@ -4200,10 +4200,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 366,
+    "id": 367,
     "type": [1, 4],
     "title": "შეიძლება თუ არა პარლამენტის წევრი ეწეოდეს სამეწარმეო საქმიანობას?",
     "variants": [
@@ -4214,10 +4214,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 367,
+    "id": 368,
     "type": [1, 4],
     "title": "რამდენჯერ იკრიბება საქართველოს პარლამენტი?",
     "variants": [
@@ -4228,28 +4228,28 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 368,
+    "id": 369,
     "type": [1, 4],
     "title": "რა ვადაში აწერს ხელს და აქვეყნებს საქართველოს პრეზიდენტი კანონებს?",
     "variants": ["1 კვირის ვადაში", "10 დღის ვადაში", "3 კვირის ვადაში", "2 კვირის ვადაში"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 369,
+    "id": 370,
     "type": [1, 4],
     "title": "აქვს თუ არა მთავრობის წევრს უფლება, ეკავოს პარტიული თანამდებობა?",
     "variants": ["არა, დაუშვებელია", "არა, თუ ეს ოპოზიციური პარტიაა", "დიახ, აქვს", "დიახ, აქვს"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 370,
+    "id": 371,
     "type": [1, 4],
     "title": "ვინ შეიძლება გახდეს ვიცე-პრემიერი?",
     "variants": [
@@ -4260,10 +4260,10 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 371,
+    "id": 372,
     "type": [1, 4],
     "title": "რომელი წლის აქტით არის საქართველოს დამოუკიდებლობა განსაზღვრული?",
     "variants": [
@@ -4274,10 +4274,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 372,
+    "id": 373,
     "type": [1, 4],
     "title": "როდის იმართება ახალარჩეული პარლამენტის პირველი სხდომა?",
     "variants": [
@@ -4288,19 +4288,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 373,
+    "id": 374,
     "type": [1, 4],
     "title": "ვინ ირჩევს საქართველოს პარლამენტის თავმჯდომარეს?",
     "variants": ["ხალხი", "პარლამენტი", "პრემიერმინისტრი", "პრეზიდნეტი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 374,
+    "id": 375,
     "type": [1, 4],
     "title": "როდის ტარდება პარლამენტის მორიგი არჩევნები?",
     "variants": [
@@ -4311,10 +4311,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 375,
+    "id": 376,
     "type": [1, 4],
     "title": "რა ხდება იმ შემთხვევაში, როცა კონსტიტუციური კანონის პროექტის განხილვის დროს საგანგებო ან საომარი მდგომარეობა გამოცხადდება?",
     "variants": [
@@ -4325,19 +4325,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 376,
+    "id": 377,
     "type": [1, 4],
     "title": "ვინ აწერს ხელს და აქვეყნებს კონსტიტუციურ კანონს?",
     "variants": ["ხალხი", "პრეზიდენტი", "პრემიერმინისტრი", "პრეზიდენტის საპარლამენტი მდივანი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 377,
+    "id": 378,
     "type": [1, 4],
     "title": "რომელი სათათბირო ორგანო იქმნება საომარი მდგომარეობის დროს?",
     "variants": [
@@ -4348,10 +4348,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 378,
+    "id": 379,
     "type": [1, 4],
     "title": "ვინ თავმჯდომარეობს ეროვნული თავდაცვის საბჭოს?",
     "variants": [
@@ -4362,19 +4362,19 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 379,
+    "id": 380,
     "type": [1, 4],
     "title": "ვინ იღებს გადაწყვეტილებას საომარი მდგომარეობის დროს თავდაცვის ძალების გამოყენების შესახებ?",
     "variants": ["პრეზიდენტი", "პრემიერმინისტრი", "თავდაცვის მინისტრი", "პარლამენტი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 380,
+    "id": 381,
     "type": [1, 4],
     "title": "ვინ იღებს გადაწყვეტილებას სახელმწიფოს თავდაცვის მიზნით განსაკუთრებულ და კანონით გათვალისწინებულ შემთხვევებში ქვეყანაში სხვა სახელმწიფოს სამხედრო ძალების შემოყვანის, გამოყენებისა და გადაადგილების შესახებ?",
     "variants": [
@@ -4388,7 +4388,7 @@
     "audio": ""
   },
   {
-    "id": 381,
+    "id": 382,
     "type": [1, 4],
     "title": "ვინ გამოსცემს ორგანული კანონის ძალის მქონე დეკრეტებს საომარი ან საგანგებო მდგომარეობის დროს?",
     "variants": [
@@ -4399,10 +4399,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 382,
+    "id": 383,
     "type": [1, 4],
     "title": "როდიდან შედის ძალაში დეკრეტი?",
     "variants": [
@@ -4413,19 +4413,19 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 383,
+    "id": 384,
     "type": [1, 4],
     "title": "რა ვადით აირჩევა სახელმწიფო აუდიტის სამსახურის ხელმძღვანელი, გენერალური აუდიტორი?",
     "variants": ["10 წლის ვადით", "7 წლის ვადით", "5 წლის ვადით", "სამუდამოდ"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 384,
+    "id": 385,
     "type": [1, 4],
     "title": "ვის ემორჩილება საქართველოს პროკურატურა?",
     "variants": [
@@ -4436,28 +4436,28 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 385,
+    "id": 386,
     "type": [1, 4],
     "title": "რამდენი წლის ვადით ინიშნება საერთო სასამართლოს მოსამართლე?",
     "variants": ["10 წლის ვადით", "20 წლის ვადით", "უვადოდ", "5 წლის ვადით"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 386,
+    "id": 387,
     "type": [1, 4],
     "title": "რამდენი ვადით შეიძლება უზენაესი სასამართლოს თავმჯდომარის არჩევა?",
     "variants": ["ორჯერ", "სამჯერ", "ხუთჯერ", "ერთი და იმავე პირის ხელმეორედ არჩევა დაუშვებელია"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 387,
+    "id": 388,
     "type": [1, 4],
     "title": "რა წესით ახორციელებს საქართველოს საკონსტიტუციო სასამართლო სასამართლო ხელისუფლებას?",
     "variants": [
@@ -4468,10 +4468,10 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 388,
+    "id": 389,
     "type": [1, 4],
     "title": "რომელი ორგანოს ფუნქციაა მოსამართლეთა დანიშვნა და გათავისუფლება?",
     "variants": [
@@ -4482,19 +4482,19 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 389,
+    "id": 390,
     "type": [1, 4],
     "title": "ვინ უნდა წარუდგინოს პარლამენტს სახელმწიფო ბიუჯეტის პროექტი?",
     "variants": ["სახალხო დამცველმა", "სახელმწიფო ხაზინამ", "პრეზიდენტმა", "მთავრობამ"],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 390,
+    "id": 391,
     "type": [1, 4],
     "title": "რა ვადაში უნდა იქნეს ბიუჯეტის პროექტი წარდგენილი პარლამენტში?",
     "variants": [
@@ -4505,28 +4505,28 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 391,
+    "id": 392,
     "type": [1, 4],
     "title": "ვისი თანხმობა სჭრდება პარლამენტს სახელმწიფო ბიუჯეტის კანონის პროექტში ცვლილების შესატანად?",
     "variants": ["პრეზიდენტის", "სახელმწიფო აუდიტის სამსახურის", "მთავრობის", "სახალხო დამცველის"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 392,
+    "id": 393,
     "type": [1, 4],
     "title": "ვინ აწერს ხელს და აქვეყნებს სახელმწიფო ბიუჯეტის კანონს?",
     "variants": ["პრეზიდენტი", "პარლამენტის თავმჯდომარე", "პრემიერმინისტრი", "იუსტიციის მინისტრი"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 393,
+    "id": 394,
     "type": [1, 4],
     "title": "ჩამოთვლილთაგან რა გზით შეიძლება გადასახადებისა და მოსაკრებლების განაკვეთების ან განაკვეთების ფარგლების დადგენა?",
     "variants": [
@@ -4537,10 +4537,10 @@
     ],
     "correct": 3,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 394,
+    "id": 395,
     "type": [1, 4],
     "title": "რა წესით აირჩევა ეროვნული ბანკის საბჭო?",
     "variants": [
@@ -4551,19 +4551,19 @@
     ],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 395,
+    "id": 396,
     "type": [1, 4],
     "title": "რამდენი წლით აირჩევიან ეროვნული ბანკის საბჭოს წევრები?",
     "variants": ["10 წლის ვადით", "20 წლის ვადით", "7 წლის ვადით", "უვადოდ"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 396,
+    "id": 397,
     "type": [1, 4],
     "title": "ეროვნული ბანკის რომელი ხარჯები ექვემდებარება ზედამხედველობასა და კონტროლს?",
     "variants": [
@@ -4574,10 +4574,10 @@
     ],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 397,
+    "id": 398,
     "type": [1, 4],
     "title": "რატომ შეიძლება იქნას შემოღებული სახელმწიფო მინისტრის თანამდებობა?",
     "variants": [
@@ -4588,37 +4588,37 @@
     ],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 398,
+    "id": 399,
     "type": [1, 4],
     "title": "საქართველოს კონსტიტუციის მიხედვით ვისი უფლებამოსილებაა სახელმწიფო ჯილდოების და პრემიების, უმაღლესი სამხედრო, სპეციალური და საპატიო წოდებების, უმაღლესი დიპლომატიურ რანგების გაცემა?",
     "variants": ["პრემიერმინისტრის", "პარლამენტის", "პრეზიდენტის", "მთავრობის"],
     "correct": 2,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 399,
+    "id": 400,
     "type": [1, 4],
     "title": "წელიწადში რამდენჯერ წარუდგენს პრეზიდენტი პარლამენტს მოხსენებას ქვეყნის მდგომარეობის უმნიშვნელოვანეს საკითხებზე?",
     "variants": ["ერთხელ", "სამჯერ", "ორჯერ", "არცერთხელ"],
     "correct": 0,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 400,
+    "id": 401,
     "type": [1, 4],
     "title": "ვინ ასრულებს პრეზიდენტის მოვალეობას პრეზიდენტის მიერ უფლებამოსილების განხორციელების შეუძლებლობის ან პრეზიდენტის უფლებამოსილების ვადამდე შეწყვეტის შემთხვევაში?",
     "variants": ["სახელმწიფო აუდიტის სამსახური", "მთავრობა", "პრეზიდენტი", "სახალხო დამცველი"],
     "correct": 1,
     "answered": false,
-    "audio": ""
+    "audio": "yes"
   },
   {
-    "id": 401,
+    "id": 402,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4632,7 +4632,7 @@
     "audio": "yes"
   },
   {
-    "id": 402,
+    "id": 403,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["მე ვხატავ სურათს", "მე ვხატავ სურათმ", "მე ვხატავ სურათი", "მე ვხატავ სურათის"],
@@ -4641,7 +4641,7 @@
     "audio": "yes"
   },
   {
-    "id": 403,
+    "id": 404,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4655,7 +4655,7 @@
     "audio": "yes"
   },
   {
-    "id": 404,
+    "id": 405,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["შენ ხარ ექიმმა", "შენ ხარ ექიმით", "შენ ხარ ექიმი", "შენ ხარ ექიმად"],
@@ -4664,7 +4664,7 @@
     "audio": "yes"
   },
   {
-    "id": 405,
+    "id": 406,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4678,7 +4678,7 @@
     "audio": "yes"
   },
   {
-    "id": 406,
+    "id": 407,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4692,7 +4692,7 @@
     "audio": "yes"
   },
   {
-    "id": 407,
+    "id": 408,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["ეზო ავი ძაღლია", "ეზოში ავი ძაღლია", "ეზოდან ავი ძაღლია", "ეზოზე ავი ძაღლია"],
@@ -4701,7 +4701,7 @@
     "audio": "yes"
   },
   {
-    "id": 408,
+    "id": 409,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4715,7 +4715,7 @@
     "audio": "yes"
   },
   {
-    "id": 409,
+    "id": 410,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4729,7 +4729,7 @@
     "audio": "yes"
   },
   {
-    "id": 410,
+    "id": 411,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4743,7 +4743,7 @@
     "audio": "yes"
   },
   {
-    "id": 411,
+    "id": 412,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4757,7 +4757,7 @@
     "audio": "yes"
   },
   {
-    "id": 412,
+    "id": 413,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი;",
     "variants": [
@@ -4771,7 +4771,7 @@
     "audio": "yes"
   },
   {
-    "id": 413,
+    "id": 414,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4785,7 +4785,7 @@
     "audio": "yes"
   },
   {
-    "id": 414,
+    "id": 415,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4799,7 +4799,7 @@
     "audio": "yes"
   },
   {
-    "id": 415,
+    "id": 416,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["ჩიტი ტოტი ზის", "ჩიტი ტოტიდან ზის", "ჩიტი ტოტზე ზის", " ჩიტი ტოტში ზის"],
@@ -4808,7 +4808,7 @@
     "audio": "yes"
   },
   {
-    "id": 416,
+    "id": 417,
     "type": [2, 5],
     "title": ". შემოხაზეთ არასწორი პასუხი: ყვავილები ყვავის:",
     "variants": ["სახლის ქვეშ", "სახლის უკან", "სახლის ირგვლივ", "სახლის წინ"],
@@ -4817,7 +4817,7 @@
     "audio": "yes"
   },
   {
-    "id": 417,
+    "id": 418,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ბოსტანი გაშენებულია…",
     "variants": ["შენობაზე", "შენობის გვერდზე", "შენობაში", "შენობის ეზოზე"],
@@ -4826,7 +4826,7 @@
     "audio": "yes"
   },
   {
-    "id": 418,
+    "id": 419,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: ანა დგას…",
     "variants": ["სკამიდან", "სკამის ირგვლივ", "სკამზე", "სკამის ქვემოთ"],
@@ -4835,7 +4835,7 @@
     "audio": "yes"
   },
   {
-    "id": 419,
+    "id": 420,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ის ავიდა ...",
     "variants": ["კიბის საფეხურზე", "კიბის ირგვლივ", "კიბის საფეხურში", "კიბის საფეხურისგან"],
@@ -4844,7 +4844,7 @@
     "audio": "yes"
   },
   {
-    "id": 420,
+    "id": 421,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: გავემართე ...",
     "variants": ["ცირკისგან", "ცირკისთვის", "ცირკისკენ", "ცირკივით"],
@@ -4853,7 +4853,7 @@
     "audio": "yes"
   },
   {
-    "id": 421,
+    "id": 422,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მე ვცხოვრობ…",
     "variants": [
@@ -4867,7 +4867,7 @@
     "audio": "yes"
   },
   {
-    "id": 422,
+    "id": 423,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: აბაშიძის ქუჩიდან გადავედი .....",
     "variants": ["წერეთლის ქუჩაში", "წერეთლის ქუჩაზე", "წერეთლის ქუჩიდან", "წერეთლის ქუჩისთვის"],
@@ -4876,7 +4876,7 @@
     "audio": "yes"
   },
   {
-    "id": 423,
+    "id": 424,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ის დასახლდა ...",
     "variants": ["თბილისიდან", "თბილისზე", "თბილისში", "თბილისისგან"],
@@ -4885,7 +4885,7 @@
     "audio": "yes"
   },
   {
-    "id": 424,
+    "id": 425,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: სასწრაფო დახმარება გამოიძახეს ...",
     "variants": [
@@ -4899,7 +4899,7 @@
     "audio": "yes"
   },
   {
-    "id": 425,
+    "id": 426,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მე დავიბადე ...",
     "variants": ["თბილისისკენ", "თბილისიდან", "თბილისში", "თბილისზე"],
@@ -4908,7 +4908,7 @@
     "audio": "yes"
   },
   {
-    "id": 426,
+    "id": 427,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4922,7 +4922,7 @@
     "audio": "yes"
   },
   {
-    "id": 427,
+    "id": 428,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -4936,7 +4936,7 @@
     "audio": "yes"
   },
   {
-    "id": 428,
+    "id": 429,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: ის ბრუნდება ...",
     "variants": ["მეგობრისგან", "მეგობრისკენ", "მეგობარი", "მეგობრისთვის"],
@@ -4945,7 +4945,7 @@
     "audio": "yes"
   },
   {
-    "id": 429,
+    "id": 430,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი:",
     "variants": [
@@ -4959,7 +4959,7 @@
     "audio": "yes"
   },
   {
-    "id": 430,
+    "id": 431,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: შენ თეატრში…",
     "variants": ["იყავით?", "მიდის?", "წავალ?", "მიდიხარ?"],
@@ -4968,7 +4968,7 @@
     "audio": "yes"
   },
   {
-    "id": 431,
+    "id": 432,
     "type": [2, 5],
     "title": "თქვენ სამსახურში ...",
     "variants": ["იყავით?", "მიდის?", "მივიდა?", "იყო?"],
@@ -4977,7 +4977,7 @@
     "audio": "yes"
   },
   {
-    "id": 432,
+    "id": 433,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ისინი ბაზარში ...",
     "variants": ["იყო?", "იყვნენ?", "წავა?", "წახვედით?"],
@@ -4986,7 +4986,7 @@
     "audio": "yes"
   },
   {
-    "id": 433,
+    "id": 434,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ჩვენ თამაშს ...",
     "variants": ["მოიგებ?", "მოიგებთ?", "მოვიგებთ?", "მოიგებენ?"],
@@ -4995,7 +4995,7 @@
     "audio": "yes"
   },
   {
-    "id": 434,
+    "id": 435,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: ვალაგებთ .....",
     "variants": ["ისინი", "ჩვენ", "მე", "თქვენ"],
@@ -5004,7 +5004,7 @@
     "audio": "yes"
   },
   {
-    "id": 435,
+    "id": 436,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მიემგზავრები .....",
     "variants": ["მე", "ის", "შენ", "ჩვენ"],
@@ -5013,7 +5013,7 @@
     "audio": "yes"
   },
   {
-    "id": 436,
+    "id": 437,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „ალბათ, სახლში იქნებიან“ ნიშნავს:",
     "variants": [
@@ -5027,7 +5027,7 @@
     "audio": "yes"
   },
   {
-    "id": 437,
+    "id": 438,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „არ ვიცი, გაიგე თუ არა” - გულისხმობს:",
     "variants": ["ვიცი, რომ ვერ გაიგე;", "ალბათ გაიგე", "ვიცი, რომ გაიგე", "მჯერა, რომ გაიგე"],
@@ -5036,7 +5036,7 @@
     "audio": "yes"
   },
   {
-    "id": 438,
+    "id": 439,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „ალბათ დავხატავ“ ნიშნავს:",
     "variants": ["აუცილებლად დავხატავ", "არ დავხატავ", "უნდა დავხატო", "შეიძლება დავხატო"],
@@ -5045,7 +5045,7 @@
     "audio": "yes"
   },
   {
-    "id": 439,
+    "id": 440,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „შეიძლება ვიყიდო“ გულისხმობს",
     "variants": ["ალბათ ვიყიდი", "რა თქმა უნდა, ვიყიდი", "უნდა ვიყიდო", "აუცილებლად ვიყიდი"],
@@ -5054,7 +5054,7 @@
     "audio": "yes"
   },
   {
-    "id": 440,
+    "id": 441,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: ხვალ წვიმა წამოვა?",
     "variants": ["კი", "რატომ", "ჰო", "დიახ"],
@@ -5063,7 +5063,7 @@
     "audio": "yes"
   },
   {
-    "id": 441,
+    "id": 442,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „დიახ“ ნიშნავს:",
     "variants": ["უარვყოფ", "ვეთანხმები", "ვეკითხები", "ვასწავლი"],
@@ -5072,7 +5072,7 @@
     "audio": "yes"
   },
   {
-    "id": 442,
+    "id": 443,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: შეკითხვაზე - „სასტუმროში გავჩერდეთ?“ - პასუხია:",
     "variants": ["როგორ?", "საით?", "ამისთვის?", "კი"],
@@ -5081,7 +5081,7 @@
     "audio": "yes"
   },
   {
-    "id": 443,
+    "id": 444,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: მისამართი იცით?",
     "variants": ["კი", "დიახ", "ჰო", "უკვე"],
@@ -5090,7 +5090,7 @@
     "audio": "yes"
   },
   {
-    "id": 444,
+    "id": 445,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["თქვენ ვართ ირაკლი", "მე ვარ ირაკლი", "ის არიან დათო", "შენ არის დათო"],
@@ -5099,7 +5099,7 @@
     "audio": "yes"
   },
   {
-    "id": 445,
+    "id": 446,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5113,7 +5113,7 @@
     "audio": "yes"
   },
   {
-    "id": 446,
+    "id": 447,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["იმას არის ჯიმი", "იმას ჰქვია ჯიმი", "ის ჰქვია ჯიმი", "იმან ჰქვია ჯიმი"],
@@ -5122,7 +5122,7 @@
     "audio": "yes"
   },
   {
-    "id": 447,
+    "id": 448,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: ჩამონათვალში სხვა მნიშვნელობისაა:",
     "variants": ["გამარჯობა", "კარგად იყავი", "ხვალამდე", "ნახვამდის"],
@@ -5131,7 +5131,7 @@
     "audio": "yes"
   },
   {
-    "id": 448,
+    "id": 449,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: „ნახვამდის“ შეიძლება ნიშნავდეს:",
     "variants": ["შეხვედრამდე", "კარგად იყავი", "დილა მშვიდობის", "ხვალამდე"],
@@ -5140,7 +5140,7 @@
     "audio": "yes"
   },
   {
-    "id": 449,
+    "id": 450,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი:",
     "variants": [
@@ -5154,7 +5154,7 @@
     "audio": "yes"
   },
   {
-    "id": 450,
+    "id": 451,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს ბილეთი არის:",
     "variants": ["თეატრში", "თვითმფრინავის", "კინომ", "სპექტაკლისგან"],
@@ -5163,7 +5163,7 @@
     "audio": "yes"
   },
   {
-    "id": 451,
+    "id": 452,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: ამ გაზეთს ვაძლევთ ნინოს. ეს გაზეთი .....",
     "variants": ["ნინოდანაა", "ნინოსგანაა", "ნინოსთვისაა", "ნინოსკენაა"],
@@ -5172,7 +5172,7 @@
     "audio": "yes"
   },
   {
-    "id": 452,
+    "id": 453,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ამ ტილოთი ვწმენდთ მაგიდას",
     "variants": [
@@ -5186,7 +5186,7 @@
     "audio": "yes"
   },
   {
-    "id": 453,
+    "id": 454,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5200,7 +5200,7 @@
     "audio": "yes"
   },
   {
-    "id": 454,
+    "id": 455,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5214,7 +5214,7 @@
     "audio": "yes"
   },
   {
-    "id": 455,
+    "id": 456,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5228,7 +5228,7 @@
     "audio": "yes"
   },
   {
-    "id": 456,
+    "id": 457,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5242,7 +5242,7 @@
     "audio": "yes"
   },
   {
-    "id": 457,
+    "id": 458,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["ის აქვს ნინო", "ის უნდა ნინო", "ის ხარ ნინო", "ის არის ნინო"],
@@ -5251,7 +5251,7 @@
     "audio": "yes"
   },
   {
-    "id": 458,
+    "id": 459,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["იმან მიწაა", "ის მიწაა", "შენ მიწაა", "იმას მიწაა"],
@@ -5260,7 +5260,7 @@
     "audio": "yes"
   },
   {
-    "id": 459,
+    "id": 460,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ვუთითებთ ტბაზე:",
     "variants": ["აი, ტბა", "ვაი, ტბა", "ვუი, ტბა", "უჰ, ტბა"],
@@ -5269,7 +5269,7 @@
     "audio": "yes"
   },
   {
-    "id": 460,
+    "id": 461,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["ის ვინ ხარ?", "მე ვინ არის?", "თქვენ ვინ არიან?", "შენ ვინ ხარ?"],
@@ -5278,7 +5278,7 @@
     "audio": "yes"
   },
   {
-    "id": 461,
+    "id": 462,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["ისინი ვინ ხარ?", "ისინი ვინ არიან?", "ისინი ვინ არის?", "ისინი ვინ იყო?"],
@@ -5287,7 +5287,7 @@
     "audio": "yes"
   },
   {
-    "id": 462,
+    "id": 463,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["თქვენ ვინ არიან?", "თქვენ ვინ ვარ?", "თქვენ ვინ ხართ?", "თქვენ ვინ იყო?"],
@@ -5296,7 +5296,7 @@
     "audio": "yes"
   },
   {
-    "id": 463,
+    "id": 464,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მაღალი - დაბალი; ფართო - ?",
     "variants": ["მაღალი", "გრძელი", "მოკლე", "ვიწრო"],
@@ -5305,7 +5305,7 @@
     "audio": "yes"
   },
   {
-    "id": 464,
+    "id": 465,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მაღალი - დაბალი; გრძელი - ?",
     "variants": ["მოკლე", "პატარა", "ვიწრო", "მაღალი"],
@@ -5314,7 +5314,7 @@
     "audio": "yes"
   },
   {
-    "id": 465,
+    "id": 466,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ბრაზილია დიდი სახელმწიფოა, ბელგია -",
     "variants": ["ვიწრო", "პატარა", "მოკლე", "სუსტი"],
@@ -5323,7 +5323,7 @@
     "audio": "yes"
   },
   {
-    "id": 466,
+    "id": 467,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ლომი ძლიერი ცხოველია, შველი -",
     "variants": ["სუსტი", "მომცრო", "პატარა", "გამხდარი"],
@@ -5332,7 +5332,7 @@
     "audio": "yes"
   },
   {
-    "id": 467,
+    "id": 468,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ორი დღის შემდეგ ანუ:",
     "variants": ["ხვალ", "გუშინ", "მაზეგ", "ზეგ"],
@@ -5341,7 +5341,7 @@
     "audio": "yes"
   },
   {
-    "id": 468,
+    "id": 469,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ორი დღის წინ ანუ:",
     "variants": ["გუშინ", "გუშინწინ", "მაზეგ", "ხვალ"],
@@ -5350,7 +5350,7 @@
     "audio": "yes"
   },
   {
-    "id": 469,
+    "id": 470,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ორი დღის წინ გაკეთებული სადილი არის:",
     "variants": ["ზეგინდელი", "გუშინდელი", "გუშინწინდელი", "ხვალინდელი"],
@@ -5359,7 +5359,7 @@
     "audio": "yes"
   },
   {
-    "id": 470,
+    "id": 471,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: სოფელში მაქვს ........... და ბაღი.",
     "variants": ["სახლი", "სახლში", "სახლის", "სახლით"],
@@ -5368,7 +5368,7 @@
     "audio": "yes"
   },
   {
-    "id": 471,
+    "id": 472,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: სახლში გავაკეთე .... და მურაბა",
     "variants": ["წვენმა", "წვენს", "წვენის", "წვენი"],
@@ -5377,7 +5377,7 @@
     "audio": "yes"
   },
   {
-    "id": 472,
+    "id": 473,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მოვხარშე .... და ატმის კომპოტი.",
     "variants": ["ვაშლით", "ვაშლის", "ვაშლი", "ვაშლს"],
@@ -5386,7 +5386,7 @@
     "audio": "yes"
   },
   {
-    "id": 473,
+    "id": 474,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: 2019",
     "variants": ["ოცდაცხრა", "ორი ათას ცხრა", "ორას ცხრა", "ორი ათას ცხრამეტი"],
@@ -5395,7 +5395,7 @@
     "audio": "yes"
   },
   {
-    "id": 474,
+    "id": 475,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მე დავიბადე .....",
     "variants": [
@@ -5409,7 +5409,7 @@
     "audio": "yes"
   },
   {
-    "id": 475,
+    "id": 476,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ჩემი ძმა დაიბადა ათას ცხრაას ოთხმოცდაცხრამეტ წელს.",
     "variants": ["1909", "1999", "1919", "1099"],
@@ -5418,7 +5418,7 @@
     "audio": "yes"
   },
   {
-    "id": 476,
+    "id": 477,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი:",
     "variants": [
@@ -5432,7 +5432,7 @@
     "audio": "yes"
   },
   {
-    "id": 477,
+    "id": 478,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მე ვცხოვრობ ...",
     "variants": ["საქართველოში", "საქართველოზე", "საქართველო", "საქართველოს"],
@@ -5441,7 +5441,7 @@
     "audio": "yes"
   },
   {
-    "id": 478,
+    "id": 479,
     "type": [2, 5],
     "title": " შემოხაზეთ სწორი პასუხი: შენ ხარ შვედი. შენ ცხოვრობ ...",
     "variants": ["შვედია", "შვეციას", "შვეიცარიაში", "შვედეთში"],
@@ -5450,7 +5450,7 @@
     "audio": "yes"
   },
   {
-    "id": 479,
+    "id": 480,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მე ვარ ....",
     "variants": [
@@ -5464,7 +5464,7 @@
     "audio": "yes"
   },
   {
-    "id": 480,
+    "id": 481,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ჩემკენ...",
     "variants": ["მიდის", "გადავიდა", "შევიდა", "მოდის"],
@@ -5473,7 +5473,7 @@
     "audio": "yes"
   },
   {
-    "id": 481,
+    "id": 482,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ჩვენგან...",
     "variants": ["შემოვიდა", "მოდის", "მიდის", "გადმოვიდა"],
@@ -5482,7 +5482,7 @@
     "audio": "yes"
   },
   {
-    "id": 482,
+    "id": 483,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: იქითკენ:",
     "variants": ["გადმოვიდა", "წამოვიდა", "ამოვიდა", "წავიდა"],
@@ -5491,7 +5491,7 @@
     "audio": "yes"
   },
   {
-    "id": 483,
+    "id": 484,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს სათამაშო მე მაჩუქეს. სათამაშო ....",
     "variants": ["ჩემია", "შენია", "ჩვენია", "თქვენია"],
@@ -5500,7 +5500,7 @@
     "audio": "yes"
   },
   {
-    "id": 484,
+    "id": 485,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს ოთახი არის ნანას დედის",
     "variants": ["დედამისი", "დედაჩემის", "დედამისის", "დედათქვენის"],
@@ -5509,7 +5509,7 @@
     "audio": "yes"
   },
   {
-    "id": 485,
+    "id": 486,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: დედამ მიყიდა ..................... ბალიში.",
     "variants": ["ბუმბული", "ბუმბულის", "ბუმბულისგან", "ბუმბულო"],
@@ -5518,7 +5518,7 @@
     "audio": "yes"
   },
   {
-    "id": 486,
+    "id": 487,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს არის ............. ნაყინი.",
     "variants": ["ბამბა", "ბამბიდან", "ბამბით", "ბამბის"],
@@ -5527,7 +5527,7 @@
     "audio": "yes"
   },
   {
-    "id": 487,
+    "id": 488,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს ...... სახლია",
     "variants": ["ხის", "ხით", "ხე", "ხეს"],
@@ -5536,7 +5536,7 @@
     "audio": "yes"
   },
   {
-    "id": 488,
+    "id": 489,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი:",
     "variants": ["მე შენ გიცნობ", "მე ვიცნობ ის", "შენ იცნობ მას", "ის გიცნობს შენ"],
@@ -5545,7 +5545,7 @@
     "audio": "yes"
   },
   {
-    "id": 489,
+    "id": 490,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["მე შენ იცნობ", "შენ გიცნობს მას", "ის იცნობს შენ", "მე ვიცნობ მას"],
@@ -5554,7 +5554,7 @@
     "audio": "yes"
   },
   {
-    "id": 490,
+    "id": 491,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მომავალში:",
     "variants": [
@@ -5568,7 +5568,7 @@
     "audio": "yes"
   },
   {
-    "id": 491,
+    "id": 492,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: ახლა:",
     "variants": ["მომწონდა", "მომეწონება", "მომწონს", "მომწონებია"],
@@ -5577,7 +5577,7 @@
     "audio": "yes"
   },
   {
-    "id": 492,
+    "id": 493,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ვრეკავ:",
     "variants": ["მერე", "ხვალ", "გუშინ", "ახლა"],
@@ -5586,7 +5586,7 @@
     "audio": "yes"
   },
   {
-    "id": 493,
+    "id": 494,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: ............. გვაქვს სათამაშო.",
     "variants": ["ჩვენ", "მე", "მათ", "თქვენ"],
@@ -5595,7 +5595,7 @@
     "audio": "yes"
   },
   {
-    "id": 494,
+    "id": 495,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: .......... (მე) ნამცხვარი, თუ შეიძლება.",
     "variants": ["მიაწოდეთ", "მოგაწოდეთ", "მომაწოდეთ", "მივაწოდეთ"],
@@ -5604,7 +5604,7 @@
     "audio": "yes"
   },
   {
-    "id": 495,
+    "id": 496,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: თუ შეიძლება, სასტუმროში ....... .",
     "variants": ["მიმიტანეთ", "მიმიყვანეთ", "მე მიყვანა", "მე მიტანა"],
@@ -5613,7 +5613,7 @@
     "audio": "yes"
   },
   {
-    "id": 496,
+    "id": 497,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მიმართვა ტაქსის მძღოლს:",
     "variants": ["რა ფასია?", "რა ღირებულება?", "რამდენი მოგართვათ?", "რამდენი ფული?"],
@@ -5622,7 +5622,7 @@
     "audio": "yes"
   },
   {
-    "id": 497,
+    "id": 498,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს ქათამი ..............",
     "variants": ["რა ღირს?", "როგორი?", "რა ფული?", "რა თანხა?"],
@@ -5631,7 +5631,7 @@
     "audio": "yes"
   },
   {
-    "id": 498,
+    "id": 499,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: მიმტანი გვეკითხება:",
     "variants": ["რას დაუკრავთ?", "რას გვასწავლით?", "რას მიირთმევთ?", "რას ხატავთ?"],
@@ -5640,7 +5640,7 @@
     "audio": "yes"
   },
   {
-    "id": 499,
+    "id": 500,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „თუ შეიძლება, მენიუ მომიტანეთ“, - ვეუბნებით:",
     "variants": ["ექიმს", "მიმტანს", "მძღოლს", "დამლაგებელს"],
@@ -5649,7 +5649,7 @@
     "audio": "yes"
   },
   {
-    "id": 500,
+    "id": 501,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „რა ღირს მგზავრობა?“ - ვეკითხებით:",
     "variants": ["ექიმს", "მასწავლებელს", "მძღოლს", "დამლაგებელს"],
@@ -5658,7 +5658,7 @@
     "audio": "yes"
   },
   {
-    "id": 501,
+    "id": 502,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5672,7 +5672,7 @@
     "audio": "yes"
   },
   {
-    "id": 502,
+    "id": 503,
     "type": [2, 5],
     "title": ". შემოხაზეთ არასწორი პასუხი:",
     "variants": ["დღე - ხუთშაბათი", "ეროვნება - ქართველი", "ქვეყანა - ქართველი", "თვე - ნოემბერი"],
@@ -5681,7 +5681,7 @@
     "audio": "yes"
   },
   {
-    "id": 503,
+    "id": 504,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი:",
     "variants": ["თვე - ხუთშაბათი", "ეროვნება - ქართველი", "დღე - ორშაბათი", "ქვეყანა - ინგლისი"],
@@ -5690,7 +5690,7 @@
     "audio": "yes"
   },
   {
-    "id": 504,
+    "id": 505,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი:",
     "variants": [
@@ -5704,7 +5704,7 @@
     "audio": "yes"
   },
   {
-    "id": 505,
+    "id": 506,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი:",
     "variants": ["დღე - სამშაბათი", "ქვეყანა - ესპანეთი", "თვე - მარტი", "ეროვნება - ფრანგელი"],
@@ -5713,7 +5713,7 @@
     "audio": "yes"
   },
   {
-    "id": 506,
+    "id": 507,
     "type": [2, 5],
     "title": "ნინო უფრო მაღალია, ვიდრე ნანა. შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5727,7 +5727,7 @@
     "audio": "yes"
   },
   {
-    "id": 507,
+    "id": 508,
     "type": [2, 5],
     "title": " ვაშლი უფრო მიყვარს, ვიდრე მსხალი. შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5741,7 +5741,7 @@
     "audio": "yes"
   },
   {
-    "id": 508,
+    "id": 509,
     "type": [2, 5],
     "title": "საქართველოში უფრო ხშირად ჩავდივარ,ვიდრე ბელგიაში. შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5755,7 +5755,7 @@
     "audio": "yes"
   },
   {
-    "id": 509,
+    "id": 510,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს არის სათამაშო.",
     "variants": ["ეს სათამაშოა", "სათამაშო", "ეს სათამაშო", "ეს სათამაშოს"],
@@ -5764,7 +5764,7 @@
     "audio": "yes"
   },
   {
-    "id": 510,
+    "id": 511,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ნანა სახლშია?",
     "variants": ["ნანას სახლია?", "სახლში არის ნანა?", "ნანა სახლი?", "სახლი ნანასია?"],
@@ -5773,7 +5773,7 @@
     "audio": "yes"
   },
   {
-    "id": 511,
+    "id": 512,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5787,7 +5787,7 @@
     "audio": "yes"
   },
   {
-    "id": 512,
+    "id": 513,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5801,7 +5801,7 @@
     "audio": "yes"
   },
   {
-    "id": 513,
+    "id": 514,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რამდენი წლის არის?",
     "variants": [
@@ -5815,7 +5815,7 @@
     "audio": "yes"
   },
   {
-    "id": 514,
+    "id": 515,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მე ვარ 18 წლის, თქვენ .......",
     "variants": [
@@ -5829,7 +5829,7 @@
     "audio": "yes"
   },
   {
-    "id": 515,
+    "id": 516,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: შენ ......",
     "variants": ["რამდენი წლის არის?", "რამდენი წელი ხარ?", "რამდენი წლისაა?", "რამდენი წლის ხარ?"],
@@ -5838,7 +5838,7 @@
     "audio": "yes"
   },
   {
-    "id": 516,
+    "id": 517,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ნინო 3 წლისაა, გიორგი -",
     "variants": ["ხუთი", "ხუთის", "ხუთს", "ხუთია"],
@@ -5847,7 +5847,7 @@
     "audio": "yes"
   },
   {
-    "id": 517,
+    "id": 518,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს მეგობრის მანქანაა.",
     "variants": [
@@ -5861,7 +5861,7 @@
     "audio": "yes"
   },
   {
-    "id": 518,
+    "id": 519,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს არწივია.",
     "variants": ["ეს ვინ არის?", "ეს რა არის?", "ეს სად არის?", "ეს რატომაა?"],
@@ -5870,7 +5870,7 @@
     "audio": "yes"
   },
   {
-    "id": 519,
+    "id": 520,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ესენი ვინ არიან? ესენი არიან .....",
     "variants": ["მგლები", "მცენარეები", "ბავშვი", "მგზავრები"],
@@ -5879,7 +5879,7 @@
     "audio": "yes"
   },
   {
-    "id": 520,
+    "id": 521,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ძაღლი მორბის.",
     "variants": ["ვინ მორბის?", "რა მორბის?", "რა მორბიან?", "ვინ მორბიან?"],
@@ -5888,7 +5888,7 @@
     "audio": "yes"
   },
   {
-    "id": 521,
+    "id": 522,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს არის სანდროს პაპა.",
     "variants": ["ეს პაპაჩემია", "ეს პაპამისია", "ეს პაპაშენია", "ეს პაპაჩვენია"],
@@ -5897,7 +5897,7 @@
     "audio": "yes"
   },
   {
-    "id": 522,
+    "id": 523,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: საით მიემგზავრებით?",
     "variants": ["ბათუმისკენ", "ბათუმისგან", "ბათუმი", "ბათუმიდან"],
@@ -5906,7 +5906,7 @@
     "audio": "yes"
   },
   {
-    "id": 523,
+    "id": 524,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["რა ფული პური?", "ფასი პური რა?", "რა თანხა პური?", "რამდენი ღირს პური?"],
@@ -5915,7 +5915,7 @@
     "audio": "yes"
   },
   {
-    "id": 524,
+    "id": 525,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5929,7 +5929,7 @@
     "audio": "yes"
   },
   {
-    "id": 525,
+    "id": 526,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5943,7 +5943,7 @@
     "audio": "yes"
   },
   {
-    "id": 526,
+    "id": 527,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -5957,7 +5957,7 @@
     "audio": "yes"
   },
   {
-    "id": 527,
+    "id": 528,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: ეს ნინოს კაბაა.",
     "variants": ["ის კაბაა", "მისგან კაბაა", "მისი კაბაა", "მისთვის კაბაა"],
@@ -5966,7 +5966,7 @@
     "audio": "yes"
   },
   {
-    "id": 528,
+    "id": 529,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი:",
     "variants": ["მე - ჩემი", "ის - მათი", "ის - მისი", "თქვენ - თქვენი"],
@@ -5975,7 +5975,7 @@
     "audio": "yes"
   },
   {
-    "id": 529,
+    "id": 530,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ნინომ შეჭამა ნამცხვრის ერთი მეორედი.",
     "variants": [
@@ -5989,7 +5989,7 @@
     "audio": "yes"
   },
   {
-    "id": 530,
+    "id": 531,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მე დავასრულე საქმის ერთი მესამედი",
     "variants": [
@@ -6003,7 +6003,7 @@
     "audio": "yes"
   },
   {
-    "id": 531,
+    "id": 532,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეზოში დგას ხუთი მანქანა",
     "variants": [
@@ -6017,7 +6017,7 @@
     "audio": "yes"
   },
   {
-    "id": 532,
+    "id": 533,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: მე შევცდი, ......",
     "variants": ["უკაცრავად", "ბოდიში", "ვიზიარებ", "ვწუხვარ"],
@@ -6026,7 +6026,7 @@
     "audio": "yes"
   },
   {
-    "id": 533,
+    "id": 534,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6040,7 +6040,7 @@
     "audio": "yes"
   },
   {
-    "id": 534,
+    "id": 535,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6054,7 +6054,7 @@
     "audio": "yes"
   },
   {
-    "id": 535,
+    "id": 536,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6068,7 +6068,7 @@
     "audio": "yes"
   },
   {
-    "id": 536,
+    "id": 537,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6082,7 +6082,7 @@
     "audio": "yes"
   },
   {
-    "id": 537,
+    "id": 538,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6096,7 +6096,7 @@
     "audio": "yes"
   },
   {
-    "id": 538,
+    "id": 539,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6110,7 +6110,7 @@
     "audio": "yes"
   },
   {
-    "id": 539,
+    "id": 540,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6124,7 +6124,7 @@
     "audio": "yes"
   },
   {
-    "id": 540,
+    "id": 541,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: როცა გვაინტერესებს ეროვნება:",
     "variants": ["ის იტალიელია", "ის იტალიაა", "ის იტალია", "ის არის იტალია"],
@@ -6133,7 +6133,7 @@
     "audio": "yes"
   },
   {
-    "id": 541,
+    "id": 542,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["შენ მას გიყვარს", "მე მას უყვარხარ", "მე ის მიყვარს", "ის შენ უყვარხართ"],
@@ -6142,7 +6142,7 @@
     "audio": "yes"
   },
   {
-    "id": 542,
+    "id": 543,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6156,7 +6156,7 @@
     "audio": "yes"
   },
   {
-    "id": 543,
+    "id": 544,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["მე მწეველი", "მე ვარ მწეველი", "მე სიგარეტი წევა", "მე წევს სიგარეტს"],
@@ -6165,7 +6165,7 @@
     "audio": "yes"
   },
   {
-    "id": 544,
+    "id": 545,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მომავალ ზამთარს ბაკურიანში ....",
     "variants": ["წავალ", "წავედი", "მივედი", "წასვლა"],
@@ -6174,7 +6174,7 @@
     "audio": "yes"
   },
   {
-    "id": 545,
+    "id": 546,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: გაზაფხულზე ყვავილებს ....",
     "variants": ["შევაგროვე", "შემიგროვებია", "შეგროვება", "შევაგროვებ"],
@@ -6183,7 +6183,7 @@
     "audio": "yes"
   },
   {
-    "id": 546,
+    "id": 547,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით სიდიდის ზრდის მიხედვით.",
     "variants": [
@@ -6197,7 +6197,7 @@
     "audio": "yes"
   },
   {
-    "id": 547,
+    "id": 548,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით სიდიდის კლების მიხედვით",
     "variants": [
@@ -6211,7 +6211,7 @@
     "audio": "yes"
   },
   {
-    "id": 548,
+    "id": 549,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით",
     "variants": [
@@ -6225,7 +6225,7 @@
     "audio": "yes"
   },
   {
-    "id": 549,
+    "id": 550,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით:",
     "variants": [
@@ -6239,7 +6239,7 @@
     "audio": "yes"
   },
   {
-    "id": 550,
+    "id": 551,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: დაალაგეთ თანმიმდევრობით:",
     "variants": [
@@ -6253,7 +6253,7 @@
     "audio": "yes"
   },
   {
-    "id": 551,
+    "id": 552,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": ["ადრე დილაში ცივა", "ადრე დილით სიცივე", "ადრე დილა სიცივე", "ადრე დილით ცივა"],
@@ -6262,7 +6262,7 @@
     "audio": "yes"
   },
   {
-    "id": 552,
+    "id": 553,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: როგორც წესი, .....",
     "variants": ["გაზაფხულზე თბილა", "ზაფხულში ცივა", "ზამთარში ცხელა", "შემოდგომაზე ყინავს"],
@@ -6271,7 +6271,7 @@
     "audio": "yes"
   },
   {
-    "id": 553,
+    "id": 554,
     "type": [2, 5],
     "title": " შემოხაზეთ სწორი პასუხი: მე ვხედავ",
     "variants": ["უწინ", "მერე", "ახლა", "მანამდე"],
@@ -6280,7 +6280,7 @@
     "audio": "yes"
   },
   {
-    "id": 554,
+    "id": 555,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: გისმენ:",
     "variants": ["მათ", "მას", "ჩვენ", "შენ"],
@@ -6289,7 +6289,7 @@
     "audio": "yes"
   },
   {
-    "id": 555,
+    "id": 556,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ..... რიგში ვიჯექი",
     "variants": ["პირველ", "მეშვიდეში", "ხუთ", "სამ"],
@@ -6298,7 +6298,7 @@
     "audio": "yes"
   },
   {
-    "id": 556,
+    "id": 557,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რომელი საათია?",
     "variants": ["სამი და ნახევარი", "სამის ნახევარი", "სამ-ნახევარი", "სამი ნახევარი"],
@@ -6307,7 +6307,7 @@
     "audio": "yes"
   },
   {
-    "id": 557,
+    "id": 558,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: სამსახურ...... სახლში წამოვედი.",
     "variants": ["-ისგან", "-ზევე", "-იდან", "-შივე"],
@@ -6316,7 +6316,7 @@
     "audio": "yes"
   },
   {
-    "id": 558,
+    "id": 559,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი:",
     "variants": [
@@ -6330,7 +6330,7 @@
     "audio": "yes"
   },
   {
-    "id": 559,
+    "id": 560,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - როდის?",
     "variants": ["ზეგ", "ბავშვისთვის", "ეზოდან", "ნელა"],
@@ -6339,7 +6339,7 @@
     "audio": "yes"
   },
   {
-    "id": 560,
+    "id": 561,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - სად?",
     "variants": ["აუზში", "უკვე", "ზეგ", "ფრთხილად"],
@@ -6348,7 +6348,7 @@
     "audio": "yes"
   },
   {
-    "id": 561,
+    "id": 562,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - როგორ ?",
     "variants": ["თბილისში", "სახლამდე", "საინტერესოდ", "მარჯვნივ"],
@@ -6357,7 +6357,7 @@
     "audio": "yes"
   },
   {
-    "id": 562,
+    "id": 563,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - საით ?",
     "variants": ["ხვალ", "სახლისკენ", "გრძელი", "მშვიდად"],
@@ -6366,7 +6366,7 @@
     "audio": "yes"
   },
   {
-    "id": 563,
+    "id": 564,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - როგორი ?",
     "variants": ["ლამაზად", "ზეგ", "ბავშვისკენ", "მწარე"],
@@ -6375,7 +6375,7 @@
     "audio": "yes"
   },
   {
-    "id": 564,
+    "id": 565,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რომელი უპასუხებს შეკითხვას - მერამდენე?",
     "variants": ["პირველი", "ბევრი", "ოთხი", "რუსი"],
@@ -6384,7 +6384,7 @@
     "audio": "yes"
   },
   {
-    "id": 565,
+    "id": 566,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: საუზმეს მივირთმევ .....",
     "variants": ["ჩანგალი", "ჩანგლით", "ჩანგლის", "ჩანგლისთვის"],
@@ -6393,7 +6393,7 @@
     "audio": "yes"
   },
   {
-    "id": 566,
+    "id": 567,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ..... ფეხსაცმელებია?",
     "variants": ["როდის?", "საიდან?", "ვისი?", "რატომ?"],
@@ -6402,7 +6402,7 @@
     "audio": "yes"
   },
   {
-    "id": 567,
+    "id": 568,
     "type": [2, 5],
     "title": ". შემოხაზეთ არასწორი პასუხი: ..... ჩამოხვედი?",
     "variants": ["რატომ?", "საიდან?", "როდის?", "ვისი?"],
@@ -6411,7 +6411,7 @@
     "audio": "yes"
   },
   {
-    "id": 568,
+    "id": 569,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ..... არის ლიფტი?",
     "variants": ["სად?", "რას?", "როდის?", "ვინ?"],
@@ -6420,7 +6420,7 @@
     "audio": "yes"
   },
   {
-    "id": 569,
+    "id": 570,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: თოკი არის:",
     "variants": ["გრძელი", "ფართო", "მსხვილი", "მოკლე"],
@@ -6429,7 +6429,7 @@
     "audio": "yes"
   },
   {
-    "id": 570,
+    "id": 571,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: სპექტაკლი არის:",
     "variants": ["ლურჯი", "ღია", "ბოროტი", "საინტერესო"],
@@ -6438,7 +6438,7 @@
     "audio": "yes"
   },
   {
-    "id": 571,
+    "id": 572,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ვვარაუდობ, საინტერესოდ გავატარებ დღეს.",
     "variants": [
@@ -6452,7 +6452,7 @@
     "audio": "yes"
   },
   {
-    "id": 572,
+    "id": 573,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ის კაცი ჩემ უფროს....... ითვლება",
     "variants": ["-ით", "-ი", "-ად", "-მა"],
@@ -6461,7 +6461,7 @@
     "audio": "yes"
   },
   {
-    "id": 573,
+    "id": 574,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მოხუცი მატარებლ...... მიდის",
     "variants": ["-ად", "-ით", "-ი", "-მა"],
@@ -6470,7 +6470,7 @@
     "audio": "yes"
   },
   {
-    "id": 574,
+    "id": 575,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „ინებეთ“ ნიშნავს:",
     "variants": ["გამომართვი", "წადი", "დაჯექი", "ჭამე"],
@@ -6479,7 +6479,7 @@
     "audio": "yes"
   },
   {
-    "id": 575,
+    "id": 576,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: თავაზიანობას გამოხატავს:",
     "variants": ["ჭამე", "აიღე", "მიირთვი", "დაჯექი"],
@@ -6488,7 +6488,7 @@
     "audio": "yes"
   },
   {
-    "id": 576,
+    "id": 577,
     "type": [2, 5],
     "title": "შემოხაზეთ თავაზიანი მიმართვა:",
     "variants": [
@@ -6502,7 +6502,7 @@
     "audio": "yes"
   },
   {
-    "id": 577,
+    "id": 578,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს მსხალი არის ....... .",
     "variants": ["თხელი", "ყვითელი", "ბასრი", "მსუქანი"],
@@ -6511,7 +6511,7 @@
     "audio": "yes"
   },
   {
-    "id": 578,
+    "id": 579,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს სახლი არის ....... .",
     "variants": ["მაღალი", "სწრაფი", "ნელი", "ტკბილი"],
@@ -6520,7 +6520,7 @@
     "audio": "yes"
   },
   {
-    "id": 579,
+    "id": 580,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ავტობუსი გაჩერდება ... გაჩერებებზე.",
     "variants": ["არა", "თუ", "მხოლოდ", "ნამდვილად"],
@@ -6529,7 +6529,7 @@
     "audio": "yes"
   },
   {
-    "id": 580,
+    "id": 581,
     "type": [2, 5],
     "title": ". შემოხაზეთ არასწორი პასუხი: მატარებელი გადის ...",
     "variants": ["ხუთ საათზე", "ხუთივე", "ხუთის მერე", "ხუთ საათში"],
@@ -6538,7 +6538,7 @@
     "audio": "yes"
   },
   {
-    "id": 581,
+    "id": 582,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: აკრძალვა - აქ ნუ ... ნაგავს!",
     "variants": ["დაყრით", "დააბრძანებთ", "დასვამთ", "განალაგებთ"],
@@ -6547,7 +6547,7 @@
     "audio": "yes"
   },
   {
-    "id": 582,
+    "id": 583,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რით შემიძლია ...",
     "variants": ["გეწვიოთ?", "გიმსახუროთ?", "დაგპატიჟოთ?", "გემსახუროთ?"],
@@ -6556,7 +6556,7 @@
     "audio": "yes"
   },
   {
-    "id": 583,
+    "id": 584,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: შესასვლელთან მანქანას ნუ ...",
     "variants": ["დადგამთ", "დაასვენებთ", "გააჩერებთ", "შემოატარებთ"],
@@ -6565,7 +6565,7 @@
     "audio": "yes"
   },
   {
-    "id": 584,
+    "id": 585,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ახალი ფილმი მომდევნო პარასკევს ...",
     "variants": ["შედგება", "გამოვა", "გადადგება", "გაიხსნება"],
@@ -6574,7 +6574,7 @@
     "audio": "yes"
   },
   {
-    "id": 585,
+    "id": 586,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: დღეს 3 აპრილია. ჩემი დაბადების დღე არის 3 მაისს ანუ:",
     "variants": ["ერთ დღეში", "ერთ კვირაში", "ერთ წელიწადში", "ერთ თვეში"],
@@ -6583,7 +6583,7 @@
     "audio": "yes"
   },
   {
-    "id": 586,
+    "id": 587,
     "type": [2, 5],
     "title": ". შემოხაზეთ სწორი პასუხი: ამ სპექტაკლს ორი კვირის ... გაიმეორებენ.",
     "variants": ["ხვალ", "წინ", "შემდეგ", "მომდევნოდ"],
@@ -6592,7 +6592,7 @@
     "audio": "yes"
   },
   {
-    "id": 587,
+    "id": 588,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ჟურნალისტმა მინისტრს კითხვა ...",
     "variants": ["დაუსვა", "გამოკითხა", "უთხრა", "ეტყვის"],
@@ -6601,7 +6601,7 @@
     "audio": "yes"
   },
   {
-    "id": 588,
+    "id": 589,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: თუ ნინო პირველკურსელია, იგი დადის ....",
     "variants": ["სკოლაში", "უნივერსიტეტში", "ბაღში", "სახლში"],
@@ -6610,7 +6610,7 @@
     "audio": "yes"
   },
   {
-    "id": 589,
+    "id": 590,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ძლიერი ქარი ...",
     "variants": ["დარბის", "დადის", "მოდის", "ქრის"],
@@ -6619,7 +6619,7 @@
     "audio": "yes"
   },
   {
-    "id": 590,
+    "id": 591,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ტელევიზიით ... ახალი ამბები",
     "variants": ["გადმოიტანეს", "გადმოყარეს", "გადმოსცეს", "მოიტანეს"],
@@ -6628,7 +6628,7 @@
     "audio": "yes"
   },
   {
-    "id": 591,
+    "id": 592,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: მეტრო იმუშავებს ყოველდღე, შაბათ-კვირის გარდა.",
     "variants": [
@@ -6642,7 +6642,7 @@
     "audio": "yes"
   },
   {
-    "id": 592,
+    "id": 593,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: დღეს ორშაბათია. ბილეთები გაიყიდება ოთხშაბათიდან კვირის ჩათვლით.",
     "variants": [
@@ -6656,7 +6656,7 @@
     "audio": "yes"
   },
   {
-    "id": 593,
+    "id": 594,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: კვირას დღის მეორე ნახევრიდან იწვიმებს.",
     "variants": [
@@ -6670,7 +6670,7 @@
     "audio": "yes"
   },
   {
-    "id": 594,
+    "id": 595,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: წელს ზღვაზე დასვენებას ...",
     "variants": ["ვაპირებ", "ვგეგმავ", "ვფიქრობ", "მივდივარ"],
@@ -6679,7 +6679,7 @@
     "audio": "yes"
   },
   {
-    "id": 595,
+    "id": 596,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: ხვალ, სავარაუდოდ, იწვიმებს",
     "variants": [
@@ -6693,7 +6693,7 @@
     "audio": "yes"
   },
   {
-    "id": 596,
+    "id": 597,
     "type": [2, 5],
     "title": "შემოხაზეთ არასწორი პასუხი: მეტრო იმუშავებს 2 იანვრის ღამის პირველ საათამდე.",
     "variants": [
@@ -6707,7 +6707,7 @@
     "audio": "yes"
   },
   {
-    "id": 597,
+    "id": 598,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ახალ წელს ყოველთვის ... ნამცხვარს.",
     "variants": ["ვწვავთ", "ვყინავთ", "ვხარშავთ", "ვაცხობთ"],
@@ -6716,7 +6716,7 @@
     "audio": "yes"
   },
   {
-    "id": 598,
+    "id": 599,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „ცა მოწმენდილია“ ნიშნავს:",
     "variants": ["ცაზე ღრუბლებია", "წვიმს", "ცა უღრუბლოა", "ნისლია"],
@@ -6725,7 +6725,7 @@
     "audio": "yes"
   },
   {
-    "id": 599,
+    "id": 600,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: გზაზე ბევრი მოსახვევია.",
     "variants": ["გზა სწორია", "გზა სწორი არ არის", "გზაზე სიარული შეუძლებელია", "გზა გადაკეტილია"],
@@ -6734,7 +6734,7 @@
     "audio": "yes"
   },
   {
-    "id": 600,
+    "id": 601,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: გიორგიმ დილით ... .",
     "variants": ["ისაუზმა", "ისადილა", "ივახშმა", "ისამხრა"],
@@ -6743,7 +6743,7 @@
     "audio": "yes"
   },
   {
-    "id": 601,
+    "id": 602,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: რა გვაქვს ...",
     "variants": ["კვებად", "ჭამად", "ვახშმად", "სმად"],
@@ -6752,7 +6752,7 @@
     "audio": "yes"
   },
   {
-    "id": 602,
+    "id": 603,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ჩოგბურთი ჩემი საყვარელი ...",
     "variants": ["სპორტსმენია", "ბურთია", "შეჯიბრებაა", "სპორტია"],
@@ -6761,7 +6761,7 @@
     "audio": "yes"
   },
   {
-    "id": 603,
+    "id": 604,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: ეს წამალი ... გაციებას",
     "variants": ["აკეთებს", "შველის", "შეაკეთებს", "გადაარჩენს"],
@@ -6770,7 +6770,7 @@
     "audio": "yes"
   },
   {
-    "id": 604,
+    "id": 605,
     "type": [2, 5],
     "title": " შემოხაზეთ სწორი პასუხი: ამ ფილმზე 12 წლამდე ბავშვები არ ...",
     "variants": ["აკრძალულია", "უყურებენ", "დაიშვებიან", "ათვალიერებენ"],
@@ -6779,7 +6779,7 @@
     "audio": "yes"
   },
   {
-    "id": 605,
+    "id": 606,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მცხეთა თბილისთან ...",
     "variants": ["მალევეა", "ახლოზეა", "მოკლეზეა", "ახლოა"],
@@ -6788,7 +6788,7 @@
     "audio": "yes"
   },
   {
-    "id": 606,
+    "id": 607,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: მატარებლით პირველად ...",
     "variants": ["დავრბივარ", "ვმგზავრობ", "დავდივარ", "დავსეირნობ"],
@@ -6797,7 +6797,7 @@
     "audio": "yes"
   },
   {
-    "id": 607,
+    "id": 608,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: გუშინ მთელი დღე ...",
     "variants": ["ითოვებს", "თოვს", "თოვდა", "გათოვდა"],
@@ -6806,7 +6806,7 @@
     "audio": "yes"
   },
   {
-    "id": 608,
+    "id": 609,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: „მოსაღამოვდა“ ნიშნავს:",
     "variants": ["დადგა საღამო", "უკვე დაღამდა", "მოიღრუბლა", "ჯერ შუადღეა"],
@@ -6815,7 +6815,7 @@
     "audio": "yes"
   },
   {
-    "id": 609,
+    "id": 610,
     "type": [2, 5],
     "title": "შემოხაზეთ სწორი პასუხი: დღეს ვიყიდე ერთი ... თაფლი",
     "variants": ["ცალი", "ქილა", "წონა", "ჩანთა"],
