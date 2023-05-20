@@ -6,6 +6,7 @@ import { mainCard } from '../assets/mainCard';
 
 export const Home: React.FC = () => {
   const { items } = getSavedItems();
+
   return (
     <>
       <div className="main">
